@@ -1,7 +1,44 @@
-const DATA={
- "ah-60":{model:"AH-60",source:"FSL-60",tag:"Compact control for refined entrances.",weight:"95 kg",width:"≤ 900 mm",angle:"90° / 135°",material:"SS201 / SS304 cover",temp:"−40°C to 55°C",size:"280 × 97 × 42 mm",net:"3.7 kg",use:"Glass, timber and metal doors",img:"../assets/images/apex-floor-spring-7315az.webp"},
- "ah-200":{model:"AH-200",source:"FSL-200",tag:"Everyday reliability, quietly engineered.",weight:"90 kg",width:"≤ 900 mm",angle:"90° / 135°",material:"SS201 / SS304 cover",temp:"−40°C to 55°C",size:"248 × 100 × 50 mm",net:"3.15 kg",use:"Glass, timber and metal doors",img:"../assets/images/apex-floor-spring-7315az.webp"},
- "ah-7315az":{model:"AH-7315AZ",source:"FSL-7315AZ",tag:"Versatile strength for modern glass doors.",weight:"120 kg",width:"≤ 1,000 mm",angle:"Up to 180°",material:"Cast iron / stainless steel",temp:"−40°C to 55°C",size:"240 × 108 × 55 mm",net:"—",use:"Frameless glass doors",img:"../assets/images/apex-floor-spring-7315az.webp"},
- "ah-7300":{model:"AH-7300",source:"FSL-7300",tag:"Heavy-duty confidence for landmark entrances.",weight:"160 kg",width:"≤ 1,200 mm",angle:"90° / 135°",material:"SS201 / SS304 cover",temp:"−40°C to 55°C",size:"273 × 122 × 65 mm",net:"5.7 kg",use:"High-traffic architectural doors",img:"../assets/images/apex-floor-spring-7300.webp"}
-};
-document.addEventListener("DOMContentLoaded",()=>{const p=DATA[document.body.dataset.product]||DATA["ah-7300"];document.title=`${p.model} | Apex Hardware`;document.querySelectorAll("[data-v]").forEach(el=>{const k=el.dataset.v;if(k==="img"){el.src=p.img;el.alt=`${p.model} floor spring`}else el.textContent=p[k]});document.querySelector("#mail").href=`mailto:985064609l@gmail.com?subject=${p.model}%20floor%20spring%20inquiry`;document.querySelector("#wa").href=`https://wa.me/8618027164672?text=Hello%20Apex%20Hardware%2C%20I%20am%20interested%20in%20${p.model}.`;document.querySelectorAll(".view-switcher button").forEach((b,i)=>b.onclick=()=>{document.querySelectorAll(".view-switcher button").forEach(x=>x.classList.remove("active"));b.classList.add("active");const s=document.querySelector(".detail-stage");s.className="detail-stage"+(i===1?" zoom":i===2?" dim":"")})});
+function getCurrentProduct() {
+  const products = Array.isArray(window.APEX_PRODUCTS)
+    ? window.APEX_PRODUCTS
+    : [];
+  const slug = document.body.dataset.product;
+  return products.find((product) => product.slug === slug) || products[0];
+}
+
+function updateMeta(selector, value) {
+  const element = document.querySelector(selector);
+  if (element) element.setAttribute("content", value);
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const product = getCurrentProduct();
+  if (!product) return;
+
+  const description = `${product.model} hydraulic floor spring for ${product.weight} maximum door weight and ${product.width} recommended door width. Contact Apex Hardware for specifications and quotation.`;
+  document.title = `${product.model} Hydraulic Floor Spring | Apex Hardware`;
+  updateMeta('meta[name="description"]', description);
+  updateMeta('meta[property="og:title"]', `${product.model} | Apex Hardware`);
+  updateMeta('meta[property="og:description"]', description);
+
+  document.querySelectorAll("[data-v]").forEach((element) => {
+    const key = element.dataset.v;
+    if (key === "image") {
+      element.src = `../assets/images/${product.image}`;
+      element.alt = `${product.model} hydraulic floor spring`;
+      return;
+    }
+    if (Object.hasOwn(product, key)) element.textContent = product[key];
+  });
+
+  const mailLink = document.querySelector("#mail");
+  if (mailLink) {
+    mailLink.href = `mailto:985064609l@gmail.com?subject=${encodeURIComponent(`${product.model} floor spring inquiry`)}`;
+  }
+
+  const whatsappLink = document.querySelector("#wa");
+  if (whatsappLink) {
+    const message = `Hello Apex Hardware, I am interested in ${product.model}.`;
+    whatsappLink.href = `https://wa.me/8618027164672?text=${encodeURIComponent(message)}`;
+  }
+});
