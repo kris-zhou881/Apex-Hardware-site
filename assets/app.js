@@ -1,5 +1,5 @@
-const IMG_A="https://image.made-in-china.com/155f0j00afFGioWggnkh/Frameless-Glass-Door-Heavy-Duty-Glass-Door-Floor-Hinge-Door-Closer-Fsl-7315az.webp";
-const IMG_B="https://image.made-in-china.com/155f0j00HZnaOmEqnYUC/Fsl-7300-Floor-Hinge-Floor-Spring-Door-Closer.webp";
+const IMG_A="assets/images/apex-floor-spring-7315az.webp";
+const IMG_B="assets/images/apex-floor-spring-7300.webp";
 const products=[
  {slug:"ah-60",model:"AH-60",label:"Compact",weight:"95 kg",width:"≤ 900 mm",size:"280 × 97 × 42 mm",image:IMG_A},
  {slug:"ah-200",model:"AH-200",label:"Everyday",weight:"90 kg",width:"≤ 900 mm",size:"248 × 100 × 50 mm",image:IMG_A},
