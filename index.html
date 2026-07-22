@@ -2,60 +2,177 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Apex Hardware hydraulic floor springs for glass, timber and metal doors.">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="Apex Hardware precision hydraulic floor springs for glass, timber and metal doors. Engineered for controlled, quiet architectural movement.">
+  <meta name="theme-color" content="#f7f8fa">
+  <meta property="og:title" content="Apex Hardware | Precision Floor Springs">
+  <meta property="og:description" content="Invisible control. Remarkable movement.">
+  <meta property="og:type" content="website">
   <title>Apex Hardware | Precision Floor Springs</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='17' fill='%23101216'/%3E%3Cpath d='M16 45 29 17h7l13 28h-8l-2.7-6H26.5L24 45Zm13-13h6.8L32.4 24Z' fill='white'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="assets/styles.css">
   <script defer src="assets/app.js"></script>
 </head>
 <body>
-  <header class="nav">
-    <a class="brand" href="#top"><i>A</i><span>APEX <small>HARDWARE</small></span></a>
-    <nav><a href="#products" data-t="products">Products</a><a href="#engineering" data-t="engineering">Engineering</a><a href="#location">Location</a></nav>
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <header class="nav" id="site-nav">
+    <a class="brand" href="#top" aria-label="Apex Hardware home">
+      <i aria-hidden="true">A</i>
+      <span>APEX <small>HARDWARE</small></span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#products" data-t="products">Products</a>
+      <a href="#engineering" data-t="engineering">Engineering</a>
+      <a href="#quality" data-t="quality">Quality</a>
+      <a href="#location" data-t="location">Location</a>
+    </nav>
     <div class="nav-actions">
-      <select id="language" aria-label="Language"></select>
+      <label class="language-wrap" aria-label="Choose language">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9S14.5 18.5 12 21M12 3C9.5 5.5 8.2 8.5 8.2 12s1.3 6.5 3.8 9"></path></svg>
+        <select id="language" aria-label="Language"></select>
+      </label>
       <a class="pill dark" href="#contact" data-t="quote">Get a quote</a>
     </div>
   </header>
 
   <main>
     <section class="hero" id="top">
-      <p class="eyebrow" data-t="eyebrow">Hydraulic floor springs</p>
-      <h1 data-t="hero">Invisible control.<br>Remarkable movement.</h1>
-      <p class="lead" data-t="sub">Precision door control for glass, timber and metal doors — engineered for quiet, confident motion.</p>
-      <div class="hero-actions"><a class="pill blue" href="#products" data-t="explore">Explore the range ↓</a><a class="text-link" href="#compare" data-t="compare">Compare models ↗</a></div>
-      <div class="stage">
-        <div class="stage-copy"><span id="stage-label">Heavy duty</span><strong id="stage-model">AH-7300</strong><small id="stage-spec">160 kg · ≤ 1,200 mm</small></div>
-        <img id="stage-image" src="assets/images/apex-floor-spring-7300.webp" alt="AH-7300 hydraulic floor spring">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="signal" aria-hidden="true"></span><span data-t="eyebrow">Hydraulic floor springs</span></p>
+        <h1 data-t="hero">Invisible control.<br>Remarkable movement.</h1>
+        <p class="lead" data-t="sub">Precision door control for glass, timber and metal doors — engineered for quiet, confident motion.</p>
+        <div class="hero-actions">
+          <a class="pill blue" href="#products" data-t="explore">Explore the range <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#compare" data-t="compare">Compare models <span aria-hidden="true">↗</span></a>
+        </div>
       </div>
-      <div class="model-tabs" id="model-tabs" aria-label="Choose a model"></div>
+
+      <div class="stage reveal" aria-live="polite">
+        <div class="stage-grid" aria-hidden="true"></div>
+        <div class="stage-glow" aria-hidden="true"></div>
+        <div class="stage-copy">
+          <span id="stage-label">Heavy duty</span>
+          <strong id="stage-model">AH-7300</strong>
+          <small id="stage-spec">160 kg · ≤ 1,200 mm</small>
+        </div>
+        <img id="stage-image" src="assets/images/apex-floor-spring-7300.webp" alt="AH-7300 hydraulic floor spring" width="760" height="420">
+        <div class="stage-badge" aria-hidden="true"><span>APEX</span><b>Precision control</b></div>
+      </div>
+      <div class="model-tabs reveal" id="model-tabs" aria-label="Choose a model"></div>
+
+      <div class="proof-strip reveal" aria-label="Key product capabilities">
+        <div><strong>160 kg</strong><span data-t="maxWeight">Maximum door weight</span></div>
+        <div><strong>180°</strong><span data-t="openingAngle">Opening capability</span></div>
+        <div><strong>500K+</strong><span data-t="cycleTested">Cycle tested</span></div>
+        <div><strong>−40—55°C</strong><span data-t="temperature">Operating range</span></div>
+      </div>
     </section>
 
     <section class="engineering" id="engineering">
-      <div><p class="eyebrow">APEX CONTROL SYSTEM</p><h2 data-t="precision">Power, made precise.</h2><p data-t="precisionSub">Two-stage speed control. Stable at every opening. Built for high-traffic architecture.</p></div>
-      <div class="control-visual"><div class="ring one"></div><div class="ring two"></div><div class="pivot"><span>0°</span><b>180°</b></div><em class="metric m1"><b>500K+</b><span>cycle tested</span></em><em class="metric m2"><b>2-stage</b><span>speed control</span></em></div>
+      <div class="engineering-copy reveal">
+        <p class="eyebrow">APEX CONTROL SYSTEM</p>
+        <h2 data-t="precision">Power, made precise.</h2>
+        <p data-t="precisionSub">Two-stage speed control. Stable at every opening. Built for high-traffic architecture.</p>
+        <div class="feature-list">
+          <div><span>01</span><p><b>Controlled closing</b><small>Independent adjustment for closing and latching speed.</small></p></div>
+          <div><span>02</span><p><b>Architectural silence</b><small>Hydraulic movement tuned for a smooth, quiet return.</small></p></div>
+          <div><span>03</span><p><b>Built for repetition</b><small>Stable performance for demanding commercial entrances.</small></p></div>
+        </div>
+      </div>
+      <div class="control-visual reveal" aria-label="Apex hydraulic control visualization">
+        <div class="visual-grid" aria-hidden="true"></div>
+        <div class="ring one"></div>
+        <div class="ring two"></div>
+        <div class="orbit-dot" aria-hidden="true"></div>
+        <div class="pivot"><span>0°</span><b>180°</b><small>CONTROL ARC</small></div>
+        <em class="metric m1"><b>500K+</b><span>cycle tested</span></em>
+        <em class="metric m2"><b>2-stage</b><span>speed control</span></em>
+        <em class="metric m3"><b>SS304</b><span>cover option</span></em>
+      </div>
     </section>
 
     <section class="range" id="products">
-      <div class="section-head"><p class="eyebrow">THE RANGE</p><h2 data-t="range">Four strengths. One standard.</h2><p data-t="rangeSub">Choose by door weight and width.</p></div>
+      <div class="section-head reveal">
+        <p class="eyebrow">THE RANGE</p>
+        <h2 data-t="range">Four strengths.<br>One standard.</h2>
+        <p data-t="rangeSub">Choose by door weight and width.</p>
+      </div>
       <div class="product-grid" id="product-grid"></div>
+      <p class="range-note reveal"><span aria-hidden="true">●</span> Need help specifying a model? Send us the door weight, width and material.</p>
+    </section>
+
+    <section class="quality" id="quality">
+      <div class="quality-head reveal">
+        <p class="eyebrow">BUILT BEYOND THE VISIBLE</p>
+        <h2>Engineering you feel.<br>Hardware you don’t.</h2>
+      </div>
+      <div class="bento-grid">
+        <article class="bento bento-main reveal">
+          <div class="bento-copy"><span>01 / ARCHITECTURE</span><h3>Designed to disappear.</h3><p>Concealed below the floor so the entrance stays visually clean, balanced and intentional.</p></div>
+          <div class="door-demo" aria-hidden="true"><div class="door-frame"><div class="door-panel"></div></div><div class="floor-line"></div><div class="floor-spring-mini">APEX</div></div>
+        </article>
+        <article class="bento bento-light reveal">
+          <span>02 / CONTROL</span><h3>Fine-tuned motion.</h3><p>Independent hydraulic adjustment brings confidence to every close.</p>
+          <div class="dial" aria-hidden="true"><i></i><b>02</b><small>SPEED</small></div>
+        </article>
+        <article class="bento bento-material reveal">
+          <span>03 / MATERIAL</span><h3>Made for the real world.</h3><p>Durable bodies and stainless cover options for everyday architectural use.</p>
+          <div class="material-swatch" aria-hidden="true"><i></i><i></i><i></i></div>
+        </article>
+      </div>
     </section>
 
     <section class="compare" id="compare">
-      <div><p class="eyebrow">QUICK SELECTOR</p><h2>Built for the door you specify.</h2></div>
-      <div class="comparison" id="comparison"></div>
+      <div class="compare-copy reveal">
+        <p class="eyebrow">QUICK SELECTOR</p>
+        <h2>Built for the door you specify.</h2>
+        <p>Start with door weight and width. We’ll help confirm the correct spindle, hold-open angle and cover finish.</p>
+      </div>
+      <div class="comparison-wrap reveal">
+        <div class="comparison" id="comparison"></div>
+      </div>
     </section>
 
     <section class="contact" id="contact">
-      <p class="eyebrow">START A PROJECT</p><h2>Tell us about your door.</h2><p>OEM / ODM · Samples available · Global supply</p>
-      <div class="contact-buttons"><a class="pill light" href="mailto:985064609l@gmail.com?subject=Floor%20spring%20inquiry">Email us ↗</a><a class="pill whatsapp" target="_blank" rel="noreferrer" href="https://wa.me/8618027164672?text=Hello%20Apex%20Hardware%2C%20I%20am%20interested%20in%20your%20floor%20springs.">WhatsApp ↗</a></div>
+      <div class="contact-glow" aria-hidden="true"></div>
+      <div class="contact-inner reveal">
+        <p class="eyebrow">START A PROJECT</p>
+        <h2>Tell us about your door.</h2>
+        <p>OEM / ODM · Samples available · Global supply</p>
+        <div class="contact-buttons">
+          <a class="pill light" href="mailto:985064609l@gmail.com?subject=Floor%20spring%20inquiry">Email us <span aria-hidden="true">↗</span></a>
+          <a class="pill whatsapp" target="_blank" rel="noreferrer" href="https://wa.me/8618027164672?text=Hello%20Apex%20Hardware%2C%20I%20am%20interested%20in%20your%20floor%20springs.">WhatsApp <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
     </section>
 
     <section class="location" id="location">
-      <div class="location-copy"><p class="eyebrow">APEX HARDWARE · CHINA</p><h2>Find us in Zhaoqing.</h2><div class="address"><strong>肇庆市高要区金利镇石林一甲村</strong><span>Shilin Yijia Village, Jinli Town, Gaoyao District,<br>Zhaoqing, Guangdong, China</span></div><div class="location-links"><a target="_blank" rel="noreferrer" href="https://www.google.com/maps/search/?api=1&query=Shilin+Yijia+Village%2C+Jinli+Town%2C+Gaoyao+District%2C+Zhaoqing%2C+Guangdong%2C+China">Open in Google Maps ↗</a><a href="mailto:985064609l@gmail.com">985064609l@gmail.com ↗</a><a target="_blank" rel="noreferrer" href="https://wa.me/8618027164672">+86 180 2716 4672 ↗</a></div></div>
-      <div class="map"><iframe title="Apex Hardware location" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Shilin+Yijia+Village%2C+Jinli+Town%2C+Gaoyao+District%2C+Zhaoqing%2C+Guangdong%2C+China&output=embed"></iframe><div class="map-label"><i>A</i><span><b>APEX HARDWARE</b><small>Jinli · Zhaoqing</small></span></div></div>
+      <div class="location-copy reveal">
+        <p class="eyebrow">APEX HARDWARE · CHINA</p>
+        <h2>Find us in<br>Zhaoqing.</h2>
+        <div class="address">
+          <strong>肇庆市高要区金利镇石林一甲村</strong>
+          <span>Shilin Yijia Village, Jinli Town, Gaoyao District,<br>Zhaoqing, Guangdong, China</span>
+        </div>
+        <div class="location-links">
+          <a target="_blank" rel="noreferrer" href="https://www.google.com/maps/search/?api=1&amp;query=Shilin+Yijia+Village%2C+Jinli+Town%2C+Gaoyao+District%2C+Zhaoqing%2C+Guangdong%2C+China">Open in Google Maps <span>↗</span></a>
+          <a href="mailto:985064609l@gmail.com">985064609l@gmail.com <span>↗</span></a>
+          <a target="_blank" rel="noreferrer" href="https://wa.me/8618027164672">+86 180 2716 4672 <span>↗</span></a>
+        </div>
+      </div>
+      <div class="map reveal">
+        <iframe title="Apex Hardware location" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Shilin+Yijia+Village%2C+Jinli+Town%2C+Gaoyao+District%2C+Zhaoqing%2C+Guangdong%2C+China&amp;output=embed"></iframe>
+        <div class="map-shade" aria-hidden="true"></div>
+        <div class="map-label"><i>A</i><span><b>APEX HARDWARE</b><small>Jinli · Zhaoqing</small></span></div>
+      </div>
     </section>
   </main>
-  <footer><a class="brand" href="#top"><i>A</i><span>APEX <small>HARDWARE</small></span></a><p>Precision architectural door control.</p><span>© 2026 Apex Hardware</span></footer>
+
+  <footer>
+    <a class="brand" href="#top"><i>A</i><span>APEX <small>HARDWARE</small></span></a>
+    <p>Precision architectural door control.</p>
+    <span>© 2026 Apex Hardware</span>
+  </footer>
 </body>
 </html>
