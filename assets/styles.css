@@ -1236,6 +1236,12 @@ h3 {
   vertical-align: top;
 }
 
+.comparison-table td {
+  direction: ltr;
+  text-align: left;
+  unicode-bidi: isolate;
+}
+
 .comparison-table tr:last-child th,
 .comparison-table tr:last-child td {
   border-bottom: 0;
@@ -1265,9 +1271,13 @@ h3 {
   background: var(--surface);
 }
 
-[dir="rtl"] .comparison-table th,
-[dir="rtl"] .comparison-table td {
+[dir="rtl"] .comparison-table th {
   text-align: right;
+}
+
+[dir="rtl"] .comparison-table td {
+  direction: ltr;
+  text-align: left;
 }
 
 [dir="rtl"] .comparison-table th:first-child {
