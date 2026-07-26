@@ -138,7 +138,7 @@
       quote: "获取报价",
       heroEyebrow: "APEX HARDWARE · 精密门控",
       heroLineOne: "隐于地面。",
-      heroLineTwo: "精准掌控每次开合。",
+      heroLineTwo: "精准掌控每次\u200b开合。",
       heroSub: "为每一次平稳、安静、可靠的开合而设计的液压门控系统。",
       heroCta: "查看地弹簧系列",
       seriesEyebrow: "精密门控",
