@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="896" height="896" viewBox="0 0 896 896" role="img" aria-labelledby="title desc">
+  <title id="title">Product image pending</title>
+  <desc id="desc">Contact Apex Hardware for original product media.</desc>
+  <rect width="896" height="896" fill="#f5f5f7"/>
+  <circle cx="448" cy="354" r="92" fill="none" stroke="#c7c7cc" stroke-width="3"/>
+  <path d="M404 354h88M448 310v88" stroke="#86868b" stroke-width="5" stroke-linecap="round"/>
+  <text x="448" y="520" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="30" font-weight="650" fill="#1d1d1f">Product image pending</text>
+  <text x="448" y="566" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="19" fill="#6e6e73">Aluminum Architectural Panels</text>
+  <text x="448" y="608" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="17" fill="#86868b">Contact us for original media</text>
+</svg>
