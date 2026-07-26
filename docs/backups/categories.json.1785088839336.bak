@@ -1,0 +1,110 @@
+[
+  {
+    "slug": "floor-springs",
+    "en": "Floor Springs",
+    "zh": "地弹簧",
+    "description": "Concealed hydraulic control for glass, timber and metal doors.",
+    "descriptionZh": "适用于玻璃门、木门和金属门的隐藏式液压门控。",
+    "count": 72,
+    "representativeProduct": "hydraulic-floor-spring-up-to-600-kg-1601824312588"
+  },
+  {
+    "slug": "door-closers",
+    "en": "Door Closers",
+    "zh": "闭门器",
+    "description": "Surface-mounted hydraulic control for commercial door systems.",
+    "descriptionZh": "适用于商业门系统的表面安装液压闭门器。",
+    "count": 39,
+    "representativeProduct": "hydraulic-door-closer-up-to-60-kg-1601715762414"
+  },
+  {
+    "slug": "panic-exit-devices",
+    "en": "Panic Exit Devices",
+    "zh": "紧急逃生装置",
+    "description": "Exit hardware for emergency and fire-door applications.",
+    "descriptionZh": "适用于紧急出口和防火门的逃生五金。",
+    "count": 3,
+    "representativeProduct": "panic-bar-exit-device-10000030232515"
+  },
+  {
+    "slug": "door-locks",
+    "en": "Door Locks",
+    "zh": "门锁",
+    "description": "Mechanical locking solutions for glass and framed doors.",
+    "descriptionZh": "适用于玻璃门和有框门的机械锁具方案。",
+    "count": 89,
+    "representativeProduct": "glass-door-lock-1601838122744"
+  },
+  {
+    "slug": "pull-handles",
+    "en": "Pull Handles",
+    "zh": "拉手",
+    "description": "Architectural pull handles for entrance and shower doors.",
+    "descriptionZh": "适用于入口门和淋浴门的建筑拉手。",
+    "count": 15,
+    "representativeProduct": "pull-handle-1601466804194"
+  },
+  {
+    "slug": "glass-door-hardware",
+    "en": "Glass Door Hardware",
+    "zh": "玻璃门五金",
+    "description": "Clamps, patch fittings, rollers, spiders and glass connectors.",
+    "descriptionZh": "玻璃门夹、驳接件、滚轮、驳接爪和连接件。",
+    "count": 17,
+    "representativeProduct": "glass-door-fitting-1600966555256"
+  },
+  {
+    "slug": "shower-hardware",
+    "en": "Shower Hardware",
+    "zh": "淋浴房五金",
+    "description": "Hinges, clamps, handles and fittings for shower enclosures.",
+    "descriptionZh": "适用于淋浴房的铰链、夹具、拉手和连接件。",
+    "count": 30,
+    "representativeProduct": "stainless-steel-shower-door-hinge-90-1601828463243"
+  },
+  {
+    "slug": "architectural-hinges",
+    "en": "Architectural Hinges",
+    "zh": "建筑合页",
+    "description": "Hinges and pivots for architectural door applications.",
+    "descriptionZh": "适用于建筑门体的合页和枢轴五金。",
+    "count": 6,
+    "representativeProduct": "architectural-door-hinge-125-11000031636340"
+  },
+  {
+    "slug": "aluminum-panels",
+    "en": "Aluminum Architectural Panels",
+    "zh": "建筑铝板",
+    "description": "Solid, perforated, carved and honeycomb aluminum panels.",
+    "descriptionZh": "实心、穿孔、雕花和蜂窝建筑铝板。",
+    "count": 45,
+    "representativeProduct": "aluminum-architectural-panel-1601807265553"
+  },
+  {
+    "slug": "aluminum-ceiling-systems",
+    "en": "Aluminum Ceiling Systems",
+    "zh": "铝制吊顶系统",
+    "description": "Baffle, strip, mesh and acoustic aluminum ceiling systems.",
+    "descriptionZh": "方通、条形、网格和吸音铝制吊顶系统。",
+    "count": 47,
+    "representativeProduct": "aluminum-ceiling-system-1601808755861"
+  },
+  {
+    "slug": "aluminum-fencing",
+    "en": "Aluminum Fencing",
+    "zh": "铝制围栏",
+    "description": "Architectural aluminum fencing, privacy screens and garden gates.",
+    "descriptionZh": "建筑铝制围栏、隐私屏风和花园门。",
+    "count": 6,
+    "representativeProduct": "aluminum-privacy-fence-1601808730410"
+  },
+  {
+    "slug": "door-accessories",
+    "en": "Door Accessories",
+    "zh": "门控配件",
+    "description": "Verified door-control accessories that do not fit another main series.",
+    "descriptionZh": "无法归入其他主要系列的已核实门控配件。",
+    "count": 15,
+    "representativeProduct": "architectural-door-accessory-1601807318218"
+  }
+]
