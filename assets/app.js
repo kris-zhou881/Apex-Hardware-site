@@ -4,6 +4,7 @@
   document.documentElement.classList.add("js");
 
   const EN = {
+    navProducts: "Products",
     navFloorSprings: "Floor Springs",
     engineering: "Engineering",
     quality: "Quality",
@@ -131,6 +132,7 @@
   const STRINGS = {
     en: EN,
     zh: {
+      navProducts: "产品",
       navFloorSprings: "地弹簧",
       engineering: "工程技术",
       quality: "品质",
@@ -213,6 +215,7 @@
       productImageAlt: "Apex Hardware 液压地弹簧",
     },
     es: {
+      navProducts: "Productos",
       navFloorSprings: "Muelles de suelo",
       engineering: "Ingeniería",
       quality: "Calidad",
@@ -295,6 +298,7 @@
       productImageAlt: "Muelle hidráulico Apex Hardware",
     },
     ar: {
+      navProducts: "المنتجات",
       navFloorSprings: "مفصلات أرضية",
       engineering: "الهندسة",
       quality: "الجودة",
@@ -377,6 +381,7 @@
       productImageAlt: "مفصلة أرضية هيدروليكية من Apex Hardware",
     },
     fr: {
+      navProducts: "Produits",
       navFloorSprings: "Pivots de sol",
       engineering: "Ingénierie",
       quality: "Qualité",
@@ -459,6 +464,7 @@
       productImageAlt: "Pivot de sol hydraulique Apex Hardware",
     },
     de: {
+      navProducts: "Produkte",
       navFloorSprings: "Bodentürschließer",
       engineering: "Technik",
       quality: "Qualität",
@@ -541,6 +547,7 @@
       productImageAlt: "Hydraulischer Bodentürschließer von Apex Hardware",
     },
     pt: {
+      navProducts: "Produtos",
       navFloorSprings: "Molas de piso",
       engineering: "Engenharia",
       quality: "Qualidade",
@@ -623,6 +630,7 @@
       productImageAlt: "Mola de piso hidráulica Apex Hardware",
     },
     ru: {
+      navProducts: "Продукция",
       navFloorSprings: "Напольные доводчики",
       engineering: "Инженерия",
       quality: "Качество",
@@ -729,6 +737,7 @@
 
   Object.entries(basicTranslations).forEach(([code, values]) => {
     STRINGS[code] = {
+      navProducts: "Products",
       navFloorSprings: values[0],
       seriesTitle: values[0],
       seriesPageTitle: values[0],

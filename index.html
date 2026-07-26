@@ -28,7 +28,7 @@
       as="image"
       type="image/webp"
     >
-    <link rel="stylesheet" href="assets/styles.css?v=20260724a">
+    <link rel="stylesheet" href="assets/styles.css?v=20260727c">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -47,19 +47,21 @@
         }
       }
     </script>
-    <script src="assets/app.js?v=20260724a" defer></script>
+    <script src="assets/app.js?v=20260727c" defer></script>
+    <script src="assets/catalog.js?v=20260727c" defer></script>
   </head>
   <body>
     <div class="scroll-progress" aria-hidden="true"></div>
 
     <header class="site-header">
       <nav class="nav-shell" aria-label="Primary navigation">
-        <a class="brand" href="./" aria-label="Apex Hardware home">
+        <a class="brand" href="./" aria-label="A Apex Hardware">
           <span class="brand-mark" aria-hidden="true">A</span>
           <span class="brand-name">Apex Hardware</span>
         </a>
 
         <div class="desktop-nav">
+          <a href="products/" data-t="navProducts">Products</a>
           <a href="products/floor-springs/" data-t="navFloorSprings">Floor Springs</a>
           <a href="#engineering" data-t="engineering">Engineering</a>
           <a href="#quality" data-t="quality">Quality</a>
@@ -92,6 +94,7 @@
         </div>
 
         <div class="mobile-menu" id="mobile-menu" hidden>
+          <a href="products/" data-t="navProducts">Products</a>
           <a href="products/floor-springs/" data-t="navFloorSprings">Floor Springs</a>
           <a href="#engineering" data-t="engineering">Engineering</a>
           <a href="#quality" data-t="quality">Quality</a>
@@ -118,6 +121,34 @@
             <span data-t="heroCta">Explore Floor Springs</span>
             <span aria-hidden="true">→</span>
           </a>
+        </div>
+      </section>
+
+      <section class="section home-products-section" aria-labelledby="home-products-title">
+        <div class="container">
+          <header class="section-heading reveal">
+            <p class="eyebrow" data-catalog-text="productsEyebrow">APEX HARDWARE · PRODUCT SYSTEMS</p>
+            <h2 id="home-products-title" data-catalog-text="productsTitle">Products</h2>
+            <p data-catalog-text="productsIntro">Choose a product family, then narrow the specification for your application.</p>
+          </header>
+          <div class="home-products-grid">
+            <a class="home-product-family reveal" href="products/door-closers/">
+              <img src="assets/images/products/door-closers/hydraulic-door-closer-1601710695032/main.avif" width="896" height="896" loading="lazy" decoding="async" alt="Apex Hardware hydraulic door closer">
+              <span>Door Closers</span>
+              <i aria-hidden="true">→</i>
+            </a>
+            <a class="home-product-family reveal" href="products/shower-hardware/">
+              <img src="assets/images/products/shower-hardware/stainless-steel-shower-door-hinge-1600991360730/main.avif" width="896" height="896" loading="lazy" decoding="async" alt="Apex Hardware shower door hinge">
+              <span>Shower Hardware</span>
+              <i aria-hidden="true">→</i>
+            </a>
+            <a class="home-product-family reveal" href="products/aluminum-fencing/">
+              <img src="assets/images/products/aluminum-fencing/aluminum-privacy-fence-1601808730410/main.avif" width="896" height="896" loading="lazy" decoding="async" alt="Apex Hardware aluminum fencing">
+              <span>Aluminum Fencing</span>
+              <i aria-hidden="true">→</i>
+            </a>
+          </div>
+          <a class="text-link centered-link" href="products/"><span data-catalog-text="explore">Explore</span><span aria-hidden="true">→</span></a>
         </div>
       </section>
 
@@ -383,7 +414,7 @@
 
     <footer class="site-footer">
       <div class="container footer-inner">
-        <a class="brand" href="./" aria-label="Apex Hardware home">
+        <a class="brand" href="./" aria-label="A Apex Hardware">
           <span class="brand-mark" aria-hidden="true">A</span>
           <span class="brand-name">Apex Hardware</span>
         </a>

@@ -5,7 +5,7 @@
     ? [...window.APEX_PRODUCTS].sort((a, b) => a.capacity - b.capacity)
     : [];
   const grid = document.getElementById("series-grid");
-  const filterButtons = [...document.querySelectorAll(".filter-button")];
+  const filterContainer = document.querySelector(".capacity-filters");
   const comparisonWrap = document.getElementById("comparison-wrap");
   const comparisonEmpty = document.getElementById("comparison-empty");
   const selected = new Set();
@@ -162,33 +162,41 @@
     comparisonWrap.append(table);
   }
 
-  filterButtons.forEach((button) => {
-    const isActive = button.dataset.capacity === activeCapacity;
-    button.setAttribute("aria-pressed", String(isActive));
-    button.addEventListener("click", () => {
-      activeCapacity = button.dataset.capacity || "all";
-      filterButtons.forEach((item) => {
-        item.setAttribute(
-          "aria-pressed",
-          String(item.dataset.capacity === activeCapacity),
-        );
+  function buildFilters() {
+    if (!filterContainer) return;
+    const text = copy();
+    const capacities = ["all", ...new Set(products.map((product) => String(product.capacity)))];
+    filterContainer.replaceChildren();
+    capacities.forEach((capacity) => {
+      const button = document.createElement("button");
+      button.className = "filter-button";
+      button.type = "button";
+      button.dataset.capacity = capacity;
+      button.setAttribute("aria-pressed", String(capacity === activeCapacity));
+      button.textContent =
+        capacity === "all" ? text.allCapacities || "All capacities" : `Up to ${capacity} kg`;
+      button.addEventListener("click", () => {
+        activeCapacity = capacity;
+        filterContainer.querySelectorAll(".filter-button").forEach((item) => {
+          item.setAttribute("aria-pressed", String(item.dataset.capacity === activeCapacity));
+        });
+        const nextUrl = new URL(window.location.href);
+        if (activeCapacity === "all") nextUrl.searchParams.delete("capacity");
+        else nextUrl.searchParams.set("capacity", activeCapacity);
+        window.history.replaceState({}, "", nextUrl);
+        renderCards();
       });
-      const nextUrl = new URL(window.location.href);
-      if (activeCapacity === "all") {
-        nextUrl.searchParams.delete("capacity");
-      } else {
-        nextUrl.searchParams.set("capacity", activeCapacity);
-      }
-      window.history.replaceState({}, "", nextUrl);
-      renderCards();
+      filterContainer.append(button);
     });
-  });
+  }
 
   window.addEventListener("apex:languagechange", () => {
+    buildFilters();
     renderCards();
     renderComparison();
   });
 
+  buildFilters();
   renderCards();
   renderComparison();
 })();

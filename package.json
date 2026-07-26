@@ -1,0 +1,15 @@
+{
+  "name": "apex-hardware-static-catalog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "audit": "node scripts/audit-store.mjs",
+    "import": "node scripts/import-products.mjs",
+    "media:process": "node scripts/process-media.mjs",
+    "media:review": "node scripts/review-media.mjs",
+    "generate": "node scripts/generate-category-pages.mjs && node scripts/generate-product-pages.mjs",
+    "validate": "node scripts/validate-products.mjs && node scripts/check-links.mjs",
+    "verify:deployment": "node scripts/verify-deployment.mjs",
+    "cleanup:staging": "node scripts/cleanup-staging.mjs"
+  }
+}
