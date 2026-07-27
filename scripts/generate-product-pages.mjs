@@ -9,6 +9,14 @@ const categories = JSON.parse(await readFile(join(root, "data", "categories.json
 const categoryMap = new Map(categories.map((category) => [category.slug, category]));
 const confirmText = "Contact us to confirm";
 const localizedLanguages = ["en", "zh", "es", "ar", "fr", "de", "pt", "ru"];
+const verifiedFieldLabels = {
+  warranty: "Warranty",
+  installation: "Installation",
+  afterSaleService: "After-sale service",
+  placeOfOrigin: "Place of origin",
+  minimumOrder: "Minimum order",
+  packing: "Packing",
+};
 
 function specRow(label, value, key) {
   return `<div><dt data-catalog-text="${key}">${label}</dt><dd dir="ltr"${value ? "" : ' data-catalog-text="confirm"'}>${escapeHtml(value || confirmText)}</dd></div>`;
@@ -113,6 +121,7 @@ for (const product of products) {
           ${specRow("Opening angle", specs.openingAngle, "openingAngle")}
           ${specRow("Glass thickness", specs.glassThickness, "glassThickness")}
           ${specRow("Hold-open function", specs.holdOpen === null ? "" : specs.holdOpen ? "Yes" : "No", "holdOpen")}
+          ${Object.entries(specs.otherVerifiedFields || {}).map(([key, value]) => specRow(verifiedFieldLabels[key] || key, value, key)).join("\n          ")}
         </dl>
         <p class="data-confidence-note" data-catalog-text="dataNote">Only explicitly confirmed listing data is shown. Contact us to verify missing fields before specification.</p>
       </div>
