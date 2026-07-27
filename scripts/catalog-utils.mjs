@@ -206,12 +206,58 @@ export function extractAngle(sourceTitle = "") {
   return match ? `${match[1]}°` : "";
 }
 
+function validMillimeterPair(first, second, { min, max }) {
+  const lower = Number(first);
+  const upper = Number(second);
+  return Number.isInteger(lower)
+    && Number.isInteger(upper)
+    && lower >= min
+    && upper <= max
+    && lower <= upper;
+}
+
 export function extractGlassThickness(sourceTitle = "") {
   const text = normalizeSpace(sourceTitle);
-  const range = text.match(/(\d{1,2})\s*[-–—]\s*(\d{1,2})\s*(?:mm|毫米)/i);
-  if (range) return `${range[1]}–${range[2]} mm`;
-  const single = text.match(/(\d{1,2})\s*(?:mm|毫米)/i);
-  return single ? `${single[1]} mm` : "";
+  const range = text.match(/(?:^|[^\d])(\d{1,2})\s*[-–—]\s*(\d{1,2})\s*(?:mm|毫米)/i);
+  if (range && validMillimeterPair(range[1], range[2], { min: 4, max: 25 })) {
+    return `${Number(range[1])}–${Number(range[2])} mm`;
+  }
+  const spacedPair = text.match(/(?:^|[^\d])(\d{1,2})\s+(\d{1,2})\s*(?:mm|毫米)/i);
+  if (spacedPair && validMillimeterPair(spacedPair[1], spacedPair[2], { min: 4, max: 25 })) {
+    return `${Number(spacedPair[1])}–${Number(spacedPair[2])} mm`;
+  }
+  const singles = [...text.matchAll(/(?:^|[^\d])(\d{1,2})\s*(?:mm|毫米)/gi)]
+    .map((match) => Number(match[1]))
+    .filter((value) => value >= 4 && value <= 25);
+  return singles.length ? `${singles[0]} mm` : "";
+}
+
+export function extractDoorWidth(sourceTitle = "") {
+  const text = normalizeSpace(sourceTitle);
+  const keyword = "(?:最大门宽|适用门宽|门宽度|门宽|door\\s*width|max(?:imum)?\\s*door\\s*width)";
+  const rangeAfterKeyword = text.match(new RegExp(`${keyword}[^\\d]{0,16}(\\d{2,4})\\s*[-–—]\\s*(\\d{2,4})\\s*(?:mm|毫米)`, "i"));
+  const rangeBeforeKeyword = text.match(new RegExp(`(?:^|[^\\d])(\\d{2,4})\\s*[-–—]\\s*(\\d{2,4})\\s*(?:mm|毫米)[^\\d]{0,16}(?:宽度|${keyword})`, "i"));
+  const range = rangeAfterKeyword || rangeBeforeKeyword;
+  if (range && validMillimeterPair(range[1], range[2], { min: 300, max: 5000 })) {
+    return `${Number(range[1])}–${Number(range[2])} mm`;
+  }
+  const singleAfterKeyword = text.match(new RegExp(`${keyword}[^\\d]{0,16}(\\d{2,4})\\s*(?:mm|毫米)`, "i"));
+  const singleBeforeKeyword = text.match(new RegExp(`(?:^|[^\\d])(\\d{2,4})\\s*(?:mm|毫米)[^\\d]{0,16}(?:宽度|${keyword})`, "i"));
+  const single = singleAfterKeyword || singleBeforeKeyword;
+  if (!single) return "";
+  const value = Number(single[1]);
+  if (value < 300 || value > 5000) return "";
+  return /最大门宽|max(?:imum)?\s*door\s*width/i.test(text) ? `≤ ${value} mm` : `${value} mm`;
+}
+
+export function extractDimensions(sourceTitle = "") {
+  const text = normalizeSpace(sourceTitle);
+  const match = text.match(/(?:^|[^\d])(\d{2,4})\s*[x×X*]\s*(\d{2,4})\s*(?:mm|毫米)/);
+  if (!match) return "";
+  const width = Number(match[1]);
+  const height = Number(match[2]);
+  if (width < 20 || width > 5000 || height < 20 || height > 5000) return "";
+  return `${width} × ${height} mm`;
 }
 
 export function extractMaterial(sourceTitle = "") {
@@ -333,8 +379,8 @@ export function productFromSource(source, verifiedAt) {
   const categoryInfo = categoryMap.get(category);
   const specifications = {
     capacity: extractCapacity(source.title),
-    doorWidth: "",
-    dimensions: "",
+    doorWidth: extractDoorWidth(source.title),
+    dimensions: extractDimensions(source.title),
     netWeight: "",
     material: extractMaterial(source.title),
     finish: "",

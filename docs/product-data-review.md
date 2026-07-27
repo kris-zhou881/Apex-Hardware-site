@@ -8,7 +8,7 @@
 - Partially verified records: 369
 - Unclear records: 15
 
-Only values explicitly present in the public product-list title are populated. Door width, dimensions, net weight, finish, hold-open function and other unavailable fields remain empty or null. Product pages display “Contact us to confirm” for missing values.
+Only values explicitly present in the public product-list title are populated. The current import contains 8 explicit door-width values, 2 explicit product dimensions and 53 glass-thickness values. Net weight, finish, hold-open function and every other unavailable field remain empty or null. Product pages display “Contact us to confirm” for missing values.
 
 The four existing Apex floor-spring detail pages remain the source of truth for AH-200, AH-60, AH-7315AZ and AH-7300. Imported listings are not merged with them without an explicit model match and formal datasheet confirmation.
 

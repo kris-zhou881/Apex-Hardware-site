@@ -1,5 +1,10 @@
 import { access, readFile } from "node:fs/promises";
 import { join } from "node:path";
+import {
+  extractDimensions,
+  extractDoorWidth,
+  extractGlassThickness,
+} from "./catalog-utils.mjs";
 
 const root = process.cwd();
 const products = JSON.parse(await readFile(join(root, "data", "products.json"), "utf8"));
@@ -31,6 +36,23 @@ for (const product of products) {
   }
   if (!categorySlugs.has(product.category)) errors.push(`Unknown category ${product.category}: ${product.id}`);
   if (!allowedConfidence.has(product.source.dataConfidence)) errors.push(`Invalid confidence: ${product.id}`);
+  const glassThickness = product.specifications?.glassThickness;
+  if (glassThickness) {
+    const match = glassThickness.match(/^(\d{1,2})(?:–(\d{1,2}))? mm$/);
+    const lower = Number(match?.[1]);
+    const upper = Number(match?.[2] || match?.[1]);
+    if (!match || lower < 4 || upper > 25 || lower > upper) {
+      errors.push(`Invalid glass thickness ${glassThickness}: ${product.id}`);
+    }
+  }
+  const doorWidth = product.specifications?.doorWidth;
+  if (doorWidth && !/^(?:≤ )?\d{3,4}(?:–\d{3,4})? mm$/.test(doorWidth)) {
+    errors.push(`Invalid door width ${doorWidth}: ${product.id}`);
+  }
+  const dimensions = product.specifications?.dimensions;
+  if (dimensions && !/^\d{2,4} × \d{2,4} mm$/.test(dimensions)) {
+    errors.push(`Invalid dimensions ${dimensions}: ${product.id}`);
+  }
   if (product.media.main) {
     try {
       await access(join(root, product.media.main));
@@ -48,6 +70,18 @@ for (const product of products) {
   }
 }
 
+const parserRegressions = [
+  [extractGlassThickness("最大门宽1800毫米重型地弹簧"), "", "door width is not glass thickness"],
+  [extractGlassThickness("办公室吊顶板 600X600 毫米"), "", "panel size is not glass thickness"],
+  [extractGlassThickness("适用于10-15毫米钢化玻璃门"), "10–15 mm", "glass thickness range"],
+  [extractDoorWidth("最大门宽1800毫米重型地弹簧"), "≤ 1800 mm", "maximum door width"],
+  [extractDoorWidth("闭门器600-900毫米宽度45-65公斤"), "600–900 mm", "door width range"],
+  [extractDimensions("办公室吊顶板 600X600 毫米"), "600 × 600 mm", "panel dimensions"],
+];
+parserRegressions.forEach(([actual, expected, label]) => {
+  if (actual !== expected) errors.push(`Parser regression (${label}): expected "${expected}", got "${actual}"`);
+});
+
 const summary = {
   products: products.length,
   categories: categories.length,
@@ -62,4 +96,3 @@ if (errors.length) {
   console.error(errors.slice(0, 100).join("\n"));
   process.exitCode = 1;
 }
-
