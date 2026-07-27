@@ -13,7 +13,7 @@ const approvedIndices = new Set([
   79, 80, 81, 82, 83, 84, 85, 86, 87, 88,
   99, 100, 101, 102, 103,
   121, 123, 124, 125, 126, 127, 128, 129,
-  153, 163, 295, 297,
+  153, 163, 295, 297, 384,
 ]);
 const categoryMap = new Map(categories.map((category) => [category.slug, category]));
 const placeholderRoot = join(root, "assets", "images", "products", "placeholders");
@@ -37,7 +37,9 @@ const approved = [];
 const rejected = [];
 for (const [index, product] of products.entries()) {
   if (approvedIndices.has(index)) {
-    product.source.mediaStatus = "approved-clean-listing-image";
+    if (product.source.mediaStatus !== "cleaned-authorized-source-image") {
+      product.source.mediaStatus = "approved-clean-listing-image";
+    }
     approved.push(product);
     continue;
   }
@@ -89,7 +91,7 @@ const rows = [
   "",
   "| Public file | Product | Source ID | Processing | Copyright | Uploaded | Verified | Source |",
   "|---|---|---|---|---|---|---|---|",
-  ...approved.map((product) => `| ${product.media.main} | ${product.title.en} | ${product.source.sourceId} | Resize, white canvas, AVIF; no structural edit | authorized | no | no | [product](${product.source.url}) |`),
+  ...approved.map((product) => `| ${product.media.main} | ${product.title.en} | ${product.source.sourceId} | ${product.source.mediaStatus === "cleaned-authorized-source-image" ? "Precision legacy mark removal, resize, AVIF" : "Resize, white canvas, AVIF; no structural edit"} | authorized | no | no | [product](${product.source.url}) |`),
   "",
   "## Unused source media",
   "",

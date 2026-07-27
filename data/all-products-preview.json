@@ -816,7 +816,7 @@
       "finish",
       "holdOpen"
     ],
-    "notes": "Imported from the seller's public product list. Only title-level facts are populated. Media status: approved-clean-listing-image."
+    "notes": "Imported from the seller's public product list. Only title-level facts are populated. Media status: cleaned-authorized-source-image."
   },
   {
     "sourceId": "1601830920368",
@@ -2181,7 +2181,7 @@
       "finish",
       "holdOpen"
     ],
-    "notes": "Imported from the seller's public product list. Only title-level facts are populated. Media status: approved-clean-listing-image."
+    "notes": "Imported from the seller's public product list. Only title-level facts are populated. Media status: cleaned-authorized-source-image."
   },
   {
     "sourceId": "1601710607597",
@@ -11611,7 +11611,7 @@
       "finish",
       "holdOpen"
     ],
-    "notes": "Imported from the seller's public product list. Only title-level facts are populated. Media status: approved-clean-listing-image."
+    "notes": "Imported from the seller's public product list. Only title-level facts are populated. Media status: cleaned-authorized-source-image."
   },
   {
     "sourceId": "1601449288321",
@@ -14964,5 +14964,50 @@
       "holdOpen"
     ],
     "notes": "Imported from the seller's public product list. Only title-level facts are populated. Media status: not-used-legacy-branding-or-baked-copy."
+  },
+  {
+    "sourceId": "1601462455555",
+    "sourceUrl": "https://www.alibaba.com/product-detail/Glass-Door-Lock-System-Surface-Mounted_1601462455555.html",
+    "sourceTitle": "Glass Door Lock System Surface Mounted Glass Door Central Lock Hotel Office Glass to Wall Access Control",
+    "proposedSlug": "glass-door-lock-kd-218b-1601462455555",
+    "proposedCategory": "door-locks",
+    "proposedSubcategory": "",
+    "proposedProductFamily": "Door Locks",
+    "model": "KD-218B",
+    "specifications": {
+      "capacity": null,
+      "doorWidth": "",
+      "dimensions": "",
+      "netWeight": "",
+      "material": "Stainless Steel 201/304",
+      "finish": "Mirror surface, sanding, titanium gold",
+      "openingAngle": "",
+      "holdOpen": null,
+      "glassThickness": "10–12 mm",
+      "otherVerifiedFields": {
+        "warranty": "2 years",
+        "installation": "Screw",
+        "afterSaleService": "Online technical support",
+        "placeOfOrigin": "Guangdong, China",
+        "minimumOrder": "50 pcs",
+        "packing": "Foamed bag + inner box + carton"
+      }
+    },
+    "mainImage": "assets/images/products/door-locks/glass-door-lock-kd-218b-1601462455555/main-clean-20260727.avif",
+    "galleryImages": [],
+    "dimensionImages": [],
+    "installationImages": [],
+    "applicationImages": [],
+    "videos": [],
+    "videoPoster": "",
+    "duplicateCandidate": false,
+    "dataConfidence": "verified",
+    "missingFields": [
+      "doorWidth",
+      "dimensions",
+      "netWeight",
+      "holdOpen"
+    ],
+    "notes": "Verified against the seller's public Alibaba listing on 2026-07-27. Legacy branding was removed from the authorized source image. Media status: cleaned-authorized-source-image."
   }
 ]
