@@ -69,11 +69,11 @@ for (const product of products) {
   <meta property="og:url" content="${SITE_URL}/products/${category.slug}/${product.slug}.html">
   <meta property="og:image" content="${SITE_URL}/${product.media.main}">
   <link rel="preload" href="../../${product.media.main}" as="image" type="${preloadType}">
-  <link rel="stylesheet" href="../../assets/styles.css?v=20260727c">
+  <link rel="stylesheet" href="../../assets/styles.css?v=20260727d">
   <script type="application/ld+json">${jsonScript(productLd)}</script>
   <script type="application/ld+json">${jsonScript(crumb)}</script>
   <script src="../../assets/app.js?v=20260727c" defer></script>
-  <script src="../../assets/catalog.js?v=20260727c" defer></script>
+  <script src="../../assets/catalog.js?v=20260727d" defer></script>
 </head>
 <body data-catalog-mode="detail">
   <div class="scroll-progress" aria-hidden="true"></div>
