@@ -20,11 +20,13 @@ for (const product of products) {
   const related = products.filter((candidate) => candidate.category === product.category && candidate.id !== product.id).slice(0, 3);
   const featureBits = [
     specs.capacity ? { label: "Maximum door weight", value: `${specs.capacity} kg`, key: "capacity" } : null,
+    specs.doorWidth ? { label: "Door width", value: specs.doorWidth, key: "doorWidth" } : null,
+    specs.dimensions ? { label: "Dimensions", value: specs.dimensions, key: "dimensions" } : null,
     specs.material ? { label: "Material", value: specs.material, key: "material" } : null,
     specs.openingAngle ? { label: "Opening angle", value: specs.openingAngle, key: "openingAngle" } : null,
     specs.glassThickness ? { label: "Glass thickness", value: specs.glassThickness, key: "glassThickness" } : null,
   ].filter(Boolean).slice(0, 3);
-  while (featureBits.length < 3) {
+  if (!featureBits.length) {
     featureBits.push({ label: "Specification", value: confirmText, key: "specification" });
   }
 

@@ -138,6 +138,16 @@
   const selected = new Set();
   let activeMaterial = "all";
 
+  function tidyVerifiedHighlights() {
+    const grid = document.querySelector(".key-feature-grid");
+    if (!grid) return;
+    const placeholders = [...grid.querySelectorAll('[data-catalog-text="specification"]')]
+      .map((label) => label.closest(".key-feature"))
+      .filter(Boolean);
+    placeholders.slice(1).forEach((card) => card.remove());
+    grid.classList.add(`key-feature-count-${Math.min(grid.children.length, 3)}`);
+  }
+
   function updateResults() {
     if (!resultLabel) return;
     const visible = cards.filter((card) => !card.hidden).length;
@@ -238,6 +248,7 @@
     renderCompare();
   });
   search?.addEventListener("input", filterCards);
+  tidyVerifiedHighlights();
   setupFilters();
   filterCards();
 
