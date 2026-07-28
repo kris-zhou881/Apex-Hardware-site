@@ -31,7 +31,22 @@ for (const product of products) {
   }
   if (!categorySlugs.has(product.category)) errors.push(`Unknown category ${product.category}: ${product.id}`);
   if (!allowedConfidence.has(product.source.dataConfidence)) errors.push(`Invalid confidence: ${product.id}`);
+  if (!product.source.detailVerifiedAt) errors.push(`Unverified detail page: ${product.id}`);
+  if (!Array.isArray(product.media.sourceGallery) || product.media.sourceGallery.length === 0) {
+    errors.push(`No source gallery: ${product.id}`);
+  }
+  if (!product.specifications?.otherVerifiedFields || Object.keys(product.specifications.otherVerifiedFields).length === 0) {
+    errors.push(`No verified attributes: ${product.id}`);
+  }
+  const publicParameters = JSON.stringify({
+    model: product.model,
+    specifications: product.specifications,
+  });
+  if (/(?:KINDERS|JIANDASI|FANSALA)/i.test(publicParameters)) {
+    errors.push(`Legacy brand in public parameters: ${product.id}`);
+  }
   if (product.media.main) {
+    if (product.media.main.includes("/placeholders/")) errors.push(`Placeholder image: ${product.id}`);
     try {
       await access(join(root, product.media.main));
     } catch {
@@ -62,4 +77,3 @@ if (errors.length) {
   console.error(errors.slice(0, 100).join("\n"));
   process.exitCode = 1;
 }
-

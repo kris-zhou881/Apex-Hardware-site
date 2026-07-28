@@ -17,6 +17,10 @@ function specRow(label, value, key) {
 for (const product of products) {
   const category = categoryMap.get(product.category);
   const specs = product.specifications;
+  const additionalSpecRows = Object.entries(specs.otherVerifiedFields || {})
+    .filter(([label, value]) => label && value)
+    .map(([label, value]) => `<div><dt>${escapeHtml(label)}</dt><dd dir="auto">${escapeHtml(value)}</dd></div>`)
+    .join("");
   const related = products.filter((candidate) => candidate.category === product.category && candidate.id !== product.id).slice(0, 3);
   const featureBits = [
     specs.capacity ? { label: "Maximum door weight", value: `${specs.capacity} kg`, key: "capacity" } : null,
@@ -111,6 +115,7 @@ for (const product of products) {
           ${specRow("Opening angle", specs.openingAngle, "openingAngle")}
           ${specRow("Glass thickness", specs.glassThickness, "glassThickness")}
           ${specRow("Hold-open function", specs.holdOpen === null ? "" : specs.holdOpen ? "Yes" : "No", "holdOpen")}
+          ${additionalSpecRows}
         </dl>
         <p class="data-confidence-note" data-catalog-text="dataNote">Only explicitly confirmed listing data is shown. Contact us to verify missing fields before specification.</p>
       </div>

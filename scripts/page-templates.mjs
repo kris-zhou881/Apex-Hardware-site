@@ -90,9 +90,15 @@ export function productJsonLd(product, category) {
   const specs = product.specifications;
   const propertyMap = [
     ["Maximum door weight", specs.capacity ? `${specs.capacity} kg` : ""],
+    ["Door width", specs.doorWidth],
+    ["Dimensions", specs.dimensions],
+    ["Net weight", specs.netWeight],
     ["Material", specs.material],
+    ["Finish", specs.finish],
     ["Opening angle", specs.openingAngle],
     ["Glass thickness", specs.glassThickness],
+    ["Hold-open function", specs.holdOpen === null ? "" : specs.holdOpen ? "Yes" : "No"],
+    ...Object.entries(specs.otherVerifiedFields || {}),
   ];
   propertyMap.forEach(([name, value]) => {
     if (value) data.additionalProperty.push({ "@type": "PropertyValue", name, value });

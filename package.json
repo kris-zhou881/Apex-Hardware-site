@@ -5,6 +5,8 @@
   "scripts": {
     "audit": "node scripts/audit-store.mjs",
     "import": "node scripts/import-products.mjs",
+    "details:apply": "node scripts/apply-alibaba-details.mjs",
+    "media:apply-gallery": "node scripts/apply-gallery-media.mjs",
     "media:process": "node scripts/process-media.mjs",
     "media:review": "node scripts/review-media.mjs",
     "generate": "node scripts/generate-category-pages.mjs && node scripts/generate-product-pages.mjs",
