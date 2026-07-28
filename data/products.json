@@ -97,13 +97,13 @@
     },
     "sourceTitle": "超重型弹簧执行器 360 度门开启角度 门重 600 公斤",
     "specifications": {
-      "capacity": 600,
+      "capacity": null,
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
       "material": "45# Steel",
       "finish": "",
-      "openingAngle": "360°",
+      "openingAngle": "",
       "holdOpen": null,
       "glassThickness": "",
       "otherVerifiedFields": {
@@ -155,10 +155,12 @@
     "duplicateCandidate": false,
     "duplicateOf": "",
     "missingFields": [
+      "capacity",
       "doorWidth",
       "dimensions",
       "netWeight",
       "finish",
+      "openingAngle",
       "holdOpen",
       "glassThickness"
     ],
@@ -266,7 +268,7 @@
       "netWeight": "",
       "material": "45 steel",
       "finish": "",
-      "openingAngle": "125°",
+      "openingAngle": "",
       "holdOpen": null,
       "glassThickness": "",
       "otherVerifiedFields": {
@@ -324,6 +326,7 @@
       "dimensions",
       "netWeight",
       "finish",
+      "openingAngle",
       "holdOpen",
       "glassThickness"
     ],
@@ -343,7 +346,7 @@
     "sourceTitle": "隐藏式铰链 180 度地弹簧，适用于木门使用 现代侧轴旋转液压执行器",
     "specifications": {
       "capacity": null,
-      "doorWidth": "≤1100 mm",
+      "doorWidth": "≤ 1100 mm",
       "dimensions": "",
       "netWeight": "",
       "material": "45# 钢",
@@ -426,7 +429,7 @@
     "sourceTitle": "现代木门偏轴旋转铰链 125 ° 开口角度大 无挖掘旋转铰链 工厂直销",
     "specifications": {
       "capacity": null,
-      "doorWidth": "≤1100 mm",
+      "doorWidth": "≤ 1100 mm",
       "dimensions": "",
       "netWeight": "",
       "material": "45# 钢",
@@ -508,8 +511,8 @@
     },
     "sourceTitle": "现代木门侧轴液压执行器 60-150kg 门框木门液压执行器 高品质侧轴门液压执行器",
     "specifications": {
-      "capacity": 150,
-      "doorWidth": "≤1100 mm",
+      "capacity": null,
+      "doorWidth": "≤ 1100 mm",
       "dimensions": "",
       "netWeight": "",
       "material": "45# 钢",
@@ -570,6 +573,7 @@
     "duplicateCandidate": false,
     "duplicateOf": "",
     "missingFields": [
+      "capacity",
       "dimensions",
       "netWeight",
       "finish",
@@ -590,8 +594,8 @@
     },
     "sourceTitle": "高端偏轴旋转铰链，最大门重150KG，不锈钢木门免开槽旋转铰链",
     "specifications": {
-      "capacity": 150,
-      "doorWidth": "≤1100 mm",
+      "capacity": null,
+      "doorWidth": "≤ 1100 mm",
       "dimensions": "",
       "netWeight": "",
       "material": "45# 钢",
@@ -652,6 +656,7 @@
     "duplicateCandidate": false,
     "duplicateOf": "",
     "missingFields": [
+      "capacity",
       "dimensions",
       "netWeight",
       "finish",
@@ -672,13 +677,13 @@
     },
     "sourceTitle": "重型轴向弹簧执行器 400KG 360 度现代式地板弹簧",
     "specifications": {
-      "capacity": 400,
+      "capacity": null,
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
       "material": "45# Steel",
       "finish": "",
-      "openingAngle": "360°",
+      "openingAngle": "",
       "holdOpen": null,
       "glassThickness": "",
       "otherVerifiedFields": {
@@ -730,10 +735,12 @@
     "duplicateCandidate": false,
     "duplicateOf": "",
     "missingFields": [
+      "capacity",
       "doorWidth",
       "dimensions",
       "netWeight",
       "finish",
+      "openingAngle",
       "holdOpen",
       "glassThickness"
     ],
@@ -754,13 +761,13 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "45*90 mm",
+      "dimensions": "45 × 90 mm",
       "netWeight": "",
       "material": "Stainless steel",
       "finish": "缎面、抛光、黑色、金色等",
       "openingAngle": "90°",
       "holdOpen": null,
-      "glassThickness": "6-12 mm",
+      "glassThickness": "6–12 mm",
       "otherVerifiedFields": {
         "Product name": "淋浴铰链",
         "Function": "90度墙对玻璃",
@@ -842,13 +849,13 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "45*90 mm",
+      "dimensions": "45 × 90 mm",
       "netWeight": "",
       "material": "Stainless steel",
       "finish": "镜面、缎面、黑色、金色等",
       "openingAngle": "90°",
       "holdOpen": null,
-      "glassThickness": "8-12 mm",
+      "glassThickness": "8–12 mm",
       "otherVerifiedFields": {
         "Product name": "淋浴铰链",
         "Usage method": "淋浴房玻璃门铰链",
@@ -930,13 +937,13 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "45*90 mm",
+      "dimensions": "45 × 90 mm",
       "netWeight": "",
       "material": "Stainless steel",
       "finish": "镜面、缎面、黑色、金色等",
       "openingAngle": "90°",
       "holdOpen": null,
-      "glassThickness": "8-12 mm",
+      "glassThickness": "8–12 mm",
       "otherVerifiedFields": {
         "Product name": "淋浴铰链",
         "Usage method": "淋浴房玻璃门铰链",
@@ -1017,13 +1024,13 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "45*90 mm",
+      "dimensions": "45 × 90 mm",
       "netWeight": "",
       "material": "Stainless steel",
       "finish": "镜面、缎面、黑色、金色等",
       "openingAngle": "90°",
       "holdOpen": null,
-      "glassThickness": "8-12 mm",
+      "glassThickness": "8–12 mm",
       "otherVerifiedFields": {
         "Product name": "淋浴铰链",
         "Usage method": "淋浴房玻璃门铰链",
@@ -1105,13 +1112,13 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "45*90mm",
+      "dimensions": "45 × 90 mm",
       "netWeight": "",
       "material": "Stainless steel",
       "finish": "Matt black",
       "openingAngle": "180°",
       "holdOpen": null,
-      "glassThickness": "5 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "Function": "180 degree glass to glass",
         "Product Name": "Shower hinge",
@@ -1173,7 +1180,8 @@
       "capacity",
       "doorWidth",
       "netWeight",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -1192,13 +1200,13 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "105*51mm",
+      "dimensions": "105 × 51 mm",
       "netWeight": "",
       "material": "铝, 钢",
       "finish": "Satin, Polish, Golden, Black and so on",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "8-12mm",
+      "glassThickness": "8–12 mm",
       "otherVerifiedFields": {
         "Product name": "Patch fitting",
         "Sample": "Accepted",
@@ -1368,13 +1376,13 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "45*90mm",
+      "dimensions": "45 × 90 mm",
       "netWeight": "",
       "material": "Stainless steel",
       "finish": "Mirror, Satin, Black, Golden and so on",
       "openingAngle": "180°",
       "holdOpen": null,
-      "glassThickness": "8-12 mm",
+      "glassThickness": "8–12 mm",
       "otherVerifiedFields": {
         "Function": "180 degree glass to glass",
         "OEM": "Accepted",
@@ -1461,7 +1469,7 @@
       "finish": "SSS, PSS, golden color, as customer's inquiry",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "8-12mm",
+      "glassThickness": "8–12 mm",
       "otherVerifiedFields": {
         "Product name": "Patch fitting",
         "Sample": "Accepted",
@@ -1629,13 +1637,13 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "45*90 mm",
+      "dimensions": "45 × 90 mm",
       "netWeight": "",
       "material": "Zinc alloy",
       "finish": "镜面、缎面、黑色、金色等",
       "openingAngle": "90°",
       "holdOpen": null,
-      "glassThickness": "8-12 mm",
+      "glassThickness": "8–12 mm",
       "otherVerifiedFields": {
         "Product name": "淋浴铰链",
         "Usage method": "淋浴房玻璃门铰链",
@@ -1723,7 +1731,7 @@
       "finish": "PSS SSS CP BN",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "8-12mm",
+      "glassThickness": "8–12 mm",
       "otherVerifiedFields": {
         "Product name": "Glass door lock",
         "Usage": "Frameless Glass Door lock",
@@ -1801,7 +1809,7 @@
     },
     "sourceTitle": "不锈钢玻璃门地弹簧 90公斤液压地弹簧 工业隐藏式地弹簧 商业门地弹簧",
     "specifications": {
-      "capacity": 90,
+      "capacity": null,
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
@@ -1809,7 +1817,7 @@
       "finish": "PSS SSS CP BN 黑色 金色",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "8-12 mm",
+      "glassThickness": "8–12 mm",
       "otherVerifiedFields": {
         "Product name": "地弹簧",
         "Usage method": "玻璃门，木门地弹簧",
@@ -1865,6 +1873,7 @@
     "duplicateCandidate": false,
     "duplicateOf": "",
     "missingFields": [
+      "capacity",
       "doorWidth",
       "dimensions",
       "netWeight",
@@ -1888,13 +1897,13 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "45*90mm",
+      "dimensions": "45 × 90 mm",
       "netWeight": "",
       "material": "Stainless steel",
       "finish": "Mirror, Satin, Black, Golden and so on",
       "openingAngle": "90°",
       "holdOpen": null,
-      "glassThickness": "8-12 mm",
+      "glassThickness": "8–12 mm",
       "otherVerifiedFields": {
         "Function": "90 degree wall to glass",
         "OEM": "Accepted",
@@ -1977,13 +1986,13 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "As customers' inquiry",
+      "dimensions": "",
       "netWeight": "",
       "material": "PVC",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "6mm, 8mm, 10mm, 12mm",
+      "glassThickness": "6 / 8 / 10 / 12 mm",
       "otherVerifiedFields": {
         "Color": "Blue, transparent, black",
         "Function": "H type",
@@ -2042,6 +2051,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "openingAngle",
@@ -2070,7 +2080,7 @@
       "finish": "PSS SSS CP BN",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "8-12mm",
+      "glassThickness": "8–12 mm",
       "otherVerifiedFields": {
         "Product name": "Glass door lock",
         "Usage": "Frameless Glass Door lock",
@@ -2491,7 +2501,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Stainless steel",
+      "material": "",
       "finish": "",
       "openingAngle": "125°",
       "holdOpen": null,
@@ -2551,6 +2561,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "holdOpen",
       "glassThickness"
@@ -2578,7 +2589,7 @@
       "finish": "Mirror surface,Sanding,Titanium gold",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "Glass door lock",
         "Usage": "Frameless Glass Door lock",
@@ -2660,7 +2671,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Stainless steel",
+      "material": "",
       "finish": "",
       "openingAngle": "125°",
       "holdOpen": null,
@@ -2722,6 +2733,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "holdOpen",
       "glassThickness"
@@ -3004,7 +3016,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Stainless steel",
+      "material": "",
       "finish": "",
       "openingAngle": "125°",
       "holdOpen": null,
@@ -3066,6 +3078,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "holdOpen",
       "glassThickness"
@@ -3087,7 +3100,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "600*562 mm",
+      "dimensions": "600 × 562 mm",
       "netWeight": "",
       "material": "201/304",
       "finish": "",
@@ -3180,7 +3193,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Stainless steel",
+      "material": "",
       "finish": "",
       "openingAngle": "150°",
       "holdOpen": null,
@@ -3240,6 +3253,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "holdOpen",
       "glassThickness"
@@ -3344,7 +3358,7 @@
     },
     "sourceTitle": "重型120千克负载地板弹簧铰链BST 65酒店现代玻璃门关闭器",
     "specifications": {
-      "capacity": 120,
+      "capacity": null,
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
@@ -3407,6 +3421,7 @@
     "duplicateCandidate": false,
     "duplicateOf": "",
     "missingFields": [
+      "capacity",
       "doorWidth",
       "dimensions",
       "netWeight",
@@ -3429,11 +3444,11 @@
     },
     "sourceTitle": "厂家直销现代不锈钢201/304地弹簧，适用于玻璃木门，酒店用，2年保修，承重95公斤",
     "specifications": {
-      "capacity": 95,
+      "capacity": null,
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "SS201 / SS304",
+      "material": "",
       "finish": "",
       "openingAngle": "125°",
       "holdOpen": null,
@@ -3491,9 +3506,11 @@
     "duplicateCandidate": false,
     "duplicateOf": "",
     "missingFields": [
+      "capacity",
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "holdOpen",
       "glassThickness"
@@ -3515,7 +3532,7 @@
     "specifications": {
       "capacity": 60,
       "doorWidth": "",
-      "dimensions": "Small, medium, big",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
@@ -3582,6 +3599,7 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "holdOpen",
@@ -3604,7 +3622,7 @@
     "specifications": {
       "capacity": 85,
       "doorWidth": "",
-      "dimensions": "小号，中号，大号",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
@@ -3670,6 +3688,7 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "holdOpen",
@@ -3692,7 +3711,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "Anodized, Foil Decoration, PE Coated, PVDF Coated",
@@ -3756,6 +3775,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -3778,7 +3798,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "Anodized, Foil Decoration, PE Coated, PVDF Coated",
@@ -3845,6 +3865,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -3867,7 +3888,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "Anodized, Foil Decoration, PE Coated, PVDF Coated",
@@ -3931,6 +3952,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -3953,7 +3975,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "Anodized, Foil Decoration, PE Coated, PVDF Coated",
@@ -4019,6 +4041,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -4041,7 +4064,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "Anodized, Foil Decoration, PE Coated, PVDF Coated",
@@ -4107,6 +4130,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -4129,7 +4153,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "Anodized, Foil Decoration, PE Coated, PVDF Coated",
@@ -4194,6 +4218,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -4216,7 +4241,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "Anodized, Foil Decoration, PE Coated, PVDF Coated",
@@ -4282,6 +4307,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -4304,7 +4330,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "Anodized, Foil Decoration, PE Coated, PVDF Coated",
@@ -4368,6 +4394,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -4390,7 +4417,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "Anodized, Foil Decoration, PE Coated, PVDF Coated",
@@ -4454,6 +4481,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -4476,7 +4504,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "Anodized, Foil Decoration, PE Coated, PVDF Coated",
@@ -4543,6 +4571,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -4660,7 +4689,7 @@
     "specifications": {
       "capacity": 65,
       "doorWidth": "",
-      "dimensions": "Small, medium, big",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
@@ -4727,6 +4756,7 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "holdOpen",
@@ -4749,7 +4779,7 @@
     "specifications": {
       "capacity": 65,
       "doorWidth": "",
-      "dimensions": "小号，中号，大号",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
@@ -4814,6 +4844,7 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "holdOpen",
@@ -4836,7 +4867,7 @@
     "specifications": {
       "capacity": 45,
       "doorWidth": "",
-      "dimensions": "Small, medium, big",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
@@ -4898,6 +4929,7 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "holdOpen",
@@ -5011,7 +5043,7 @@
       "finish": "Mirror surface,Sanding,Titanium gold",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "Glass door lock",
         "Usage": "Frameless Glass Door lock",
@@ -5092,13 +5124,13 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Standard",
+      "dimensions": "",
       "netWeight": "",
       "material": "镁铝合金, stainless steel",
       "finish": "Satin or customized polish , matt black or other colors",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10–12 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "Body thickness": "0.7mm or customized 1.0mm",
         "Cover material": "Stainless Steel sus201, or customized sus 304",
@@ -5159,9 +5191,11 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -5186,7 +5220,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -5272,7 +5306,7 @@
       "finish": "Mirror surface,Sanding,Titanium gold",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-12mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {
         "Product name": "Glass door lock",
         "Usage": "Frameless Glass Door lock",
@@ -5358,7 +5392,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -5446,7 +5480,7 @@
       "finish": "Mirror surface,Sanding,Titanium gold",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-12mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {
         "Product name": "Glass door lock",
         "Usage": "Frameless Glass Door lock",
@@ -5534,7 +5568,7 @@
       "finish": "Mirror surface,Sanding,Titanium gold",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "Glass door lock",
         "Usage": "Frameless Glass Door lock",
@@ -5620,7 +5654,7 @@
       "finish": "Mirror surface,Sanding,Titanium gold",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "Glass door lock",
         "Usage": "Frameless Glass Door lock",
@@ -5708,7 +5742,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -5795,7 +5829,7 @@
       "finish": "Mirror surface,Sanding,Titanium gold",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-12mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {
         "Product name": "Glass door lock",
         "Usage": "Frameless Glass Door lock",
@@ -5875,7 +5909,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -5940,6 +5974,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -5962,7 +5997,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -6031,6 +6066,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -6053,7 +6089,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -6120,6 +6156,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -6142,7 +6179,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -6210,6 +6247,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -6232,7 +6270,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -6299,6 +6337,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -6321,7 +6360,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -6388,6 +6427,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -6410,7 +6450,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -6478,6 +6518,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -6500,7 +6541,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -6567,6 +6608,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -6589,7 +6631,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -6657,6 +6699,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -6679,7 +6722,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -6747,6 +6790,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -6769,7 +6813,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -6836,6 +6880,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -7032,7 +7077,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "客户尺寸",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "",
@@ -7097,6 +7142,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "openingAngle",
@@ -7120,7 +7166,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "客户尺寸",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "",
@@ -7185,6 +7231,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "openingAngle",
@@ -7643,7 +7690,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "客户尺寸",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "",
@@ -7708,6 +7755,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "openingAngle",
@@ -7731,7 +7779,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "1220x2440mm/Customized",
+      "dimensions": "1220 × 2440 mm",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "Pvc Flim Coated/Customized",
@@ -7814,7 +7862,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "1220x2440mm/Customized",
+      "dimensions": "1220 × 2440 mm",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "Pvc Flim Coated/Customized",
@@ -7897,7 +7945,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "1220x2440mm/Customized",
+      "dimensions": "1220 × 2440 mm",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "Pvc Flim Coated/Customized",
@@ -7980,7 +8028,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "1220x2440mm/Customized",
+      "dimensions": "1220 × 2440 mm",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "Pvc Flim Coated/Customized",
@@ -8063,7 +8111,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "1220x2440mm/Customized",
+      "dimensions": "1220 × 2440 mm",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "Pvc Flim Coated/Customized",
@@ -8146,7 +8194,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "1220x2440mm/Customized",
+      "dimensions": "1220 × 2440 mm",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "Pvc Flim Coated/Customized",
@@ -8231,7 +8279,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "1220x2440mm/Customized",
+      "dimensions": "1220 × 2440 mm",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "Pvc Flim Coated/Customized",
@@ -8314,7 +8362,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "1220x2440mm/Customized",
+      "dimensions": "1220 × 2440 mm",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "Pvc Flim Coated/Customized",
@@ -8399,7 +8447,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "1220x2440mm/Customized",
+      "dimensions": "1220 × 2440 mm",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "Pvc Flim Coated/Customized",
@@ -8482,7 +8530,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "1220x2440mm/Customized",
+      "dimensions": "1220 × 2440 mm",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "Pvc Flim Coated/Customized",
@@ -9013,7 +9061,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -9080,6 +9128,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -9102,7 +9151,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -9169,6 +9218,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -9191,7 +9241,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -9259,6 +9309,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -9281,7 +9332,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -9348,6 +9399,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -9370,7 +9422,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -9439,6 +9491,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -9461,7 +9514,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "取决于详细图纸",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -9529,6 +9582,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -9551,7 +9605,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -9618,6 +9672,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -9640,7 +9695,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Depend on detail drawings",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -9707,6 +9762,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -9729,7 +9785,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "取决于详细图纸",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -9797,6 +9853,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -9821,7 +9878,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Aluminum alloy",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -9888,6 +9945,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -10004,7 +10062,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Aluminum alloy",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -10071,6 +10129,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -10095,7 +10154,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Aluminum alloy",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -10162,6 +10221,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -10184,9 +10244,9 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "定制尺寸",
+      "dimensions": "",
       "netWeight": "",
-      "material": "Aluminum",
+      "material": "",
       "finish": "粉末涂层",
       "openingAngle": "",
       "holdOpen": null,
@@ -10251,7 +10311,9 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
+      "material",
       "openingAngle",
       "holdOpen",
       "glassThickness"
@@ -10360,7 +10422,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "SS201 / SS304",
+      "material": "",
       "finish": "",
       "openingAngle": "150°",
       "holdOpen": null,
@@ -10421,6 +10483,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "holdOpen",
       "glassThickness"
@@ -10444,11 +10507,11 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Stainless steel",
+      "material": "",
       "finish": "",
       "openingAngle": "125°",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "Type": "Floor Spring",
         "Application": "玻璃门, 商业门, 酒店, 别墅, 公寓, 办公楼, 医院, 学校, Mall, 洗衣房, 健身房, Wooden Door",
@@ -10504,8 +10567,10 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -10524,13 +10589,13 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "45*90mm",
+      "dimensions": "45 × 90 mm",
       "netWeight": "",
       "material": "Zinc alloy",
       "finish": "Mirror, Satin, Black, Golden and so on",
       "openingAngle": "180°",
       "holdOpen": null,
-      "glassThickness": "8-12 mm",
+      "glassThickness": "8–12 mm",
       "otherVerifiedFields": {
         "Function": "90 degree glass to glass",
         "OEM": "Accepted",
@@ -10618,7 +10683,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -10700,13 +10765,13 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "45*90 mm",
+      "dimensions": "45 × 90 mm",
       "netWeight": "",
       "material": "Stainless steel",
       "finish": "镜面、缎面、黑色、金色等",
       "openingAngle": "90°",
       "holdOpen": null,
-      "glassThickness": "8-12 mm",
+      "glassThickness": "8–12 mm",
       "otherVerifiedFields": {
         "Product name": "淋浴铰链",
         "Usage method": "淋浴房玻璃门铰链",
@@ -10790,7 +10855,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Stainless steel",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -10854,6 +10919,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -10882,7 +10948,7 @@
       "finish": "PSS SSS Black Gold",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "8-12mm",
+      "glassThickness": "8–12 mm",
       "otherVerifiedFields": {
         "Product name": "Lock Patch",
         "Sample": "Availbale",
@@ -10963,13 +11029,13 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "45*90mm",
+      "dimensions": "45 × 90 mm",
       "netWeight": "",
       "material": "Stainless steel",
       "finish": "Mirror, Satin, Black, Golden and so on",
       "openingAngle": "90°",
       "holdOpen": null,
-      "glassThickness": "8-12 mm",
+      "glassThickness": "8–12 mm",
       "otherVerifiedFields": {
         "Function": "90 degree wall to glass",
         "OEM": "Accepted",
@@ -11054,7 +11120,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Stainless steel",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -11118,6 +11184,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -11140,13 +11207,13 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "45*90 mm",
+      "dimensions": "45 × 90 mm",
       "netWeight": "",
       "material": "Stainless steel",
       "finish": "镜面、缎面、黑色、金色等",
       "openingAngle": "90°",
       "holdOpen": null,
-      "glassThickness": "8-12 mm",
+      "glassThickness": "8–12 mm",
       "otherVerifiedFields": {
         "Product name": "淋浴铰链",
         "Usage method": "淋浴房玻璃门铰链",
@@ -11589,7 +11656,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -11676,7 +11743,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -11763,7 +11830,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -11848,7 +11915,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "SS304",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -11914,6 +11981,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -11942,7 +12010,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -12030,7 +12098,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -12112,13 +12180,13 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Standard",
+      "dimensions": "",
       "netWeight": "",
       "material": "镁铝合金, stainless steel",
       "finish": "Satin or customized polish , matt black or other colors",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10–12 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "Body thickness": "0.7mm or customized 1.0mm",
         "Cover material": "Stainless Steel sus201, or customized sus 304",
@@ -12179,9 +12247,11 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -12202,7 +12272,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Stainless steel",
+      "material": "",
       "finish": "",
       "openingAngle": "125°",
       "holdOpen": null,
@@ -12260,6 +12330,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "holdOpen",
       "glassThickness"
@@ -12283,7 +12354,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Stainless steel",
+      "material": "",
       "finish": "",
       "openingAngle": "175°",
       "holdOpen": null,
@@ -12343,6 +12414,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "holdOpen",
       "glassThickness"
@@ -12362,11 +12434,11 @@
     },
     "sourceTitle": "300公斤玻璃门地弹簧闭门器厂家直销不锈钢液压门地铰链",
     "specifications": {
-      "capacity": 300,
+      "capacity": null,
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Stainless steel",
+      "material": "",
       "finish": "",
       "openingAngle": "180°",
       "holdOpen": null,
@@ -12423,9 +12495,11 @@
     "duplicateCandidate": false,
     "duplicateOf": "",
     "missingFields": [
+      "capacity",
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "holdOpen",
       "glassThickness"
@@ -12532,7 +12606,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "SS201 / SS304",
+      "material": "",
       "finish": "",
       "openingAngle": "125°",
       "holdOpen": null,
@@ -12591,6 +12665,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "holdOpen",
       "glassThickness"
@@ -12698,7 +12773,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "SS201 / SS304",
+      "material": "",
       "finish": "",
       "openingAngle": "125°",
       "holdOpen": null,
@@ -12759,6 +12834,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "holdOpen",
       "glassThickness"
@@ -12779,14 +12855,14 @@
     "sourceTitle": "现代隐藏式铰链木门非轴心适用门宽1100mm 270 ° 旋转木门液压执行器",
     "specifications": {
       "capacity": null,
-      "doorWidth": "≤1100 mm",
+      "doorWidth": "≤ 1100 mm",
       "dimensions": "",
       "netWeight": "",
       "material": "304不锈钢",
       "finish": "",
       "openingAngle": "270°",
       "holdOpen": true,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "Product name": "偏轴门执行器硬件",
         "Type": "闭门器",
@@ -12843,7 +12919,8 @@
       "capacity",
       "dimensions",
       "netWeight",
-      "finish"
+      "finish",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -12860,7 +12937,7 @@
     },
     "sourceTitle": "无挖地弹簧玻璃门闭合器用高品质地弹簧110千克玻璃门弹簧",
     "specifications": {
-      "capacity": 110,
+      "capacity": null,
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
@@ -12921,6 +12998,7 @@
     "duplicateCandidate": false,
     "duplicateOf": "",
     "missingFields": [
+      "capacity",
       "doorWidth",
       "dimensions",
       "netWeight",
@@ -12948,7 +13026,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "SS201",
+      "material": "",
       "finish": "",
       "openingAngle": "105°",
       "holdOpen": null,
@@ -13017,6 +13095,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "holdOpen",
       "glassThickness"
@@ -13125,7 +13204,7 @@
     },
     "sourceTitle": "玻璃门地弹簧医院学校酒店办公室餐厅玻璃门地弹簧300千克双定位90 ° 125 °",
     "specifications": {
-      "capacity": 300,
+      "capacity": null,
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
@@ -13190,6 +13269,7 @@
     "duplicateCandidate": false,
     "duplicateOf": "",
     "missingFields": [
+      "capacity",
       "doorWidth",
       "dimensions",
       "netWeight",
@@ -13213,7 +13293,7 @@
     },
     "sourceTitle": "优质玻璃门控制五金贴片配件门铰链夹地板弹簧90千克",
     "specifications": {
-      "capacity": 90,
+      "capacity": null,
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
@@ -13283,6 +13363,7 @@
     "duplicateCandidate": false,
     "duplicateOf": "",
     "missingFields": [
+      "capacity",
       "doorWidth",
       "dimensions",
       "netWeight",
@@ -13306,7 +13387,7 @@
     },
     "sourceTitle": "玻璃门铰链地板弹簧液压自动关闭，带可调底部枢轴重型130公斤闭门器",
     "specifications": {
-      "capacity": 130,
+      "capacity": null,
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
@@ -13367,6 +13448,7 @@
     "duplicateCandidate": false,
     "duplicateOf": "",
     "missingFields": [
+      "capacity",
       "doorWidth",
       "dimensions",
       "netWeight",
@@ -13654,7 +13736,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "300*80 mm",
+      "dimensions": "300 × 80 mm",
       "netWeight": "",
       "material": "201/304",
       "finish": "",
@@ -13738,7 +13820,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "A200+400 181+381/B300+500 275+475",
+      "dimensions": "",
       "netWeight": "",
       "material": "201/304",
       "finish": "",
@@ -13803,6 +13885,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "openingAngle",
@@ -13826,7 +13909,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "300*96 mm",
+      "dimensions": "300 × 96 mm",
       "netWeight": "",
       "material": "201/304",
       "finish": "",
@@ -13910,7 +13993,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "300*80 mm",
+      "dimensions": "300 × 80 mm",
       "netWeight": "",
       "material": "201/304",
       "finish": "",
@@ -13997,7 +14080,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "A200+400 181+381/B300+500 275+475",
+      "dimensions": "",
       "netWeight": "",
       "material": "201/304",
       "finish": "",
@@ -14062,6 +14145,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "openingAngle",
@@ -14085,7 +14169,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "300*96 mm",
+      "dimensions": "300 × 96 mm",
       "netWeight": "",
       "material": "201/304",
       "finish": "",
@@ -14172,7 +14256,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "40*40*29 mm",
+      "dimensions": "40 × 40 × 29 mm",
       "netWeight": "",
       "material": "201/304",
       "finish": "",
@@ -14260,7 +14344,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "300*80 mm",
+      "dimensions": "300 × 80 mm",
       "netWeight": "",
       "material": "201/304",
       "finish": "",
@@ -14347,7 +14431,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "300*96 mm",
+      "dimensions": "300 × 96 mm",
       "netWeight": "",
       "material": "201/304",
       "finish": "",
@@ -14436,7 +14520,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "A200+400 181+381/B300+500 275+475",
+      "dimensions": "",
       "netWeight": "",
       "material": "201/304",
       "finish": "",
@@ -14504,6 +14588,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "openingAngle",
@@ -14527,7 +14612,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "A200+400 181+381/B300+500 275+475",
+      "dimensions": "",
       "netWeight": "",
       "material": "201/304",
       "finish": "",
@@ -14595,6 +14680,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "openingAngle",
@@ -14618,7 +14704,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "300*80 mm",
+      "dimensions": "300 × 80 mm",
       "netWeight": "",
       "material": "201/304",
       "finish": "",
@@ -14704,7 +14790,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "300*96 mm",
+      "dimensions": "300 × 96 mm",
       "netWeight": "",
       "material": "201/304",
       "finish": "",
@@ -14791,7 +14877,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "300*96mm",
+      "dimensions": "300 × 96 mm",
       "netWeight": "",
       "material": "201/304",
       "finish": "",
@@ -14878,7 +14964,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "A200+400 181+381/B300+500 275+475",
+      "dimensions": "",
       "netWeight": "",
       "material": "201/304",
       "finish": "",
@@ -14945,6 +15031,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "openingAngle",
@@ -14968,7 +15055,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "A200+400 181+381/B300+500 275+475",
+      "dimensions": "",
       "netWeight": "",
       "material": "201/304",
       "finish": "",
@@ -15034,6 +15121,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "openingAngle",
@@ -15057,7 +15145,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "A200+400 181+381/B300+500 275+475",
+      "dimensions": "",
       "netWeight": "",
       "material": "201/304",
       "finish": "",
@@ -15122,6 +15210,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "openingAngle",
@@ -15145,7 +15234,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "A200+400 181+381/B300+500 275+475",
+      "dimensions": "",
       "netWeight": "",
       "material": "201/304",
       "finish": "",
@@ -15211,6 +15300,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "openingAngle",
@@ -15240,7 +15330,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -15326,7 +15416,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-12 mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -15412,7 +15502,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -15498,7 +15588,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -15584,7 +15674,7 @@
       "finish": "Mirror surface,Sanding,Titanium gold",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "Glass door lock",
         "Usage": "Frameless Glass Door lock",
@@ -15670,7 +15760,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -15756,7 +15846,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -15842,7 +15932,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -15928,7 +16018,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -16017,7 +16107,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -16106,7 +16196,7 @@
       "finish": "PSS SSS CP 乙腈",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-12 mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -16192,7 +16282,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -16278,7 +16368,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -16367,7 +16457,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -16455,7 +16545,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -16542,7 +16632,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -16630,7 +16720,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -16716,7 +16806,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -16802,7 +16892,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-12 mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -16889,7 +16979,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-12 mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -16975,7 +17065,7 @@
       "finish": "PSS SSS CP 乙腈",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-12 mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -17064,7 +17154,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -17152,7 +17242,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -17241,7 +17331,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -17329,7 +17419,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -17417,7 +17507,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -17503,7 +17593,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -17592,7 +17682,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -17680,7 +17770,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -17769,7 +17859,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -17858,7 +17948,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -17947,7 +18037,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -18035,7 +18125,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -18125,7 +18215,7 @@
       "finish": "PSS SSS CP 乙腈",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-12 mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -18214,7 +18304,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-12 mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -18302,7 +18392,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-12 mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -18390,7 +18480,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-12 mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -18478,7 +18568,7 @@
       "finish": "PSS SSS CP 乙腈",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-12 mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -18566,7 +18656,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -18653,7 +18743,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -18741,7 +18831,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -18828,7 +18918,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -18917,7 +19007,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-12 mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -19006,7 +19096,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -19093,7 +19183,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -19181,7 +19271,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -19269,7 +19359,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -19357,7 +19447,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -19446,7 +19536,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -19534,7 +19624,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -19622,7 +19712,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -19710,7 +19800,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -19797,7 +19887,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-12 mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -19885,7 +19975,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -19973,7 +20063,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -20061,7 +20151,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-12 mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -20149,7 +20239,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-12 mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -20237,7 +20327,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-12 mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -20324,7 +20414,7 @@
       "finish": "PSS SSS CP 乙腈",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-12 mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -20412,7 +20502,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-12 mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -20499,7 +20589,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -20586,7 +20676,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -20672,7 +20762,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -20760,7 +20850,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -20847,7 +20937,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -20934,7 +21024,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -21021,7 +21111,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -21108,7 +21198,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -21195,7 +21285,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -21281,7 +21371,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -21368,7 +21458,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -21456,7 +21546,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -21544,7 +21634,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-12 mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -21632,7 +21722,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -21720,7 +21810,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-12 mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -21808,7 +21898,7 @@
       "finish": "镜面,砂光,钛金",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-12 mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -21896,7 +21986,7 @@
       "finish": "PSS SSS CP 乙腈",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10-12 mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {
         "Product name": "玻璃门锁",
         "Usage method": "无框玻璃门锁",
@@ -22063,7 +22153,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "标准",
+      "dimensions": "",
       "netWeight": "",
       "material": "镁铝合金, 不锈钢",
       "finish": "缎面或定制抛光，哑光黑或其他颜色, PSS，SSS，TI",
@@ -22130,6 +22220,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -22152,13 +22243,13 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "标准",
+      "dimensions": "",
       "netWeight": "",
       "material": "镁铝合金, 不锈钢",
       "finish": "缎面或定制抛光，哑光黑或其他颜色, PSS，SSS，TI",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10–12 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "内体材质": "铝或铁",
         "Type": "玻璃门夹",
@@ -22220,9 +22311,11 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -22241,7 +22334,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "标准",
+      "dimensions": "",
       "netWeight": "",
       "material": "镁铝合金, 不锈钢",
       "finish": "缎面或定制抛光，哑光黑或其他颜色, PSS，SSS，TI",
@@ -22308,6 +22401,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -22330,7 +22424,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "标准",
+      "dimensions": "",
       "netWeight": "",
       "material": "镁铝合金, 不锈钢",
       "finish": "缎面或定制抛光，哑光黑或其他颜色, PSS，SSS，TI",
@@ -22399,6 +22493,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -22601,7 +22696,7 @@
       "finish": "烤漆饰面",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "Product name": "双叶防火门平板防恐慌推杆",
         "Type": "拉手",
@@ -22666,7 +22761,8 @@
       "dimensions",
       "netWeight",
       "openingAngle",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -22683,7 +22779,7 @@
     },
     "sourceTitle": "免挖掘木门地弹簧铰链，适用于木门闭门器，90公斤地弹簧铰链，木门地弹簧机",
     "specifications": {
-      "capacity": 90,
+      "capacity": null,
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
@@ -22744,6 +22840,7 @@
     "duplicateCandidate": false,
     "duplicateOf": "",
     "missingFields": [
+      "capacity",
       "doorWidth",
       "dimensions",
       "netWeight",
@@ -22769,7 +22866,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "标准",
+      "dimensions": "",
       "netWeight": "",
       "material": "镁铝合金, 不锈钢",
       "finish": "缎面或定制抛光，哑光黑或其他颜色, PSS，SSS，TI",
@@ -22837,6 +22934,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -22859,13 +22957,13 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "标准",
+      "dimensions": "",
       "netWeight": "",
       "material": "镁铝合金, 不锈钢",
       "finish": "缎面或定制抛光，哑光黑或其他颜色, PSS，SSS，TI",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "12 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "内体材质": "铝或铁",
         "Type": "玻璃门夹",
@@ -22928,9 +23026,11 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -22949,7 +23049,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "标准",
+      "dimensions": "",
       "netWeight": "",
       "material": "镁铝合金, 不锈钢",
       "finish": "缎面或定制抛光，哑光黑或其他颜色, PSS，SSS，TI",
@@ -23018,6 +23118,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -23040,7 +23141,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "标准",
+      "dimensions": "",
       "netWeight": "",
       "material": "镁铝合金, 不锈钢",
       "finish": "缎面或定制抛光，哑光黑或其他颜色, PSS，SSS，TI",
@@ -23107,6 +23208,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -23127,15 +23229,15 @@
     },
     "sourceTitle": "铝制可调商用闭门器800-1000毫米宽度60-85公斤防火/医院/酒店玻璃门智能闭门器",
     "specifications": {
-      "capacity": 85,
+      "capacity": null,
       "doorWidth": "",
-      "dimensions": "小号，中号，大号",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
       "openingAngle": "160°",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "Product name": "厨房门可调速经典中号闭门器",
         "Name": "闭门器",
@@ -23194,10 +23296,13 @@
     "duplicateCandidate": false,
     "duplicateOf": "",
     "missingFields": [
+      "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -23214,9 +23319,9 @@
     },
     "sourceTitle": "40-60千克闭门器机器出口闭门器耐腐蚀公共空间紧急访问控制",
     "specifications": {
-      "capacity": 60,
+      "capacity": null,
       "doorWidth": "",
-      "dimensions": "小号，中号，大号",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
@@ -23278,7 +23383,9 @@
     "duplicateCandidate": false,
     "duplicateOf": "",
     "missingFields": [
+      "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "holdOpen",
@@ -23299,15 +23406,15 @@
     },
     "sourceTitle": "表面贴装闭门器回溯功能600-900毫米40-60千克商业大厦商场办公室",
     "specifications": {
-      "capacity": 60,
+      "capacity": null,
       "doorWidth": "",
-      "dimensions": "小号，中号，大号",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
       "openingAngle": "160°",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "Product name": "厨房门可调速经典中号闭门器",
         "Name": "闭门器",
@@ -23365,10 +23472,13 @@
     "duplicateCandidate": false,
     "duplicateOf": "",
     "missingFields": [
+      "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -23387,13 +23497,13 @@
     "specifications": {
       "capacity": 60,
       "doorWidth": "",
-      "dimensions": "Small, medium, big",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
       "openingAngle": "160°",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "Application": "玻璃门, 商业门, 防火门, 酒店, 别墅, 公寓, 办公楼, 医院, 学校, Mall, 体育场所, 健身房, 洗衣房, 走廊",
         "Door Width": "600-900mm",
@@ -23454,9 +23564,11 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -23475,7 +23587,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "小号，中号，大号",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
@@ -23543,6 +23655,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "holdOpen",
@@ -23565,13 +23678,13 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "小号，中号，大号",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
       "openingAngle": "160°",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "Product name": "厨房门可调速经典中号闭门器",
         "Name": "闭门器",
@@ -23632,9 +23745,11 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -23653,7 +23768,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "小号，中号，大号",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
@@ -23722,6 +23837,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "holdOpen",
@@ -23742,9 +23858,9 @@
     },
     "sourceTitle": "逃生门闭门器自动高品质铝制闭门器支撑门重量为40-60千克",
     "specifications": {
-      "capacity": 60,
+      "capacity": null,
       "doorWidth": "",
-      "dimensions": "小号，中号，大号",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
@@ -23805,7 +23921,9 @@
     "duplicateCandidate": false,
     "duplicateOf": "",
     "missingFields": [
+      "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "holdOpen",
@@ -23828,7 +23946,7 @@
     "specifications": {
       "capacity": 65,
       "doorWidth": "",
-      "dimensions": "小号，中号，大号",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
@@ -23893,6 +24011,7 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "holdOpen",
@@ -23915,7 +24034,7 @@
     "specifications": {
       "capacity": 65,
       "doorWidth": "",
-      "dimensions": "小号，中号，大号",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
@@ -23977,6 +24096,7 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "holdOpen",
@@ -23999,7 +24119,7 @@
     "specifications": {
       "capacity": 65,
       "doorWidth": "",
-      "dimensions": "Small, medium, big",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
@@ -24066,6 +24186,7 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "holdOpen",
@@ -24088,13 +24209,13 @@
     "specifications": {
       "capacity": 65,
       "doorWidth": "",
-      "dimensions": "Small, medium, big",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
       "openingAngle": "160°",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "Application": "玻璃门, 商业门, 防火门, 酒店, 别墅, 公寓, 办公楼, 医院, 学校, Mall, 体育场所, 健身房, 洗衣房, 走廊",
         "Door Width": "600-900mm",
@@ -24152,9 +24273,11 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -24173,13 +24296,13 @@
     "specifications": {
       "capacity": 65,
       "doorWidth": "",
-      "dimensions": "Small, medium, big",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
       "openingAngle": "160°",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "Application": "玻璃门, 商业门, 防火门, 酒店, 别墅, 公寓, 办公楼, 医院, 学校, Mall, 体育场所, 健身房, 洗衣房, 走廊",
         "Door Width": "600-900mm",
@@ -24239,9 +24362,11 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -24260,7 +24385,7 @@
     "specifications": {
       "capacity": 65,
       "doorWidth": "",
-      "dimensions": "Small, medium, big",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
@@ -24325,6 +24450,7 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "holdOpen",
@@ -24347,7 +24473,7 @@
     "specifications": {
       "capacity": 65,
       "doorWidth": "",
-      "dimensions": "Small, medium, big",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
@@ -24412,6 +24538,7 @@
     "duplicateOf": "alibaba-1601459906755",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "holdOpen",
@@ -24434,13 +24561,13 @@
     "specifications": {
       "capacity": 65,
       "doorWidth": "",
-      "dimensions": "Small, medium, big",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
       "openingAngle": "160°",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "Application": "玻璃门, 商业门, 防火门, 酒店, 别墅, 公寓, 办公楼, 医院, 学校, Mall, 体育场所, 健身房, 洗衣房, 走廊",
         "Door Width": "600-900mm",
@@ -24499,9 +24626,11 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -24520,13 +24649,13 @@
     "specifications": {
       "capacity": 65,
       "doorWidth": "",
-      "dimensions": "Small, medium, big",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
       "openingAngle": "160°",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "Application": "玻璃门, 商业门, 防火门, 酒店, 别墅, 公寓, 办公楼, 医院, 学校, Mall, 体育场所, 健身房, 洗衣房, 走廊",
         "Door Width": "600-900mm",
@@ -24586,9 +24715,11 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -24607,13 +24738,13 @@
     "specifications": {
       "capacity": 65,
       "doorWidth": "",
-      "dimensions": "Small, medium, big",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
       "openingAngle": "180°",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "Application": "玻璃门, 商业门, 防火门, 酒店, 别墅, 公寓, 办公楼, 医院, 学校, Mall, 体育场所, 健身房, 洗衣房, 走廊",
         "Door Width": "600-1100mm",
@@ -24669,9 +24800,11 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -24690,7 +24823,7 @@
     "specifications": {
       "capacity": 65,
       "doorWidth": "",
-      "dimensions": "Small, medium, big",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
@@ -24756,6 +24889,7 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "holdOpen",
@@ -24778,13 +24912,13 @@
     "specifications": {
       "capacity": 65,
       "doorWidth": "",
-      "dimensions": "Small, medium, big",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
       "openingAngle": "160°",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "Application": "玻璃门, 商业门, 防火门, 酒店, 别墅, 公寓, 办公楼, 医院, 学校, Mall, 体育场所, 健身房, 洗衣房, 走廊",
         "Door Width": "600-900mm",
@@ -24842,9 +24976,11 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -24863,7 +24999,7 @@
     "specifications": {
       "capacity": 65,
       "doorWidth": "",
-      "dimensions": "Small, medium, big",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
@@ -24925,6 +25061,7 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "holdOpen",
@@ -24947,13 +25084,13 @@
     "specifications": {
       "capacity": 65,
       "doorWidth": "",
-      "dimensions": "Small, medium, big",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
       "openingAngle": "160°",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "Application": "玻璃门, 商业门, 防火门, 酒店, 别墅, 公寓, 办公楼, 医院, 学校, Mall, 体育场所, 健身房, 洗衣房, 走廊",
         "Door Width": "600-900mm",
@@ -25009,9 +25146,11 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -25030,7 +25169,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Standard",
+      "dimensions": "",
       "netWeight": "",
       "material": "镁铝合金, stainless steel",
       "finish": "Satin or customized polish , matt black or other colors",
@@ -25096,6 +25235,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -25118,7 +25258,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Standard",
+      "dimensions": "",
       "netWeight": "",
       "material": "镁铝合金, stainless steel",
       "finish": "Satin or customized polish , matt black or other colors",
@@ -25184,6 +25324,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -25206,13 +25347,13 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Standard",
+      "dimensions": "",
       "netWeight": "",
       "material": "镁铝合金, stainless steel",
       "finish": "Satin or customized polish , matt black or other colors",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10–12 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "Body thickness": "0.7mm or customized 1.0mm",
         "Cover material": "Stainless Steel sus201, or customized sus 304",
@@ -25271,9 +25412,11 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -25292,13 +25435,13 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Standard",
+      "dimensions": "",
       "netWeight": "",
       "material": "镁铝合金, stainless steel",
       "finish": "Satin or customized polish , matt black or other colors",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10–12 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "Body thickness": "0.7mm or customized 1.0mm",
         "Cover material": "Stainless Steel sus201, or customized sus 304",
@@ -25358,9 +25501,11 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -25379,13 +25524,13 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Standard",
+      "dimensions": "",
       "netWeight": "",
       "material": "镁铝合金, stainless steel",
       "finish": "Satin or customized polish , matt black or other colors",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "10–12 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "Body thickness": "0.7mm or customized 1.0mm",
         "Cover material": "Stainless Steel sus201, or customized sus 304",
@@ -25446,9 +25591,11 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -25467,7 +25614,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Standard",
+      "dimensions": "",
       "netWeight": "",
       "material": "镁铝合金, stainless steel",
       "finish": "Satin or customized polish , matt black or other colors",
@@ -25532,6 +25679,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -25554,7 +25702,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Standard",
+      "dimensions": "",
       "netWeight": "",
       "material": "镁铝合金, stainless steel",
       "finish": "Satin or customized polish , matt black or other colors",
@@ -25621,6 +25769,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -25643,7 +25792,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Standard",
+      "dimensions": "",
       "netWeight": "",
       "material": "镁铝合金, stainless steel",
       "finish": "Satin or customized polish , matt black or other colors",
@@ -25709,6 +25858,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -25731,7 +25881,7 @@
     "specifications": {
       "capacity": 45,
       "doorWidth": "",
-      "dimensions": "Small, medium, big",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
@@ -25795,6 +25945,7 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "holdOpen",
@@ -25817,7 +25968,7 @@
     "specifications": {
       "capacity": 45,
       "doorWidth": "",
-      "dimensions": "Small, medium, big",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
@@ -25882,6 +26033,7 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "holdOpen",
@@ -25904,13 +26056,13 @@
     "specifications": {
       "capacity": 120,
       "doorWidth": "",
-      "dimensions": "Small, medium, big",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
       "openingAngle": "160°",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "Application": "玻璃门, 商业门, 防火门, 酒店, 别墅, 公寓, 办公楼, 医院, 学校, Mall, 体育场所, 健身房, 洗衣房, 走廊",
         "Door Width": "600-900mm",
@@ -25969,9 +26121,11 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -25990,13 +26144,13 @@
     "specifications": {
       "capacity": 120,
       "doorWidth": "",
-      "dimensions": "Small, medium, big",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
       "openingAngle": "160°",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "Application": "玻璃门, 商业门, 防火门, 酒店, 别墅, 公寓, 办公楼, 医院, 学校, Mall, 体育场所, 健身房, 洗衣房, 走廊",
         "Door Width": "600-900mm",
@@ -26055,9 +26209,11 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -26076,7 +26232,7 @@
     "specifications": {
       "capacity": 120,
       "doorWidth": "",
-      "dimensions": "Small, medium, big",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
@@ -26140,6 +26296,7 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "holdOpen",
@@ -26162,13 +26319,13 @@
     "specifications": {
       "capacity": 65,
       "doorWidth": "",
-      "dimensions": "Small, medium, big",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
       "openingAngle": "160°",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "Application": "玻璃门, 商业门, 防火门, 酒店, 别墅, 公寓, 办公楼, 医院, 学校, Mall, 体育场所, 健身房, 洗衣房, 走廊",
         "Door Width": "600-900mm",
@@ -26226,9 +26383,11 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -26247,7 +26406,7 @@
     "specifications": {
       "capacity": 65,
       "doorWidth": "",
-      "dimensions": "Small, medium, big",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
@@ -26311,6 +26470,7 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "holdOpen",
@@ -26333,7 +26493,7 @@
     "specifications": {
       "capacity": 65,
       "doorWidth": "",
-      "dimensions": "Small, medium, big",
+      "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
@@ -26397,6 +26557,7 @@
     "duplicateOf": "",
     "missingFields": [
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "holdOpen",
@@ -26673,7 +26834,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "SS201",
+      "material": "",
       "finish": "",
       "openingAngle": "125°",
       "holdOpen": null,
@@ -26735,6 +26896,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "holdOpen",
       "glassThickness"
@@ -27208,7 +27370,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "SS304",
+      "material": "",
       "finish": "",
       "openingAngle": "105°",
       "holdOpen": null,
@@ -27278,6 +27440,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "holdOpen",
       "glassThickness"
@@ -27685,7 +27848,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Aluminum",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -27759,6 +27922,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -27880,7 +28044,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Aluminum",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -27952,6 +28116,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -27976,7 +28141,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Aluminum alloy",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -28048,6 +28213,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -28072,7 +28238,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Aluminum alloy",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -28145,6 +28311,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -28169,7 +28336,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Aluminum alloy",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -28241,6 +28408,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -28265,11 +28433,11 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Aluminum",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "40 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "Product name": "商业建筑铝合金金属吊顶板",
         "Product type": "金属建材 传统风格吊顶",
@@ -28338,9 +28506,11 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -28361,7 +28531,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Aluminum",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -28431,6 +28601,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -28455,7 +28626,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Aluminum alloy",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -28529,6 +28700,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -28553,7 +28725,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Aluminum alloy",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -28623,6 +28795,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -28645,7 +28818,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "600x1200mm",
+      "dimensions": "600 × 1200 mm",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -28732,7 +28905,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "600x1200mm",
+      "dimensions": "600 × 1200 mm",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -28819,7 +28992,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "600x1200mm",
+      "dimensions": "600 × 1200 mm",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -28906,7 +29079,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "600x1200mm",
+      "dimensions": "600 × 1200 mm",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -28993,7 +29166,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "600x1200mm",
+      "dimensions": "600 × 1200 mm",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -29081,7 +29254,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "600x1200mm",
+      "dimensions": "600 × 1200 mm",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -29169,7 +29342,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "600x1200mm",
+      "dimensions": "600 × 1200 mm",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -29256,7 +29429,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "600x1200mm",
+      "dimensions": "600 × 1200 mm",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -29342,7 +29515,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "600x1200mm",
+      "dimensions": "600 × 1200 mm",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -29429,7 +29602,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "600x1200mm",
+      "dimensions": "600 × 1200 mm",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "粉末喷涂",
@@ -29603,7 +29776,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Stainless steel",
+      "material": "",
       "finish": "",
       "openingAngle": "125°",
       "holdOpen": null,
@@ -29666,6 +29839,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "holdOpen",
       "glassThickness"
@@ -29689,7 +29863,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "SS304",
+      "material": "",
       "finish": "",
       "openingAngle": "125°",
       "holdOpen": null,
@@ -29751,6 +29925,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "holdOpen",
       "glassThickness"
@@ -29858,7 +30033,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "38*25*600(ctc400)",
+      "dimensions": "",
       "netWeight": "",
       "material": "SS304/SS201",
       "finish": "Polish,Satin",
@@ -29922,6 +30097,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen",
@@ -30028,7 +30204,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "SS304",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -30088,6 +30264,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -30112,7 +30289,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Stainless steel",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -30176,6 +30353,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -30198,7 +30376,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "30*30*ctc 400* L600",
+      "dimensions": "",
       "netWeight": "",
       "material": "Sus 201 ,or customized Sus304",
       "finish": "",
@@ -30266,6 +30444,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "finish",
       "openingAngle",
@@ -30973,7 +31152,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Stainless steel",
+      "material": "",
       "finish": "",
       "openingAngle": "175°",
       "holdOpen": null,
@@ -31033,6 +31212,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "holdOpen",
       "glassThickness"
@@ -31558,7 +31738,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Aluminum",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -31633,6 +31813,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -31657,7 +31838,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Aluminum alloy",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -31730,6 +31911,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -31754,7 +31936,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Aluminum alloy",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -31827,6 +32009,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -31851,7 +32034,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Aluminum",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -31922,6 +32105,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -31946,7 +32130,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Aluminum",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -32020,6 +32204,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -32337,7 +32522,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Aluminum",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -32408,6 +32593,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -32432,7 +32618,7 @@
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
-      "material": "Aluminum",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -32505,6 +32691,7 @@
       "doorWidth",
       "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -32527,9 +32714,9 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Up to 6 meter",
+      "dimensions": "",
       "netWeight": "",
-      "material": "Aluminum",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -32598,7 +32785,9 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -32621,9 +32810,9 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Up to 6 meter",
+      "dimensions": "",
       "netWeight": "",
-      "material": "Aluminum",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -32693,7 +32882,9 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -32716,9 +32907,9 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Up to 6 meter",
+      "dimensions": "",
       "netWeight": "",
-      "material": "Aluminum alloy",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -32787,7 +32978,9 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -32810,7 +33003,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Up to 6 meter",
+      "dimensions": "",
       "netWeight": "",
       "material": "",
       "finish": "",
@@ -32879,6 +33072,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "material",
       "finish",
@@ -32903,7 +33097,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Up to 6 meter",
+      "dimensions": "",
       "netWeight": "",
       "material": "",
       "finish": "",
@@ -32974,6 +33168,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "material",
       "finish",
@@ -32998,7 +33193,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Up to 6 meter",
+      "dimensions": "",
       "netWeight": "",
       "material": "",
       "finish": "",
@@ -33067,6 +33262,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "material",
       "finish",
@@ -33091,7 +33287,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Up to 6 meter",
+      "dimensions": "",
       "netWeight": "",
       "material": "",
       "finish": "",
@@ -33160,6 +33356,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "material",
       "finish",
@@ -33184,9 +33381,9 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Up to 6 meter",
+      "dimensions": "",
       "netWeight": "",
-      "material": "Aluminum",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -33255,7 +33452,9 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -33278,9 +33477,9 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Up to 6 meter",
+      "dimensions": "",
       "netWeight": "",
-      "material": "Aluminum",
+      "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
@@ -33350,7 +33549,9 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
+      "material",
       "finish",
       "openingAngle",
       "holdOpen",
@@ -33373,7 +33574,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "Up to 6 meter",
+      "dimensions": "",
       "netWeight": "",
       "material": "",
       "finish": "",
@@ -33446,6 +33647,7 @@
     "missingFields": [
       "capacity",
       "doorWidth",
+      "dimensions",
       "netWeight",
       "material",
       "finish",
@@ -33476,7 +33678,7 @@
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "Color": "White, Silver, Grey and etc",
         "Edge height": "8mm ; 10mm ; 18mm",
@@ -33546,7 +33748,8 @@
       "netWeight",
       "finish",
       "openingAngle",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -33571,7 +33774,7 @@
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {
         "Color": "White, Silver, Grey and etc",
         "Edge height": "8mm ; 10mm ; 18mm",
@@ -33640,7 +33843,8 @@
       "netWeight",
       "finish",
       "openingAngle",
-      "holdOpen"
+      "holdOpen",
+      "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   },
@@ -33740,5 +33944,82 @@
       "glassThickness"
     ],
     "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+  },
+  {
+    "id": "alibaba-1601462455555",
+    "slug": "glass-door-lock-kd-218b-1601462455555",
+    "category": "door-locks",
+    "subcategory": "",
+    "family": "Door Locks",
+    "model": "KD-218B",
+    "title": {
+      "en": "Glass Door Lock KD-218B",
+      "zh": "玻璃门锁 KD-218B"
+    },
+    "sourceTitle": "Glass Door Lock System Surface Mounted Glass Door Central Lock Hotel Office Glass to Wall Access Control",
+    "specifications": {
+      "capacity": null,
+      "doorWidth": "",
+      "dimensions": "",
+      "netWeight": "",
+      "material": "Stainless Steel 201/304",
+      "finish": "Mirror surface, sanding, titanium gold",
+      "openingAngle": "",
+      "holdOpen": null,
+      "glassThickness": "10–12 mm",
+      "otherVerifiedFields": {
+        "Installation": "Screw"
+      }
+    },
+    "applications": [
+      "Office buildings",
+      "Frameless glass doors"
+    ],
+    "features": [
+      "Easy installation"
+    ],
+    "variants": [
+      "Mirror surface",
+      "Sanded",
+      "Titanium gold"
+    ],
+    "media": {
+      "main": "assets/images/products/door-locks/glass-door-lock-kd-218b-1601462455555/main-clean-20260727.avif",
+      "list": "assets/images/products/door-locks/glass-door-lock-kd-218b-1601462455555/main-clean-20260727.avif",
+      "thumbnail": "assets/images/products/door-locks/glass-door-lock-kd-218b-1601462455555/main-clean-20260727.avif",
+      "gallery": [
+        "assets/images/products/door-locks/glass-door-lock-kd-218b-1601462455555/main-clean-20260727.avif"
+      ],
+      "dimensions": [],
+      "installation": [],
+      "applications": [],
+      "videos": [],
+      "videoPoster": "",
+      "sourceMain": "https://s.alicdn.com/%40sc04/kf/H5f24416ab88e4202bb5f6d2ce4e94978p.jpg_960x960q80.jpg",
+      "sourceGallery": [
+        "https://s.alicdn.com/%40sc04/kf/H5f24416ab88e4202bb5f6d2ce4e94978p.jpg_960x960q80.jpg"
+      ]
+    },
+    "source": {
+      "platform": "Alibaba",
+      "sourceId": "1601462455555",
+      "url": "https://www.alibaba.com/product-detail/Glass-Door-Lock-System-Surface-Mounted_1601462455555.html",
+      "dataConfidence": "verified",
+      "verifiedAt": "2026-07-27",
+      "mediaStatus": "cleaned-authorized-source-image",
+      "mediaSha256": "9e2eeb5c0b5b069b0242ea48756d4a97f12ab38bd4a3490e5d190b73589df934",
+      "detailVerifiedAt": "2026-07-27T00:00:00.000Z"
+    },
+    "duplicateCandidate": false,
+    "duplicateOf": "",
+    "missingFields": [
+      "capacity",
+      "doorWidth",
+      "dimensions",
+      "netWeight",
+      "openingAngle",
+      "holdOpen"
+    ],
+    "notes": "Verified against the supplied Alibaba seller listing. Unconfirmed fields remain blank."
   }
 ]

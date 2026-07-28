@@ -1,7 +1,8 @@
 # Deployment Verification
 
-- Catalog content commit: `651c5390f013f5b77e2d06e4197632c5ec424edf`
-- GitHub Pages workflow run: `30235276431`
+- Catalog build commit: `651c5390f013f5b77e2d06e4197632c5ec424edf`
+- Latest maintenance commit: `7a03984fd94af349498f9798ff26c2e8be4e1dd6`
+- GitHub Pages workflow run: `30236187250`
 - Workflow result: successful
 - Production URL: `https://kris-zhou881.github.io/Apex-Hardware-site/`
 - URLs and media requested: 787
@@ -18,3 +19,14 @@
 - Local reference failures: 0
 - Lighthouse mobile: 100 / 100 / 100 / 100
 - Lighthouse desktop: 100 / 100 / 100 / 100
+
+## Specification parsing regression verification
+
+- Imported products checked: 384
+- Invalid `00 mm` glass-thickness values: 0
+- Explicit door-width values recovered from listing titles: 8
+- Explicit product dimensions recovered from listing titles: 2
+- Glass-thickness values retained after range validation: 53
+- Product and link validation errors: 0
+- Sparse verified-highlight placeholders: deduplicated
+- Production spot check: door width `≤ 1800 mm`; glass thickness shown as “Contact us to confirm”

@@ -1,11 +1,11 @@
 # Product Data Review
 
-- Public product detail pages reviewed: 384
+- Public product detail pages reviewed: 385
 - Website product series: 12
-- Product records with an explicit source model: 383
+- Product records with an explicit source model: 384
 - Product records using the Alibaba product ID as the reference: 1
-- Records with at least one structured specification: 378
-- Records with additional verified listing attributes: 384
+- Records with at least one structured specification: 345
+- Records with additional verified listing attributes: 385
 - Duplicate candidates retained for review: 12
 - Duplicate records merged automatically: 0
 
@@ -15,15 +15,15 @@ Structured field coverage:
 
 | Field | Records |
 |---|---:|
-| Maximum door weight | 101 |
+| Maximum door weight | 84 |
 | Door width | 5 |
-| Dimensions | 152 |
+| Dimensions | 44 |
 | Net weight | 0 |
-| Material | 323 |
-| Finish | 95 |
-| Opening angle | 127 |
+| Material | 276 |
+| Finish | 198 |
+| Opening angle | 124 |
 | Hold-open function | 6 |
-| Glass thickness | 139 |
+| Glass thickness | 112 |
 
 Alibaba exposes gross weight for many records but does not expose a confirmed net weight. Gross weight is retained as an additional listing attribute and is never relabeled as net weight.
 

@@ -1,5 +1,10 @@
 import { access, readFile } from "node:fs/promises";
 import { join } from "node:path";
+import {
+  extractDimensions,
+  extractDoorWidth,
+  extractGlassThickness,
+} from "./catalog-utils.mjs";
 
 const root = process.cwd();
 const products = JSON.parse(await readFile(join(root, "data", "products.json"), "utf8"));
@@ -38,6 +43,23 @@ for (const product of products) {
   if (!product.specifications?.otherVerifiedFields || Object.keys(product.specifications.otherVerifiedFields).length === 0) {
     errors.push(`No verified attributes: ${product.id}`);
   }
+  const glassThickness = product.specifications?.glassThickness;
+  if (glassThickness) {
+    const numbers = [...glassThickness.matchAll(/\d{1,2}/g)].map((match) => Number(match[0]));
+    const validFormat = /^(?:\d{1,2}(?:–\d{1,2})?|\d{1,2}(?: \/ \d{1,2})+) mm$/.test(glassThickness);
+    const orderedRange = !glassThickness.includes("–") || numbers[0] <= numbers[1];
+    if (!validFormat || numbers.some((number) => number < 4 || number > 25) || !orderedRange) {
+      errors.push(`Invalid glass thickness ${glassThickness}: ${product.id}`);
+    }
+  }
+  const doorWidth = product.specifications?.doorWidth;
+  if (doorWidth && !/^(?:≤ )?\d{3,4}(?:–\d{3,4})? mm$/.test(doorWidth)) {
+    errors.push(`Invalid door width ${doorWidth}: ${product.id}`);
+  }
+  const dimensions = product.specifications?.dimensions;
+  if (dimensions && !/^\d{2,4} × \d{2,4}(?: × \d{1,4})? mm$/.test(dimensions)) {
+    errors.push(`Invalid dimensions ${dimensions}: ${product.id}`);
+  }
   const publicParameters = JSON.stringify({
     model: product.model,
     specifications: product.specifications,
@@ -62,6 +84,18 @@ for (const product of products) {
     errors.push(`Missing detail page: ${page}`);
   }
 }
+
+const parserRegressions = [
+  [extractGlassThickness("最大门宽1800毫米重型地弹簧"), "", "door width is not glass thickness"],
+  [extractGlassThickness("办公室吊顶板 600X600 毫米"), "", "panel size is not glass thickness"],
+  [extractGlassThickness("适用于10-15毫米钢化玻璃门"), "10–15 mm", "glass thickness range"],
+  [extractDoorWidth("最大门宽1800毫米重型地弹簧"), "≤ 1800 mm", "maximum door width"],
+  [extractDoorWidth("闭门器600-900毫米宽度45-65公斤"), "600–900 mm", "door width range"],
+  [extractDimensions("办公室吊顶板 600X600 毫米"), "600 × 600 mm", "panel dimensions"],
+];
+parserRegressions.forEach(([actual, expected, label]) => {
+  if (actual !== expected) errors.push(`Parser regression (${label}): expected "${expected}", got "${actual}"`);
+});
 
 const summary = {
   products: products.length,

@@ -93,6 +93,33 @@ function normalizeUnits(value) {
     .replace(/\s+(kg|mm|cm)\b/gi, " $1");
 }
 
+function normalizeDoorWidth(value) {
+  const text = normalizeUnits(value);
+  const range = text.match(/(\d{3,4})\s*[-–—]\s*(\d{3,4})\s*mm/i);
+  if (range) return `${Number(range[1])}–${Number(range[2])} mm`;
+  const single = text.match(/(≤|最大|不超过)?\s*(\d{3,4})\s*mm/i);
+  if (!single) return "";
+  return `${single[1] ? "≤ " : ""}${Number(single[2])} mm`;
+}
+
+function normalizeDimensions(value) {
+  const text = normalizeUnits(value);
+  const match = text.match(/(?:^|[^\d])(\d{2,4})\s*[x×X*]\s*(\d{2,4})(?:\s*[x×X*]\s*(\d{1,4}))?\s*mm\b/i);
+  if (!match) return "";
+  return `${[match[1], match[2], match[3]].filter(Boolean).map(Number).join(" × ")} mm`;
+}
+
+function normalizeGlassThickness(value) {
+  const text = normalizeUnits(value);
+  const numbers = [...text.matchAll(/\d+(?:\.\d+)?/g)]
+    .map((match) => Number(match[0]))
+    .filter((number) => number >= 4 && number <= 25);
+  if (!numbers.length) return "";
+  if (/[-–—]/.test(text) && numbers.length >= 2) return `${numbers[0]}–${numbers[1]} mm`;
+  if (numbers.length > 1) return `${[...new Set(numbers)].join(" / ")} mm`;
+  return `${numbers[0]} mm`;
+}
+
 function capacityKg(value) {
   const text = clean(value);
   const numbers = [...text.matchAll(/\d+(?:\.\d+)?/g)].map((match) => Number(match[0]));
@@ -158,16 +185,26 @@ for (const product of products) {
   const attributes = detail.attributes || {};
   const specifications = product.specifications;
 
+  specifications.capacity = null;
+  specifications.doorWidth = "";
+  specifications.dimensions = "";
+  specifications.netWeight = "";
+  specifications.material = "";
+  specifications.finish = "";
+  specifications.openingAngle = "";
+  specifications.holdOpen = null;
+  specifications.glassThickness = "";
+
   product.model = first(attributes, keyGroups.model) || product.model;
 
   const capacity = capacityKg(first(attributes, keyGroups.capacity));
   if (capacity !== null) specifications.capacity = capacity;
 
   const doorWidth = first(attributes, keyGroups.doorWidth);
-  if (doorWidth) specifications.doorWidth = normalizeUnits(doorWidth);
+  if (doorWidth) specifications.doorWidth = normalizeDoorWidth(doorWidth);
 
   const dimensions = first(attributes, keyGroups.dimensions);
-  if (dimensions && !genericDimension.test(dimensions)) specifications.dimensions = normalizeUnits(dimensions);
+  if (dimensions && !genericDimension.test(dimensions)) specifications.dimensions = normalizeDimensions(dimensions);
 
   const netWeight = first(attributes, keyGroups.netWeight);
   if (netWeight) specifications.netWeight = normalizeUnits(netWeight);
@@ -182,7 +219,7 @@ for (const product of products) {
   if (openingAngle) specifications.openingAngle = normalizeAngle(openingAngle);
 
   const glassThickness = first(attributes, keyGroups.glassThickness);
-  if (glassThickness) specifications.glassThickness = normalizeUnits(glassThickness);
+  if (glassThickness) specifications.glassThickness = normalizeGlassThickness(glassThickness);
 
   const holdOpen = holdOpenValue(attributes);
   if (holdOpen !== null) specifications.holdOpen = holdOpen;

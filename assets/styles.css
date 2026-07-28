@@ -1382,6 +1382,15 @@ h3 {
   gap: 16px;
 }
 
+.key-feature-grid.key-feature-count-1 {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 880px;
+}
+
+.key-feature-grid.key-feature-count-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .key-feature {
   min-height: 240px;
   padding: 30px;
@@ -1678,6 +1687,10 @@ h3 {
   }
 
   .key-feature-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .key-feature-grid.key-feature-count-2 {
     grid-template-columns: minmax(0, 1fr);
   }
 

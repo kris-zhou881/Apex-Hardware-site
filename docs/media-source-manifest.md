@@ -1,8 +1,8 @@
 # Media Source Manifest
 
-Reviewed: 2026-07-28T11:22:50.086Z
+Reviewed: 2026-07-28
 
-- Product-specific local images: 384
+- Product-specific local images: 385
 - Old seller brand areas excluded: 205
 - Failed media: 0
 - Source: the public Alibaba seller listings supplied by the user.
@@ -395,3 +395,4 @@ Reviewed: 2026-07-28T11:22:50.086Z
 | assets/images/products/aluminum-ceiling-systems/aluminum-ceiling-system-1601802314844/main.avif | Aluminum Ceiling System | ACP004 | 1601802314844 | 2 | none | 2191 | [product](https://www.alibaba.com/product-detail/Office-Metal-Suspended-Ceiling-Tile-600X600_1601802314844.html) |
 | assets/images/products/aluminum-ceiling-systems/acoustic-aluminum-ceiling-1601802462041/main.avif | Acoustic Aluminum Ceiling | ACP003 | 1601802462041 | 2 | none | 36459 | [product](https://www.alibaba.com/product-detail/Modular-Aluminum-Acoustic-Ceiling-Tiles-with_1601802462041.html) |
 | assets/images/products/aluminum-ceiling-systems/acoustic-aluminum-ceiling-1601802352723/main.avif | Acoustic Aluminum Ceiling | ACP010 | 1601802352723 | 2 | none | 12839 | [product](https://www.alibaba.com/product-detail/Acoustic-Aluminum-Ceiling-Panel-Fireproof-Suspended_1601802352723.html) |
+| assets/images/products/door-locks/glass-door-lock-kd-218b-1601462455555/main-clean-20260727.avif | Glass Door Lock KD-218B | KD-218B | 1601462455555 | 1 | verified clean source asset | 11170 | [product](https://www.alibaba.com/product-detail/Glass-Door-Lock-System-Surface-Mounted_1601462455555.html) |

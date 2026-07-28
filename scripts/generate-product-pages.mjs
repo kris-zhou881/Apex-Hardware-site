@@ -24,11 +24,13 @@ for (const product of products) {
   const related = products.filter((candidate) => candidate.category === product.category && candidate.id !== product.id).slice(0, 3);
   const featureBits = [
     specs.capacity ? { label: "Maximum door weight", value: `${specs.capacity} kg`, key: "capacity" } : null,
+    specs.doorWidth ? { label: "Door width", value: specs.doorWidth, key: "doorWidth" } : null,
+    specs.dimensions ? { label: "Dimensions", value: specs.dimensions, key: "dimensions" } : null,
     specs.material ? { label: "Material", value: specs.material, key: "material" } : null,
     specs.openingAngle ? { label: "Opening angle", value: specs.openingAngle, key: "openingAngle" } : null,
     specs.glassThickness ? { label: "Glass thickness", value: specs.glassThickness, key: "glassThickness" } : null,
   ].filter(Boolean).slice(0, 3);
-  while (featureBits.length < 3) {
+  if (!featureBits.length) {
     featureBits.push({ label: "Specification", value: confirmText, key: "specification" });
   }
 
@@ -71,11 +73,11 @@ for (const product of products) {
   <meta property="og:url" content="${SITE_URL}/products/${category.slug}/${product.slug}.html">
   <meta property="og:image" content="${SITE_URL}/${product.media.main}">
   <link rel="preload" href="../../${product.media.main}" as="image" type="${preloadType}">
-  <link rel="stylesheet" href="../../assets/styles.css?v=20260727c">
+  <link rel="stylesheet" href="../../assets/styles.css?v=20260727d">
   <script type="application/ld+json">${jsonScript(productLd)}</script>
   <script type="application/ld+json">${jsonScript(crumb)}</script>
   <script src="../../assets/app.js?v=20260727c" defer></script>
-  <script src="../../assets/catalog.js?v=20260727c" defer></script>
+  <script src="../../assets/catalog.js?v=20260727d" defer></script>
 </head>
 <body data-catalog-mode="detail">
   <div class="scroll-progress" aria-hidden="true"></div>

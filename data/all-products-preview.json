@@ -816,7 +816,7 @@
       "finish",
       "holdOpen"
     ],
-    "notes": "Imported from the seller's public product list. Only title-level facts are populated. Media status: approved-clean-listing-image."
+    "notes": "Imported from the seller's public product list. Only title-level facts are populated. Media status: cleaned-authorized-source-image."
   },
   {
     "sourceId": "1601830920368",
@@ -2181,7 +2181,7 @@
       "finish",
       "holdOpen"
     ],
-    "notes": "Imported from the seller's public product list. Only title-level facts are populated. Media status: approved-clean-listing-image."
+    "notes": "Imported from the seller's public product list. Only title-level facts are populated. Media status: cleaned-authorized-source-image."
   },
   {
     "sourceId": "1601710607597",
@@ -2357,7 +2357,7 @@
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "12 mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {}
     },
     "mainImage": "assets/images/products/placeholders/door-locks.svg",
@@ -4690,14 +4690,14 @@
     "model": "",
     "specifications": {
       "capacity": null,
-      "doorWidth": "",
+      "doorWidth": "≤ 1800 mm",
       "dimensions": "",
       "netWeight": "",
       "material": "Stainless steel",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {}
     },
     "mainImage": "assets/images/products/placeholders/floor-springs.svg",
@@ -4710,7 +4710,6 @@
     "duplicateCandidate": false,
     "dataConfidence": "partially-verified",
     "missingFields": [
-      "doorWidth",
       "dimensions",
       "netWeight",
       "finish",
@@ -5743,14 +5742,14 @@
     "model": "",
     "specifications": {
       "capacity": null,
-      "doorWidth": "",
+      "doorWidth": "1100 mm",
       "dimensions": "",
       "netWeight": "",
       "material": "",
       "finish": "",
       "openingAngle": "270°",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {}
     },
     "mainImage": "assets/images/products/placeholders/architectural-hinges.svg",
@@ -5763,7 +5762,6 @@
     "duplicateCandidate": false,
     "dataConfidence": "partially-verified",
     "missingFields": [
-      "doorWidth",
       "dimensions",
       "netWeight",
       "finish",
@@ -7349,7 +7347,7 @@
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "15 mm",
+      "glassThickness": "10–15 mm",
       "otherVerifiedFields": {}
     },
     "mainImage": "assets/images/products/placeholders/door-locks.svg",
@@ -9572,7 +9570,7 @@
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "12 mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {}
     },
     "mainImage": "assets/images/products/placeholders/door-locks.svg",
@@ -9728,7 +9726,7 @@
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "12 mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {}
     },
     "mainImage": "assets/images/products/placeholders/door-accessories.svg",
@@ -9767,7 +9765,7 @@
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "12 mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {}
     },
     "mainImage": "assets/images/products/placeholders/door-locks.svg",
@@ -10118,7 +10116,7 @@
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {}
     },
     "mainImage": "assets/images/products/placeholders/panic-exit-devices.svg",
@@ -10235,7 +10233,7 @@
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "12 mm",
+      "glassThickness": "10–12 mm",
       "otherVerifiedFields": {}
     },
     "mainImage": "assets/images/products/placeholders/glass-door-hardware.svg",
@@ -10345,14 +10343,14 @@
     "model": "",
     "specifications": {
       "capacity": 85,
-      "doorWidth": "",
+      "doorWidth": "800–1000 mm",
       "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {}
     },
     "mainImage": "assets/images/products/placeholders/door-closers.svg",
@@ -10365,7 +10363,6 @@
     "duplicateCandidate": false,
     "dataConfidence": "partially-verified",
     "missingFields": [
-      "doorWidth",
       "dimensions",
       "netWeight",
       "finish",
@@ -10430,7 +10427,7 @@
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {}
     },
     "mainImage": "assets/images/products/placeholders/door-closers.svg",
@@ -10469,7 +10466,7 @@
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {}
     },
     "mainImage": "assets/images/products/placeholders/door-closers.svg",
@@ -10547,7 +10544,7 @@
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {}
     },
     "mainImage": "assets/images/products/placeholders/door-closers.svg",
@@ -10781,7 +10778,7 @@
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {}
     },
     "mainImage": "assets/images/products/placeholders/door-closers.svg",
@@ -10813,14 +10810,14 @@
     "model": "",
     "specifications": {
       "capacity": null,
-      "doorWidth": "",
+      "doorWidth": "600–900 mm",
       "dimensions": "",
       "netWeight": "",
       "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {}
     },
     "mainImage": "assets/images/products/placeholders/door-closers.svg",
@@ -10833,7 +10830,6 @@
     "duplicateCandidate": false,
     "dataConfidence": "partially-verified",
     "missingFields": [
-      "doorWidth",
       "dimensions",
       "netWeight",
       "finish",
@@ -10937,7 +10933,7 @@
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {}
     },
     "mainImage": "assets/images/products/placeholders/door-closers.svg",
@@ -10969,14 +10965,14 @@
     "model": "",
     "specifications": {
       "capacity": 65,
-      "doorWidth": "",
+      "doorWidth": "600–900 mm",
       "dimensions": "",
       "netWeight": "",
       "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {}
     },
     "mainImage": "assets/images/products/placeholders/door-closers.svg",
@@ -10989,7 +10985,6 @@
     "duplicateCandidate": false,
     "dataConfidence": "partially-verified",
     "missingFields": [
-      "doorWidth",
       "dimensions",
       "netWeight",
       "finish",
@@ -11008,14 +11003,14 @@
     "model": "",
     "specifications": {
       "capacity": 65,
-      "doorWidth": "",
+      "doorWidth": "600–1100 mm",
       "dimensions": "",
       "netWeight": "",
       "material": "",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {}
     },
     "mainImage": "assets/images/products/placeholders/door-closers.svg",
@@ -11028,7 +11023,6 @@
     "duplicateCandidate": false,
     "dataConfidence": "partially-verified",
     "missingFields": [
-      "doorWidth",
       "dimensions",
       "netWeight",
       "finish",
@@ -11086,14 +11080,14 @@
     "model": "",
     "specifications": {
       "capacity": null,
-      "doorWidth": "",
+      "doorWidth": "600–900 mm",
       "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {}
     },
     "mainImage": "assets/images/products/placeholders/door-closers.svg",
@@ -11106,7 +11100,6 @@
     "duplicateCandidate": false,
     "dataConfidence": "partially-verified",
     "missingFields": [
-      "doorWidth",
       "dimensions",
       "netWeight",
       "finish",
@@ -11171,7 +11164,7 @@
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {}
     },
     "mainImage": "assets/images/products/placeholders/door-closers.svg",
@@ -11593,14 +11586,14 @@
     "model": "",
     "specifications": {
       "capacity": 65,
-      "doorWidth": "",
+      "doorWidth": "600–900 mm",
       "dimensions": "",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {}
     },
     "mainImage": "assets/images/products/door-closers/hydraulic-door-closer-up-to-65-kg-1601449246565/main.avif",
@@ -11613,13 +11606,12 @@
     "duplicateCandidate": false,
     "dataConfidence": "partially-verified",
     "missingFields": [
-      "doorWidth",
       "dimensions",
       "netWeight",
       "finish",
       "holdOpen"
     ],
-    "notes": "Imported from the seller's public product list. Only title-level facts are populated. Media status: approved-clean-listing-image."
+    "notes": "Imported from the seller's public product list. Only title-level facts are populated. Media status: cleaned-authorized-source-image."
   },
   {
     "sourceId": "1601449288321",
@@ -11639,7 +11631,7 @@
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {}
     },
     "mainImage": "assets/images/products/placeholders/door-closers.svg",
@@ -11717,7 +11709,7 @@
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {}
     },
     "mainImage": "assets/images/products/placeholders/door-closers.svg",
@@ -12614,7 +12606,7 @@
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "40 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {}
     },
     "mainImage": "assets/images/products/placeholders/aluminum-ceiling-systems.svg",
@@ -14870,13 +14862,13 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "",
+      "dimensions": "600 × 600 mm",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {}
     },
     "mainImage": "assets/images/products/placeholders/aluminum-ceiling-systems.svg",
@@ -14890,7 +14882,6 @@
     "dataConfidence": "partially-verified",
     "missingFields": [
       "doorWidth",
-      "dimensions",
       "netWeight",
       "finish",
       "holdOpen"
@@ -14909,13 +14900,13 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "",
+      "dimensions": "600 × 1200 mm",
       "netWeight": "",
       "material": "Aluminum",
       "finish": "",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "00 mm",
+      "glassThickness": "",
       "otherVerifiedFields": {}
     },
     "mainImage": "assets/images/products/placeholders/aluminum-ceiling-systems.svg",
@@ -14929,7 +14920,6 @@
     "dataConfidence": "partially-verified",
     "missingFields": [
       "doorWidth",
-      "dimensions",
       "netWeight",
       "finish",
       "holdOpen"
@@ -14974,5 +14964,50 @@
       "holdOpen"
     ],
     "notes": "Imported from the seller's public product list. Only title-level facts are populated. Media status: not-used-legacy-branding-or-baked-copy."
+  },
+  {
+    "sourceId": "1601462455555",
+    "sourceUrl": "https://www.alibaba.com/product-detail/Glass-Door-Lock-System-Surface-Mounted_1601462455555.html",
+    "sourceTitle": "Glass Door Lock System Surface Mounted Glass Door Central Lock Hotel Office Glass to Wall Access Control",
+    "proposedSlug": "glass-door-lock-kd-218b-1601462455555",
+    "proposedCategory": "door-locks",
+    "proposedSubcategory": "",
+    "proposedProductFamily": "Door Locks",
+    "model": "KD-218B",
+    "specifications": {
+      "capacity": null,
+      "doorWidth": "",
+      "dimensions": "",
+      "netWeight": "",
+      "material": "Stainless Steel 201/304",
+      "finish": "Mirror surface, sanding, titanium gold",
+      "openingAngle": "",
+      "holdOpen": null,
+      "glassThickness": "10–12 mm",
+      "otherVerifiedFields": {
+        "warranty": "2 years",
+        "installation": "Screw",
+        "afterSaleService": "Online technical support",
+        "placeOfOrigin": "Guangdong, China",
+        "minimumOrder": "50 pcs",
+        "packing": "Foamed bag + inner box + carton"
+      }
+    },
+    "mainImage": "assets/images/products/door-locks/glass-door-lock-kd-218b-1601462455555/main-clean-20260727.avif",
+    "galleryImages": [],
+    "dimensionImages": [],
+    "installationImages": [],
+    "applicationImages": [],
+    "videos": [],
+    "videoPoster": "",
+    "duplicateCandidate": false,
+    "dataConfidence": "verified",
+    "missingFields": [
+      "doorWidth",
+      "dimensions",
+      "netWeight",
+      "holdOpen"
+    ],
+    "notes": "Verified against the seller's public Alibaba listing on 2026-07-27. Legacy branding was removed from the authorized source image. Media status: cleaned-authorized-source-image."
   }
 ]

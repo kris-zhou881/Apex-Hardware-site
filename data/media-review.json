@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T11:22:50.085Z",
+  "generatedAt": "2026-07-28T11:39:46.873Z",
   "products": [
     {
       "sourceId": "1601828463243",
@@ -4608,6 +4608,18 @@
       "edit": "none",
       "outputBytes": 12839,
       "sha256": "47d56489979200a176ee900f8dee545f5e86ce7a35f80eaad8dd4177fb70ad6e"
+    },
+    {
+      "sourceId": "1601462455555",
+      "product": "Glass Door Lock KD-218B",
+      "model": "KD-218B",
+      "publicFile": "assets/images/products/door-locks/glass-door-lock-kd-218b-1601462455555/main-clean-20260727.avif",
+      "sourceProductUrl": "https://www.alibaba.com/product-detail/Glass-Door-Lock-System-Surface-Mounted_1601462455555.html",
+      "sourceMediaUrl": "https://s.alicdn.com/%40sc04/kf/H5f24416ab88e4202bb5f6d2ce4e94978p.jpg_960x960q80.jpg",
+      "selectedGalleryIndex": 0,
+      "edit": "verified clean source asset",
+      "outputBytes": 11170,
+      "sha256": "9e2eeb5c0b5b069b0242ea48756d4a97f12ab38bd4a3490e5d190b73589df934"
     }
   ],
   "failures": []
