@@ -20,7 +20,7 @@ Structured field coverage:
 | Dimensions | 60 |
 | Net weight | 0 |
 | Material | 276 |
-| Finish | 202 |
+| Finish | 203 |
 | Opening angle | 126 |
 | Hold-open function | 7 |
 | Glass thickness | 113 |
