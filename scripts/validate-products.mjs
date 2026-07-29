@@ -57,7 +57,10 @@ for (const product of products) {
     errors.push(`Invalid door width ${doorWidth}: ${product.id}`);
   }
   const dimensions = product.specifications?.dimensions;
-  if (dimensions && !/^\d{2,4} × \d{2,4}(?: × \d{1,4})? mm$/.test(dimensions)) {
+  const validDimensions =
+    /^\d{2,4} × \d{2,4}(?: × \d{1,4})? mm$/.test(dimensions) ||
+    /^Width \d{1,4}–\d{1,4} mm; height \d{1,4} mm; length ≤ \d{1,5} mm$/.test(dimensions);
+  if (dimensions && !validDimensions) {
     errors.push(`Invalid dimensions ${dimensions}: ${product.id}`);
   }
   const publicParameters = JSON.stringify({
