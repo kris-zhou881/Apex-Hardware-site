@@ -1000,9 +1000,9 @@ h3 {
 
 .footer-inner {
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto 1fr auto auto;
   align-items: center;
-  gap: 30px;
+  gap: 24px;
 }
 
 .footer-inner p {
@@ -1011,8 +1011,44 @@ h3 {
   font-size: 12px;
 }
 
-.footer-inner p:first-of-type {
+.footer-inner > p:first-of-type {
   text-align: center;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--text-primary);
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-social a:hover {
+  color: var(--accent);
+}
+
+.footer-social a:focus-visible {
+  border-radius: 4px;
+  outline: 2px solid var(--text-primary);
+  outline-offset: 4px;
+}
+
+.footer-social a span {
+  font-size: 10px;
+}
+
+.footer-inner > p:last-of-type {
+  text-align: end;
 }
 
 .reveal {
@@ -1657,8 +1693,13 @@ h3 {
     gap: 16px;
   }
 
-  .footer-inner p:first-of-type {
-    text-align: left;
+  .footer-inner > p:first-of-type,
+  .footer-inner > p:last-of-type {
+    text-align: start;
+  }
+
+  .footer-social {
+    justify-content: flex-start;
   }
 
   .series-grid {

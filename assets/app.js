@@ -749,6 +749,30 @@
   });
 
   const RTL_LANGUAGES = new Set(["ar", "fa", "he", "ur"]);
+  const socialLinks = [
+    ["Facebook", "https://www.facebook.com/profile.php?id=100083240988881"],
+    ["Instagram", "https://www.instagram.com/98.506460/"],
+  ];
+
+  document.querySelectorAll(".footer-inner").forEach((footer) => {
+    if (footer.querySelector(".footer-social")) return;
+    const social = document.createElement("div");
+    social.className = "footer-social";
+    socialLinks.forEach(([label, href]) => {
+      const link = document.createElement("a");
+      link.href = href;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.append(label);
+      const arrow = document.createElement("span");
+      arrow.setAttribute("aria-hidden", "true");
+      arrow.textContent = "↗";
+      link.append(arrow);
+      social.append(link);
+    });
+    footer.insertBefore(social, footer.lastElementChild);
+  });
+
   const select = document.getElementById("language");
   let currentLanguage = "en";
 
