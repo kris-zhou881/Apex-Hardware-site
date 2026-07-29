@@ -4581,19 +4581,19 @@
   {
     "id": "alibaba-1601458907419",
     "slug": "hydraulic-door-closer-1601458907419",
-    "category": "door-closers",
+    "category": "floor-springs",
     "subcategory": "",
-    "family": "Door Closers",
+    "family": "Floor Springs",
     "model": "KD-63/2",
     "title": {
-      "en": "Hydraulic Door Closer",
-      "zh": "æ¶²åŽ‹é—­é—¨å™¨"
+      "en": "Hydraulic Floor Spring",
+      "zh": "æ¶²åŽ‹åœ°å¼¹ç°§"
     },
     "sourceTitle": "å•†ç”¨å¯è°ƒçŽ»ç’ƒé—­é—¨å™¨ï¼Œå¸¦é¡¶éƒ¨å¼¹ç°§OEMäº”é‡‘é…ä»¶ï¼Œé€‚ç”¨äºŽå­¦æ ¡",
     "specifications": {
-      "capacity": 100,
-      "doorWidth": "",
-      "dimensions": "",
+      "capacity": 150,
+      "doorWidth": "â‰¤ 1500 mm",
+      "dimensions": "293 Ã— 95 Ã— 57 mm",
       "netWeight": "",
       "material": "",
       "finish": "",
@@ -4616,7 +4616,9 @@
         "Features": "å¯è°ƒé€Ÿåº¦, æ˜“äºŽå®‰è£…",
         "Design style": "Modern",
         "Gross weight": "23.0 kg",
-        "Package dimensions": "30X30X20 cm"
+        "Package dimensions": "30X30X20 cm",
+        "Closing force": "42 Nm",
+        "Opening / hold-open variants": "90Â° / 105Â°; hold-open or non-hold-open"
       }
     },
     "applications": [
@@ -4663,15 +4665,13 @@
     "duplicateCandidate": false,
     "duplicateOf": "",
     "missingFields": [
-      "doorWidth",
-      "dimensions",
       "netWeight",
       "material",
       "finish",
       "holdOpen",
       "glassThickness"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "The complete source gallery identifies KD-63/2 as a concealed floor spring, not a surface door closer. The specification graphic and dimension drawing confirm 150 kg maximum gate weight, 1500 mm maximum gate width, 42 Nm, 90Â° / 105Â° variants and a 293 Ã— 95 Ã— 57 mm body."
   },
   {
     "id": "alibaba-1601503864604",
@@ -4770,13 +4770,13 @@
     "family": "Door Closers",
     "model": "KD-061",
     "title": {
-      "en": "Hydraulic Door Closer",
-      "zh": "æ¶²åŽ‹é—­é—¨å™¨"
+      "en": "Hydraulic Door Closer Â· Up to 65 kg",
+      "zh": "æ¶²åŽ‹é—­é—¨å™¨ Â· æœ€å¤§ 65 kg"
     },
     "sourceTitle": "å¯è°ƒèŠ‚é—¨å…³é—­å™¨ æ¶²åŽ‹é‡åž‹é˜²ç«é—¨å…³é—­å™¨ é€‚ç”¨äºŽé…’åº—/å…¬å…±å»ºç­‘ å•†ä¸šé—¨å…³é—­å™¨ å°¼æ—¥åˆ©äºšæµè¡Œ",
     "specifications": {
       "capacity": 65,
-      "doorWidth": "",
+      "doorWidth": "600â€“900 mm",
       "dimensions": "",
       "netWeight": "",
       "material": "Aluminum alloy",
@@ -4794,7 +4794,9 @@
         "Design style": "Modern",
         "Door width": "600-900 mm",
         "Gross weight": "11.7 kg",
-        "Package dimensions": "39X26X16 cm"
+        "Package dimensions": "39X26X16 cm",
+        "Applicable door weight": "45â€“65 kg",
+        "Installation size": "162 Ã— 19 mm"
       }
     },
     "applications": [
@@ -4841,14 +4843,13 @@
     "duplicateCandidate": false,
     "duplicateOf": "",
     "missingFields": [
-      "doorWidth",
       "dimensions",
       "netWeight",
       "finish",
       "holdOpen",
       "glassThickness"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "The source gallery graphic confirms model KD-061, a 45â€“65 kg door-weight range, 600â€“900 mm door width, 162 Ã— 19 mm installation size and 150Â° maximum opening."
   },
   {
     "id": "alibaba-1601710607597",
@@ -4864,8 +4865,8 @@
     "sourceTitle": "é‡åž‹é—­é—¨å™¨ 45å…¬æ–¤ æ¶²åŽ‹è‡ªåŠ¨é—­é—¨å™¨ å¯è°ƒèŠ‚å•†ç”¨é˜²ç«é—­é—¨å™¨ é€‚ç”¨äºŽå°¼æ—¥åˆ©äºšçƒ­å¸¦æ°”å€™",
     "specifications": {
       "capacity": 45,
-      "doorWidth": "",
-      "dimensions": "",
+      "doorWidth": "500â€“800 mm",
+      "dimensions": "145.5 Ã— 37 Ã— 56 mm",
       "netWeight": "",
       "material": "Aluminum alloy",
       "finish": "",
@@ -4882,7 +4883,9 @@
         "Features": "å¯è°ƒé€Ÿåº¦, æ˜“äºŽå®‰è£…",
         "Design style": "Modern",
         "Gross weight": "9.2 kg",
-        "Package dimensions": "39X26X16 cm"
+        "Package dimensions": "39X26X16 cm",
+        "Applicable door weight": "25â€“45 kg",
+        "Mounting-hole spacing": "132 Ã— 19 mm"
       }
     },
     "applications": [],
@@ -4926,14 +4929,12 @@
     "duplicateCandidate": false,
     "duplicateOf": "",
     "missingFields": [
-      "doorWidth",
-      "dimensions",
       "netWeight",
       "finish",
       "holdOpen",
       "glassThickness"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "The source gallery graphic and dimension drawing confirm model KD-051, a 25â€“45 kg door-weight range, 500â€“800 mm door width, 145.5 Ã— 37 Ã— 56 mm body, 132 Ã— 19 mm mounting-hole spacing and 135Â° maximum opening."
   },
   {
     "id": "alibaba-1601577274690",
@@ -4949,8 +4950,8 @@
     "sourceTitle": "çŽ°ä»£é‡åž‹çŽ»ç’ƒé—¨åœ°å¼¹ç°§é“°é“¾ 300KG é€‚ç”¨äºŽé…’åº—ä½¿ç”¨ï¼Œå…·æœ‰ 3 å¹´ä¿ä¿® çŽ»ç’ƒé—¨åœ°å¼¹ç°§é“°é“¾ 300KG",
     "specifications": {
       "capacity": 300,
-      "doorWidth": "",
-      "dimensions": "",
+      "doorWidth": "â‰¤ 1500 mm",
+      "dimensions": "338 Ã— 138 Ã— 72 mm",
       "netWeight": "",
       "material": "",
       "finish": "",
@@ -4963,7 +4964,8 @@
         "Features": "æ˜“äºŽå®‰è£…",
         "Design style": "Modern",
         "Gross weight": "21.5 kg",
-        "Package dimensions": "40X38X12 cm"
+        "Package dimensions": "40X38X12 cm",
+        "Opening / hold-open variants": "90Â° / 125Â° hold-open"
       }
     },
     "applications": [
@@ -5010,15 +5012,13 @@
     "duplicateCandidate": false,
     "duplicateOf": "",
     "missingFields": [
-      "doorWidth",
-      "dimensions",
       "netWeight",
       "material",
       "finish",
       "holdOpen",
       "glassThickness"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "The source gallery graphic and dimension drawing confirm model KD-882, 300 kg maximum door weight, 1500 mm maximum door width, 125Â° maximum opening, 90Â° / 125Â° hold-open positions and a 338 Ã— 138 Ã— 72 mm body."
   },
   {
     "id": "alibaba-1601452767263",
@@ -5035,7 +5035,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "",
+      "dimensions": "98 Ã— 52 Ã— 65 mm",
       "netWeight": "",
       "material": "Stainless Steel",
       "finish": "Mirror surface,Sanding,Titanium gold",
@@ -5100,12 +5100,11 @@
     "missingFields": [
       "capacity",
       "doorWidth",
-      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "The source gallery explicitly labels model KD-228A and confirms a 98 Ã— 52 Ã— 65 mm lock body, non-drilling installation and suitability for 10â€“15 mm frameless glass doors. The existing material and finish options were retained."
   },
   {
     "id": "alibaba-1601579476128",
@@ -5122,13 +5121,13 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "",
+      "dimensions": "106 Ã— 106 Ã— 31 mm",
       "netWeight": "",
       "material": "é•é“åˆé‡‘, stainless steel",
       "finish": "Satin or customized polish , matt black or other colors",
       "openingAngle": "",
       "holdOpen": null,
-      "glassThickness": "",
+      "glassThickness": "10â€“12 mm",
       "otherVerifiedFields": {
         "Body thickness": "0.7mm or customized 1.0mm",
         "Cover material": "Stainless Steel sus201, or customized sus 304",
@@ -5189,13 +5188,11 @@
     "missingFields": [
       "capacity",
       "doorWidth",
-      "dimensions",
       "netWeight",
       "openingAngle",
-      "holdOpen",
-      "glassThickness"
+      "holdOpen"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "The source gallery explicitly labels model KD-090 and confirms a 106 Ã— 106 Ã— 31 mm L-shaped patch fitting, 10â€“12 mm glass compatibility, an aluminum or iron inner body and a SUS201 or optional SUS304 cover."
   },
   {
     "id": "alibaba-1601452830921",
@@ -5212,7 +5209,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "",
+      "dimensions": "60 Ã— 47 Ã— 60 mm",
       "netWeight": "",
       "material": "Stainless steel",
       "finish": "é•œé¢,ç ‚å…‰,é’›é‡‘",
@@ -5271,17 +5268,16 @@
       "mediaCrop": "none",
       "mediaEdit": "old brand mark area interpolated"
     },
-    "duplicateCandidate": false,
+    "duplicateCandidate": true,
     "duplicateOf": "",
     "missingFields": [
       "capacity",
       "doorWidth",
-      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "The source gallery explicitly labels model KD-348A and confirms a 60 Ã— 47 Ã— 60 mm non-drilling glass lock for 10â€“15 mm glass. Two source listings use the same model and technical values, so both remain flagged for factory duplicate confirmation."
   },
   {
     "id": "alibaba-1601636957455",
@@ -5298,7 +5294,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "",
+      "dimensions": "150 Ã— 88 mm",
       "netWeight": "",
       "material": "Stainless Steel",
       "finish": "Mirror surface,Sanding,Titanium gold",
@@ -5357,17 +5353,16 @@
       "mediaCrop": "none",
       "mediaEdit": "none"
     },
-    "duplicateCandidate": false,
+    "duplicateCandidate": true,
     "duplicateOf": "",
     "missingFields": [
       "capacity",
       "doorWidth",
-      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "The source gallery explicitly labels model KD-138A and confirms two 75 mm-wide lock halves, 88 mm height, non-drilling installation and 10â€“12 mm glass compatibility. Two source listings use the same model and technical values, so both remain flagged for factory duplicate confirmation."
   },
   {
     "id": "alibaba-1601496939804",
@@ -5384,7 +5379,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "",
+      "dimensions": "60 Ã— 47 Ã— 60 mm",
       "netWeight": "",
       "material": "Stainless steel",
       "finish": "é•œé¢,ç ‚å…‰,é’›é‡‘",
@@ -5445,17 +5440,16 @@
       "mediaCrop": "none",
       "mediaEdit": "old brand mark area interpolated"
     },
-    "duplicateCandidate": false,
-    "duplicateOf": "",
+    "duplicateCandidate": true,
+    "duplicateOf": "alibaba-1601452830921",
     "missingFields": [
       "capacity",
       "doorWidth",
-      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "The source gallery explicitly labels model KD-348A and confirms a 60 Ã— 47 Ã— 60 mm non-drilling glass lock for 10â€“15 mm glass. Two source listings use the same model and technical values, so both remain flagged for factory duplicate confirmation."
   },
   {
     "id": "alibaba-1601581115636",
@@ -5472,7 +5466,7 @@
     "specifications": {
       "capacity": null,
       "doorWidth": "",
-      "dimensions": "",
+      "dimensions": "150 Ã— 88 mm",
       "netWeight": "",
       "material": "Stainless Steel",
       "finish": "Mirror surface,Sanding,Titanium gold",
@@ -5533,17 +5527,16 @@
       "mediaCrop": "none",
       "mediaEdit": "none"
     },
-    "duplicateCandidate": false,
-    "duplicateOf": "",
+    "duplicateCandidate": true,
+    "duplicateOf": "alibaba-1601636957455",
     "missingFields": [
       "capacity",
       "doorWidth",
-      "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "The source gallery explicitly labels model KD-138A and confirms two 75 mm-wide lock halves, 88 mm height, non-drilling installation and 10â€“12 mm glass compatibility. Two source listings use the same model and technical values, so both remain flagged for factory duplicate confirmation."
   },
   {
     "id": "alibaba-1601581463448",
@@ -9552,41 +9545,7 @@
       "applications": [],
       "videos": [],
       "videoPoster": "",
-      "sourceMain": "https://s.alicdn.com/@sc04/kf/Hbf9dce32bf24402ebf5a2d25a5b6b233h/-3D-.jpg?hasNWGrade=1",
-      "sourceGallery": [
-        "https://s.alicdn.com/@sc04/kf/Hbf9dce32bf24402ebf5a2d25a5b6b233h.jpg_960x960q80.jpg",
-        "https://s.alicdn.com/@sc04/kf/Hf4abbd5b7f1141b5bd85d6a70f3e5aac6.jpg_960x960q80.jpg",
-        "https://s.alicdn.com/@sc04/kf/Hf650a87c1d744b619315cbb7b2366b09p.jpg_960x960q80.jpg",
-        "https://s.alicdn.com/@sc04/kf/Hc71ad1072600461392432034220885606.jpg_960x960q80.jpg",
-        "https://s.alicdn.com/@sc04/kf/H37685856f009422e8223e33245f1c38ar.jpg_960x960q80.jpg",
-        "https://s.alicdn.com/@sc04/kf/He77545e3be014ae5b3b2f07005043377r.jpg_960x960q80.jpg"
-      ]
-    },
-    "source": {
-      "platform": "Alibaba",
-      "sourceId": "1601807273814",
-      "url": "https://www.alibaba.com/product-detail/Carved-Industrial-Aluminum-Mashrabiya-Decorative-Cladding_1601807273814.html",
-      "dataConfidence": "partially-verified",
-      "verifiedAt": "2026-07-26",
-      "mediaStatus": "approved-product-specific-gallery-image",
-      "mediaSha256": "862da22702ba51cc202ceed50da3dcaefba0e36141edf91d1324e0795907eb85",
-      "detailVerifiedAt": "2026-07-28T10:36:48.930Z",
-      "selectedGalleryIndex": 1,
-      "mediaCrop": "none",
-      "mediaEdit": "none"
-    },
-    "duplicateCandidate": false,
-    "duplicateOf": "",
-    "missingFields": [
-      "capacity",
-      "doorWidth",
-      "dimensions",
-      "netWeight",
-      "openingAngle",
-      "holdOpen",
-      "glassThickness"
-    ],
-    "notes": "Product detail attributes were extracted from the supplied Aliï®¼÷¦òµë(š+myÒô63Bö¶bôƒ#VS#&6#3##SCFS#ƒƒsf3†CC#F6S‚æ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bôƒccV&SƒcS#ƒCs3ƒ“cCs33“#C#cVBó#ƒSS“ôƒccV&SƒcS#ƒCs3ƒ“cCs33“#C#cVBæ§uó“cƒ“cƒæ§r ¢Ð¢ÒÀ¢'6÷W&6R#¢°¢'ÆFf÷&Ò#¢$Æ–&&"À¢'6÷W&6T–B#¢#cCS“ƒ“sƒ"À¢'W&Â#¢&‡GG3¢ò÷wwræÆ–&&æ6öÒ÷&öGV7BÖFWF–Âôf—&RÕ&FVBÔFö÷"Ô6Æ÷6W"Ô‡–G&VÆ–2ÓcócCS“ƒ“sƒæ‡FÖÂ"À¢&FF6öæf–FVæ6R#¢''F–ÆÇ’×fW&–f–VB"À¢'fW&–f–VDB#¢###bÓrÓ#b"À¢&ÖVF–7FGW2#¢&&÷fVBÖöÆBÖ'&æBÖÖ&²×&VÖ÷fVB"À¢&ÖVF–6†#Sb#¢#ƒcCS##ƒ#3S–V#†3FCcCfff&#fcSV3S3#“fCc3#VVFffCƒ#†#Cs&B"À¢&FWF–ÅfW&–f–VDB#¢###bÓrÓ#…C££bãss%¢"À¢'6VÆV7FVDvÆÆW'”–æFW‚#¢2À¢&ÖVF–7&÷#¢&æöæR"À¢&ÖVF–VF—B#¢&öÆB'&æBÖ&²&V–çFW'öÆFVB ¢ÒÀ¢&GWÆ–6FT6æF–FFR#¢fÇ6RÀ¢&GWÆ–6FTöb#¢""À¢&Ö—76–ætf–VÆG2#¢°¢&Fö÷%v–GF‚"À¢&F–ÖVç6–öç2"À¢&æWEvV–v‡B"À¢&f–æ—6‚"À¢&†öÆD÷Vâ"À¢&vÆ75F†–6¶æW72 ¢ÒÀ¢&æ÷FW2#¢%&öGV7BFWF–ÂGG&–'WFW2vW&RW‡G&7FVBg&öÒF†R7WÆ–VBÆ–&&6VÆÆW"Æ—7F–ærâVæ6öæf—&ÖVBf–VÆG2&VÖ–â&Ææ²â ¢ÒÀ¢°¢&–B#¢&Æ–&&ÓcCS““csSR"À¢'6ÇVr#¢&‡–G&VÆ–2ÖFö÷"Ö6Æ÷6W"ÓcCS““csSR"À¢&6FVv÷'’#¢&Fö÷"Ö6Æ÷6W'2"À¢'7V&6FVv÷'’#¢""À¢&fÖ–Ç’#¢$Fö÷"6Æ÷6W'2"À¢&ÖöFVÂ#¢$´BÓƒ"À¢'F—FÆR#¢°¢&Vâ#¢$‡–G&VÆ–2Fö÷"6Æ÷6W""À¢'¦‚#¢.kk.Xè¾™zÞ™zŽYš‚ ¢ÒÀ¢'6÷W&6UF—FÆR#¢.XË¾™š.™zÞ™zŽYšŽ˜Y.[©~™‹.x¾™©‰xþ[Èþ™zÞ™zŽYšŽˆz®Xªƒc[ªn[ÈY
+      "soï¯tß¦òµë(š+my×63Bö¶bôƒ#VS#&6#3##SCFS#ƒƒsf3†CC#F6S‚æ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bôƒccV&SƒcS#ƒCs3ƒ“cCs33“#C#cVBó#ƒSS“ôƒccV&SƒcS#ƒCs3ƒ“cCs33“#C#cVBæ§uó“cƒ“cƒæ§r ¢Ð¢ÒÀ¢'6÷W&6R#¢°¢'ÆFf÷&Ò#¢$Æ–&&"À¢'6÷W&6T–B#¢#cCS“ƒ“sƒ"À¢'W&Â#¢&‡GG3¢ò÷wwræÆ–&&æ6öÒ÷&öGV7BÖFWF–Âôf—&RÕ&FVBÔFö÷"Ô6Æ÷6W"Ô‡–G&VÆ–2ÓcócCS“ƒ“sƒæ‡FÖÂ"À¢&FF6öæf–FVæ6R#¢''F–ÆÇ’×fW&–f–VB"À¢'fW&–f–VDB#¢###bÓrÓ#b"À¢&ÖVF–7FGW2#¢&&÷fVBÖöÆBÖ'&æBÖÖ&²×&VÖ÷fVB"À¢&ÖVF–6†#Sb#¢#ƒcCS##ƒ#3S–V#†3FCcCfff&#fcSV3S3#“fCc3#VVFffCƒ#†#Cs&B"À¢&FWF–ÅfW&–f–VDB#¢###bÓrÓ#…C££bãss%¢"À¢'6VÆV7FVDvÆÆW'”–æFW‚#¢2À¢&ÖVF–7&÷#¢&æöæR"À¢&ÖVF–VF—B#¢&öÆB'&æBÖ&²&V–çFW'öÆFVB ¢ÒÀ¢&GWÆ–6FT6æF–FFR#¢fÇ6RÀ¢&GWÆ–6FTöb#¢""À¢&Ö—76–ætf–VÆG2#¢°¢&Fö÷%v–GF‚"À¢&F–ÖVç6–öç2"À¢&æWEvV–v‡B"À¢&f–æ—6‚"À¢&†öÆD÷Vâ"À¢&vÆ75F†–6¶æW72 ¢ÒÀ¢&æ÷FW2#¢%&öGV7BFWF–ÂGG&–'WFW2vW&RW‡G&7FVBg&öÒF†R7WÆ–VBÆ–&&6VÆÆW"Æ—7F–ærâVæ6öæf—&ÖVBf–VÆG2&VÖ–â&Ææ²â ¢ÒÀ¢°¢&–B#¢&Æ–&&ÓcCS““csSR"À¢'6ÇVr#¢&‡–G&VÆ–2ÖFö÷"Ö6Æ÷6W"ÓcCS““csSR"À¢&6FVv÷'’#¢&Fö÷"Ö6Æ÷6W'2"À¢'7V&6FVv÷'’#¢""À¢&fÖ–Ç’#¢$Fö÷"6Æ÷6W'2"À¢&ÖöFVÂ#¢$´BÓƒ"À¢'F—FÆR#¢°¢&Vâ#¢$‡–G&VÆ–2Fö÷"6Æ÷6W""À¢'¦‚#¢.kk.Xè¾™zÞ™zŽYš‚ ¢ÒÀ¢'6÷W&6UF—FÆR#¢.XË¾™š.™zÞ™zŽYšŽ˜Y.[©~™‹.x¾™©‰xþ[Èþ™zÞ™zŽYšŽˆz®Xªƒc[ªn[ÈY
 þYXnK‰®ZèžXZ‚"À¢'7V6–f–6F–öç2#¢°¢&66—G’#¢cRÀ¢&Fö÷%v–GF‚#¢#c(	3“ÖÒ"À¢&F–ÖVç6–öç2#¢""À¢&æWEvV–v‡B#¢""À¢&ÖFW&–Â#¢$ÇVÖ–çVÒÆÆ÷’"À¢&f–æ—6‚#¢""À¢&÷Væ–ætævÆR#¢#c+"À¢&†öÆD÷Vâ#¢çVÆÂÀ¢&vÆ75F†–6¶æW72#¢""À¢&÷F†W%fW&–f–VDf–VÆG2#¢°¢$Æ–6F–öâ#¢.xë¾y(>™z‚ÂYXnK‰®™z‚Â™‹.x¾™z‚Â˜Y.[©rÂXŠ¾Z(RÂXZÎZù2ÂX©îXZÎj[ÂÂXË¾™š"ÂZÚnj
 ÂÖÆÂÂKÙ>ˆ+.YË®h˜ÂX^‹ª¾h‹òÂkI~Š>h‹òÂ‹[[¸¢"À¢$Fö÷"v–GF‚#¢#cÓ“ÖÒ"À¢$†öÆRF—7Fæ6R#¢##c"£–ÖÒ"À¢$æÖR#¢$Fö÷"6Æ÷6W""À¢%&öGV7BæÖR#¢$¶—F6†VâFö÷"F§W7F&ÆR7VVB6Æ76–2Ö–FFÆR6—¦RFö÷"6Æ÷6W""À¢%G—R#¢$Fö÷"6Æ÷6W""À¢$fVGW&W2#¢.Xúþ‹>˜	þ[ªbÂi‰>K¨îZèžŠ8R"À¢$FW6–vâ7G–ÆR#¢$ÖöFW&â"À¢$w&÷72vV–v‡B#¢#bãB¶r"À¢%6¶vRF–ÖVç6–öç2#¢#Sƒ#eƒ#2ãR6Ò ¢Ð¢ÒÀ¢&Æ–6F–öç2#¢°¢$†÷FVÇ2"À¢$†÷7—FÇ2 ¢ÒÀ¢&fVGW&W2#¢µÒÀ¢'f&–çG2#¢µÒÀ¢&ÖVF–#¢°¢&Ö–â#¢&76WG2ö–ÖvW2÷&öGV7G2öFö÷"Ö6Æ÷6W'2ö‡–G&VÆ–2ÖFö÷"Ö6Æ÷6W"ÓcCS““csSRöÖ–âæf–b"À¢&Æ—7B#¢&76WG2ö–ÖvW2÷&öGV7G2öFö÷"Ö6Æ÷6W'2ö‡–G&VÆ–2ÖFö÷"Ö6Æ÷6W"ÓcCS““csSRöÖ–âæf–b"À¢'F‡VÖ&æ–Â#¢&76WG2ö–ÖvW2÷&öGV7G2öFö÷"Ö6Æ÷6W'2ö‡–G&VÆ–2ÖFö÷"Ö6Æ÷6W"ÓcCS““csSRöÖ–âæf–b"À¢&vÆÆW'’#¢°¢&76WG2ö–ÖvW2÷&öGV7G2öFö÷"Ö6Æ÷6W'2ö‡–G&VÆ–2ÖFö÷"Ö6Æ÷6W"ÓcCS““csSRöÖ–âæf–b ¢ÒÀ¢&F–ÖVç6–öç2#¢µÒÀ¢&–ç7FÆÆF–öâ#¢µÒÀ¢&Æ–6F–öç2#¢µÒÀ¢'f–FV÷2#¢µÒÀ¢'f–FVõ÷7FW"#¢""À¢'6÷W&6TÖ–â#¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†#c6Sv6S““VSCSC“fc–3vSvCC6cƒ32òÓcÒæ§uóCƒƒCƒæ§sö†4åtw&FSÓ"À¢'6÷W&6TvÆÆW'’#¢°¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†#c6Sv6S““VSCSC“fc–3vSvCC6cƒ32æ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†F#3cS3f33VCƒ3ƒ–s–f#cVC#Fcƒ“…2æ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bôƒVCSCV3v##V#ƒFSVcfV6CvCfTÂæ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†C3““†3–&6F#C3FCƒ–3S3C“c&f3“ræ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†cv#ƒfSc†SF6cSƒƒSF“fc66%‚æ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†#Vc“66†&#C#6#–#ƒVf3VVScSc6&æ§uó“cƒ“cƒæ§r ¢Ð¢ÒÀ¢'6÷W&6R#¢°¢'ÆFf÷&Ò#¢$Æ–&&"À¢'6÷W&6T–B#¢#cCS““csSR"À¢'W&Â#¢&‡GG3¢ò÷wwræÆ–&&æ6öÒ÷&öGV7BÖFWF–Âô†÷7—FÂÔFö÷"Ô6Æ÷6W"Ô†÷FVÂÔf—&RÕ&FVEócCS““csSRæ‡FÖÂ"À¢&FF6öæf–FVæ6R#¢''F–ÆÇ’×fW&–f–VB"À¢'fW&–f–VDB#¢###bÓrÓ#b"À¢&ÖVF–7FGW2#¢&&÷fVBÖöÆBÖ'&æBÖÖ&²×&VÖ÷fVB"À¢&ÖVF–6†#Sb#¢#SFC#s&cF#S†63sSSC†Sc“#&33vvVS–CFc–&#Fff6&SsƒV#VS&S3#""À¢&FWF–ÅfW&–f–VDB#¢###bÓrÓ#…C££‚ã3•¢"À¢'6VÆV7FVDvÆÆW'”–æFW‚#¢À¢&ÖVF–7&÷#¢&æöæR"À¢&ÖVF–VF—B#¢&öÆB'&æBÖ&²&V–çFW'öÆFVB ¢ÒÀ¢&GWÆ–6FT6æF–FFR#¢G'VRÀ¢&GWÆ–6FTöb#¢""À¢&Ö—76–ætf–VÆG2#¢°¢&F–ÖVç6–öç2"À¢&æWEvV–v‡B"À¢&f–æ—6‚"À¢&†öÆD÷Vâ"À¢&vÆ75F†–6¶æW72 ¢ÒÀ¢&æ÷FW2#¢%F†R6÷W&6RÆ—7F–ærW‡Æ–6—FÇ’7FFW2c(	3“ÖÒFö÷"v–GF‚âGvò6÷W&6RÆ—7F–æw2W6RÖöFVÂ´BÓƒ'WB6†÷rÖFW&–ÆÇ’F–ffW&VçB&öGV7B–ÖvW2Â6ò&÷F‚&VÖ–âfÆvvVBf÷"f7F÷'’FF6†VWB6öæf—&ÖF–öââ ¢ÒÀ¢°¢&–B#¢&Æ–&&ÓcCc“C#c’"À¢'6ÇVr#¢&‡–G&VÆ–2ÖFö÷"Ö6Æ÷6W"ÓcCc“C#c’"À¢&6FVv÷'’#¢&Fö÷"Ö6Æ÷6W'2"À¢'7V&6FVv÷'’#¢""À¢&fÖ–Ç’#¢$Fö÷"6Æ÷6W'2"À¢&ÖöFVÂ#¢$´BÓƒ"À¢'F—FÆR#¢°¢&Vâ#¢$‡–G&VÆ–2Fö÷"6Æ÷6W""À¢'¦‚#¢.kk.Xè¾™zÞ™zŽYš‚ ¢ÒÀ¢'6÷W&6UF—FÆR#¢.XË¾™š.™zÞ™zŽYšŽ˜Y.[©~™‹.x¾™©‰xþ[Èþ™zÞ™zŽYšŽˆz®Xªƒc[ªn[ÈY
 þYXnK‰®ZèžXZ‚"À¢'7V6–f–6F–öç2#¢°¢&66—G’#¢cRÀ¢&Fö÷%v–GF‚#¢#c(	3“ÖÒ"À¢&F–ÖVç6–öç2#¢""À¢&æWEvV–v‡B#¢""À¢&ÖFW&–Â#¢$ÇVÖ–çVÒÆÆ÷’"À¢&f–æ—6‚#¢""À¢&÷Væ–ætævÆR#¢#c+"À¢&†öÆD÷Vâ#¢çVÆÂÀ¢&vÆ75F†–6¶æW72#¢""À¢&÷F†W%fW&–f–VDf–VÆG2#¢°¢$Æ–6F–öâ#¢.xë¾y(>™z‚ÂYXnK‰®™z‚Â™‹.x¾™z‚Â˜Y.[©rÂXŠ¾Z(RÂXZÎZù2ÂX©îXZÎj[ÂÂXË¾™š"ÂZÚnj
@@ -9796,4 +9755,4 @@ r"À¢'7V6–f–6F–öç2#¢°¢&66—G’#¢3À¢&Fö÷%v–GF‚#¢""À¢
 ÂÖÆÂÂ‹h^[ˆ""À¢$fVGW&W2#¢.ˆ›®iÊþY®šbÂ™¸nh‰Y®šbÂz›þZÙNY®šb"À¢$FW6–vâ7G–ÆR#¢$ÖöFW&â"À¢$f—&RW&f÷&Öæ6R#¢${¾™‹¾xx>ûÈ„”T2c33"Ó2Ó#ûÈ’Âˆ	x²"À¢$w&÷72vV–v‡B#¢#"ã¶r"À¢%6¶vRF–ÖVç6–öç2#¢#3Uƒ%ƒ#6Ò ¢Ð¢ÒÀ¢&Æ–6F–öç2#¢°¢$†÷FVÇ2"À¢%&WF–Â"À¢$6V–Æ–æw2 ¢ÒÀ¢&fVGW&W2#¢µÒÀ¢'f&–çG2#¢µÒÀ¢&ÖVF–#¢°¢&Ö–â#¢&76WG2ö–ÖvW2÷&öGV7G2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FV×2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FVÒÓcƒ#Cc##röÖ–âæf–b"À¢&Æ—7B#¢&76WG2ö–ÖvW2÷&öGV7G2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FV×2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FVÒÓcƒ#Cc##röÖ–âæf–b"À¢'F‡VÖ&æ–Â#¢&76WG2ö–ÖvW2÷&öGV7G2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FV×2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FVÒÓcƒ#Cc##röÖ–âæf–b"À¢&vÆÆW'’#¢°¢&76WG2ö–ÖvW2÷&öGV7G2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FV×2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FVÒÓcƒ#Cc##röÖ–âæf–b ¢ÒÀ¢&F–ÖVç6–öç2#¢µÒÀ¢&–ç7FÆÆF–öâ#¢µÒÀ¢&Æ–6F–öç2#¢µÒÀ¢'f–FV÷2#¢µÒÀ¢'f–FVõ÷7FW"#¢""À¢'6÷W&6TÖ–â#¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†CSSc63&fVc“F3ƒ&vfC†F3FCs“FFSƒBòÒæ§uóCƒƒCƒæ§sö†4åtw&FSÓ"À¢'6÷W&6TvÆÆW'’#¢°¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†CSSc63&fVc“F3ƒ&vfC†F3FCs“FFSƒBæ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†&f#333V6#ƒcC6VcSc#s–cv3S3Ræ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bôƒsS“s&CSsVSC3VC33““Csƒ†3–3C‚æ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†cs–c†fSfC&sF6FS–fSv6&F6#&S“ƒ6‚æ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bôƒvC“6F6ff3CF#–sCs#v3SC“E¢æ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bôƒƒSVC–6#“–#†CF36Vv3SFc#s&V&6Gæ§uó“cƒ“cƒæ§r ¢Ð¢ÒÀ¢'6÷W&6R#¢°¢'ÆFf÷&Ò#¢$Æ–&&"À¢'6÷W&6T–B#¢#cƒ#Cc##r"À¢'W&Â#¢&‡GG3¢ò÷wwræÆ–&&æ6öÒ÷&öGV7BÖFWF–ÂôÖöFW&âÔFW6–vç2Õ÷vFW"Ô6öFVBÕ7V&RÕvööEócƒ#Cc##ræ‡FÖÂ"À¢&FF6öæf–FVæ6R#¢''F–ÆÇ’×fW&–f–VB"À¢'fW&–f–VDB#¢###bÓrÓ#b"À¢&ÖVF–7FGW2#¢&&÷fVB×&öGV7B×7V6–f–2ÖvÆÆW'’Ö–ÖvR"À¢&ÖVF–6†#Sb#¢#ƒvff6Csƒc“sCC#f3“3s“†CS3CƒS&33C†3–#C–&#3–&C†#SsVC6†"À¢&FWF–ÅfW&–f–VDB#¢###bÓrÓ#…C£3£32ãS5¢"À¢'6VÆV7FVDvÆÆW'”–æFW‚#¢À¢&ÖVF–7&÷#¢&æöæR"À¢&ÖVF–VF—B#¢&æöæR ¢ÒÀ¢&GWÆ–6FT6æF–FFR#¢fÇ6RÀ¢&GWÆ–6FTöb#¢""À¢&Ö—76–ætf–VÆG2#¢°¢&66—G’"À¢&Fö÷%v–GF‚"À¢&F–ÖVç6–öç2"À¢&æWEvV–v‡B"À¢&ÖFW&–Â"À¢&f–æ—6‚"À¢&÷Væ–ætævÆR"À¢&†öÆD÷Vâ"À¢&vÆ75F†–6¶æW72 ¢ÒÀ¢&æ÷FW2#¢%&öGV7BFWF–ÂGG&–'WFW2vW&RW‡G&7FVBg&öÒF†R7WÆ–VBÆ–&&6VÆÆW"Æ—7F–ærâVæ6öæf—&ÖVBf–VÆG2&VÖ–â&Ææ²â ¢ÒÀ¢°¢&–B#¢&Æ–&&Ócƒ#3CƒCB"À¢'6ÇVr#¢&ÇVÖ–çVÒÖ6V–Æ–ær×7—7FVÒÓcƒ#3CƒCB"À¢&6FVv÷'’#¢&ÇVÖ–çVÒÖ6V–Æ–ær×7—7FV×2"À¢'7V&6FVv÷'’#¢""À¢&fÖ–Ç’#¢$ÇVÖ–çVÒ6V–Æ–ær7—7FV×2"À¢&ÖöFVÂ#¢$5B"À¢'F—FÆR#¢°¢&Vâ#¢$ÇVÖ–çVÒ6V–Æ–ær7—7FVÒ"À¢'¦‚#¢.™9ÞX‹nY®šn{;¾{¹ò ¢ÒÀ¢'6÷W&6UF—FÆR#¢.X©îXZÎZêN˜y[îY®šniÛòcƒcjú¾{2{(žiÊ¾kh.["™‹.kN™‹.x²™©N™û>ZêNXh^™9ÞX‹nY®šb"À¢'7V6–f–6F–öç2#¢°¢&66—G’#¢çVÆÂÀ¢&Fö÷%v–GF‚#¢""À¢&F–ÖVç6–öç2#¢""À¢&æWEvV–v‡B#¢""À¢&ÖFW&–Â#¢$vÇfæ—¦VB7FVVÂ÷"ÇVÖ–çVÒƒ#B"À¢&f–æ—6‚#¢""À¢&÷Væ–ætævÆR#¢""À¢&†öÆD÷Vâ#¢çVÆÂÀ¢&vÆ75F†–6¶æW72#¢""À¢&÷F†W%fW&–f–VDf–VÆG2#¢°¢$6öÆ÷"#¢%v†—FRÂ6–ÇfW"Âw&W’æBWF2"À¢$VFvR†V–v‡B#¢#†ÖÒ²ÖÒ²†ÖÒ"À¢$å$2#¢#ãWããcR…6÷VæEDU‚6â&RãsR’"À¢%W&f÷&F–öâ#¢%W&bãã†ÖÓ²W&b"ã6ÖÓ²W&b2ãÖÓ²Ö–B×W&bã†ÖÓ²Ö–B×W&b"ã6ÖÒ"À¢%&öGV7BæÖR#¢$ÇVÖ–çVÒÆ’–â6V–Æ–ær"À¢%7G–ÆR#¢$Æ’Ö–âò6Æ—Ö–âòÆ’öâ"À¢%F†–6¶æW72#¢#ãCRÓãÖÒ"À¢$gVæ7F–öâ#¢.™‹.x²Â™©Nx:Þh
 rÂ™‹.kÚâÂYŽ™û2Â™©N™û2Â™‹.kB"À¢$6V–Æ–ærG—R#¢.˜y[îY®šb"À¢$6V–Æ–ær6†R#¢.jÚ>ikž[Ú""À¢$Æ–6F–öâ#¢.X©îXZÎj[Â"À¢$fVGW&W2#¢.ˆ›®iÊþY®šbÂ™¸nh‰Y®šbÂz›þZÙNY®šb"À¢$FW6–vâ7G–ÆR#¢$ÖöFW&â"À¢$f—&RW&f÷&Öæ6R#¢$#"À¢$w&÷72vV–v‡B#¢#"ã¶r"À¢%6¶vRF–ÖVç6–öç2#¢#3Uƒ%ƒ#6Ò ¢Ð¢ÒÀ¢&Æ–6F–öç2#¢°¢$öff–6W2"À¢$6V–Æ–æw2 ¢ÒÀ¢&fVGW&W2#¢µÒÀ¢'f&–çG2#¢µÒÀ¢&ÖVF–#¢°¢&Ö–â#¢&76WG2ö–ÖvW2÷&öGV7G2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FV×2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FVÒÓcƒ#3CƒCBöÖ–âæf–b"À¢&Æ—7B#¢&76WG2ö–ÖvW2÷&öGV7G2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FV×2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FVÒÓcƒ#3CƒCBöÖ–âæf–b"À¢'F‡VÖ&æ–Â#¢&76WG2ö–ÖvW2÷&öGV7G2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FV×2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FVÒÓcƒ#3CƒCBöÖ–âæf–b"À¢&vÆÆW'’#¢°¢&76WG2ö–ÖvW2÷&öGV7G2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FV×2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FVÒÓcƒ#3CƒCBöÖ–âæf–b ¢ÒÀ¢&F–ÖVç6–öç2#¢µÒÀ¢&–ç7FÆÆF–öâ#¢µÒÀ¢&Æ–6F–öç2#¢µÒÀ¢'f–FV÷2#¢µÒÀ¢'f–FVõ÷7FW"#¢""À¢'6÷W&6TÖ–â#¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†s#CFf6f3FcF#FS–†fs&F“cƒvÒòÓcƒcÒæ§uóCƒƒCƒæ§sö†4åtw&FSÓ"À¢'6÷W&6TvÆÆW'’#¢°¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†s#CFf6f3FcF#FS–†fs&F“cƒvÒæ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†VSƒ#S–#†ccFS“f#s“S3S#ƒ&Sc&¢æ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†&fSC†VCcSF&S†S†3#&6cfS3f&Ræ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†c3ƒ““SvVSC“f#vV#36Vƒ–&3„ræ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bôƒ#VcFCS†f#sCV&C–FCf3s6S6FFV&f"æ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†3&3–cVF3&SCV63“–3S#3ƒScSFcf7’æ§uó“cƒ“cƒæ§r ¢Ð¢ÒÀ¢'6÷W&6R#¢°¢'ÆFf÷&Ò#¢$Æ–&&"À¢'6÷W&6T–B#¢#cƒ#3CƒCB"À¢'W&Â#¢&‡GG3¢ò÷wwræÆ–&&æ6öÒ÷&öGV7BÖFWF–Âôöff–6RÔÖWFÂÕ7W7VæFVBÔ6V–Æ–ærÕF–ÆRÓcƒcócƒ#3CƒCBæ‡FÖÂ"À¢&FF6öæf–FVæ6R#¢''F–ÆÇ’×fW&–f–VB"À¢'fW&–f–VDB#¢###bÓrÓ#b"À¢&ÖVF–7FGW2#¢&&÷fVB×&öGV7B×7V6–f–2ÖvÆÆW'’Ö–ÖvR"À¢&ÖVF–6†#Sb#¢&cVcC#ƒVs#c&3ƒƒVVVFcS–Fc&S6&S#&css#C&&C†C&3S–VFFƒb"À¢&FWF–ÅfW&–f–VDB#¢###bÓrÓ#…C£3£3Rã#s•¢"À¢'6VÆV7FVDvÆÆW'”–æFW‚#¢À¢&ÖVF–7&÷#¢&æöæR"À¢&ÖVF–VF—B#¢&æöæR ¢ÒÀ¢&GWÆ–6FT6æF–FFR#¢fÇ6RÀ¢&GWÆ–6FTöb#¢""À¢&Ö—76–ætf–VÆG2#¢°¢&66—G’"À¢&Fö÷%v–GF‚"À¢&F–ÖVç6–öç2"À¢&æWEvV–v‡B"À¢&f–æ—6‚"À¢&÷Væ–ætævÆR"À¢&†öÆD÷Vâ"À¢&vÆ75F†–6¶æW72 ¢ÒÀ¢&æ÷FW2#¢%&öGV7BFWF–ÂGG&–'WFW2vW&RW‡G&7FVBg&öÒF†R7WÆ–VBÆ–&&6VÆÆW"Æ—7F–ærâVæ6öæf—&ÖVBf–VÆG2&VÖ–â&Ææ²â ¢ÒÀ¢°¢&–B#¢&Æ–&&Ócƒ#Cc#C"À¢'6ÇVr#¢&6÷W7F–2ÖÇVÖ–çVÒÖ6V–Æ–ærÓcƒ#Cc#C"À¢&6FVv÷'’#¢&ÇVÖ–çVÒÖ6V–Æ–ær×7—7FV×2"À¢'7V&6FVv÷'’#¢""À¢&fÖ–Ç’#¢$ÇVÖ–çVÒ6V–Æ–ær7—7FV×2"À¢&ÖöFVÂ#¢$52"À¢'F—FÆR#¢°¢&Vâ#¢$6÷W7F–2ÇVÖ–çVÒ6V–Æ–ær"À¢'¦‚#¢.YŽ™û>™9ÞX‹nY®šb ¢ÒÀ¢'6÷W&6UF—FÆR#¢.jŠYÙ~XÉn™9ÞX‹nYŽ™û>ZJžˆ«iÛþûÈÎX[~iÈž™‹.x¾™‹.kNX©þˆ;ÞûÈÎ˜.yJŽK¨îZêNXh^KÛþyJŽûÈŽX©îXZÎZêN8XêŽh‹þ8X^‹ª¾h‹þûÈ’Ócƒ#ÖÒ"À¢'7V6–f–6F–öç2#¢°¢&66—G’#¢çVÆÂÀ¢&Fö÷%v–GF‚#¢""À¢&F–ÖVç6–öç2#¢""À¢&æWEvV–v‡B#¢""À¢&ÖFW&–Â#¢$vÇfæ—¦VB7FVVÂ÷"ÇVÖ–çVÒƒ#B"À¢&f–æ—6‚#¢""À¢&÷Væ–ætævÆR#¢""À¢&†öÆD÷Vâ#¢çVÆÂÀ¢&vÆ75F†–6¶æW72#¢""À¢&÷F†W%fW&–f–VDf–VÆG2#¢°¢$6öÆ÷"#¢%v†—FRÂ6–ÇfW"Âw&W’æBWF2"À¢$VFvR†V–v‡B#¢#†ÖÒ²ÖÒ²†ÖÒ"À¢$å$2#¢#ãWããcR…6÷VæEDU‚6â&RãsR’"À¢%W&f÷&F–öâ#¢%W&bãã†ÖÓ²W&b"ã6ÖÓ²W&b2ãÖÓ²Ö–B×W&bã†ÖÓ²Ö–B×W&b"ã6ÖÒ"À¢%&öGV7BæÖR#¢$ÇVÖ–çVÒÆ’–â6V–Æ–ær"À¢%7G–ÆR#¢$Æ’Ö–âò6Æ—Ö–âòÆ’öâ"À¢%F†–6¶æW72#¢#ãCRÓãÖÒ"À¢$gVæ7F–öâ#¢.™‹.x²Â™©Nx:Þh
 rÂ™‹.kÚâÂYŽ™û2Â™©N™û2Â™‹.kB"À¢$6V–Æ–ærG—R#¢.˜y[îY®šb"À¢$6V–Æ–ær6†R#¢.jÚ>ikž[Ú""À¢$Æ–6F–öâ#¢.X©îXZÎj[Â"À¢$fVGW&W2#¢.ˆ›®iÊþY®šbÂ™¸nh‰Y®šbÂz›þZÙNY®šb"À¢$FW6–vâ7G–ÆR#¢$ÖöFW&â"À¢$f—&RW&f÷&Öæ6R#¢$#"À¢$w&÷72vV–v‡B#¢#"ã¶r"À¢%6¶vRF–ÖVç6–öç2#¢#3Uƒ%ƒ#6Ò ¢Ð¢ÒÀ¢&Æ–6F–öç2#¢°¢$öff–6W2 ¢ÒÀ¢&fVGW&W2#¢µÒÀ¢'f&–çG2#¢µÒÀ¢&ÖVF–#¢°¢&Ö–â#¢&76WG2ö–ÖvW2÷&öGV7G2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FV×2ö6÷W7F–2ÖÇVÖ–çVÒÖ6V–Æ–ærÓcƒ#Cc#CöÖ–âæf–b"À¢&Æ—7B#¢&76WG2ö–ÖvW2÷&öGV7G2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FV×2ö6÷W7F–2ÖÇVÖ–çVÒÖ6V–Æ–ærÓcƒ#Cc#CöÖ–âæf–b"À¢'F‡VÖ&æ–Â#¢&76WG2ö–ÖvW2÷&öGV7G2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FV×2ö6÷W7F–2ÖÇVÖ–çVÒÖ6V–Æ–ærÓcƒ#Cc#CöÖ–âæf–b"À¢&vÆÆW'’#¢°¢&76WG2ö–ÖvW2÷&öGV7G2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FV×2ö6÷W7F–2ÖÇVÖ–çVÒÖ6V–Æ–ærÓcƒ#Cc#CöÖ–âæf–b ¢ÒÀ¢&F–ÖVç6–öç2#¢µÒÀ¢&–ç7FÆÆF–öâ#¢µÒÀ¢&Æ–6F–öç2#¢µÒÀ¢'f–FV÷2#¢µÒÀ¢'f–FVõ÷7FW"#¢""À¢'6÷W&6TÖ–â#¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bôƒƒ3sCF3C3fSC#S–Scƒ#F#f&cSFS&3eòÓcƒ#ÖÒæ§uóCƒƒCƒæ§sö†4åtw&FSÓ"À¢'6÷W&6TvÆÆW'’#¢°¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bôƒƒ3sCF3C3fSC#S–Scƒ#F#f&cSFS&3eæ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bôƒC“S–&#cCƒcC“#&#ƒS6C–Cc&C%Bæ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†cC†c&CVC†F&3CS–S“C–c36#ƒ&cdòæ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†3FVS“ƒs“cC6&&fFS#6cCF66#63æ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†33“#“–&#fFC#Cs“C&–6&F3FF3csv"æ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bôƒ–VcC#c†C6#C3sCƒ36c–SCC““†#6&$2æ§uó“cƒ“cƒæ§r ¢Ð¢ÒÀ¢'6÷W&6R#¢°¢'ÆFf÷&Ò#¢$Æ–&&"À¢'6÷W&6T–B#¢#cƒ#Cc#C"À¢'W&Â#¢&‡GG3¢ò÷wwræÆ–&&æ6öÒ÷&öGV7BÖFWF–ÂôÖöGVÆ"ÔÇVÖ–çVÒÔ6÷W7F–2Ô6V–Æ–ærÕF–ÆW2×v—F…ócƒ#Cc#Cæ‡FÖÂ"À¢&FF6öæf–FVæ6R#¢''F–ÆÇ’×fW&–f–VB"À¢'fW&–f–VDB#¢###bÓrÓ#b"À¢&ÖVF–7FGW2#¢&&÷fVB×&öGV7B×7V6–f–2ÖvÆÆW'’Ö–ÖvR"À¢&ÖVF–6†#Sb#¢###ssƒ3Csc&#““–6cscC“CFCS†f#fCƒCSƒ3cƒƒS#cvFffV&3#cSfb"À¢&FWF–ÅfW&–f–VDB#¢###bÓrÓ#…C£3£3bãsu¢"À¢'6VÆV7FVDvÆÆW'”–æFW‚#¢À¢&ÖVF–7&÷#¢&æöæR"À¢&ÖVF–VF—B#¢&æöæR ¢ÒÀ¢&GWÆ–6FT6æF–FFR#¢fÇ6RÀ¢&GWÆ–6FTöb#¢""À¢&Ö—76–ætf–VÆG2#¢°¢&66—G’"À¢&Fö÷%v–GF‚"À¢&F–ÖVç6–öç2"À¢&æWEvV–v‡B"À¢&f–æ—6‚"À¢&÷Væ–ætævÆR"À¢&†öÆD÷Vâ"À¢&vÆ75F†–6¶æW72 ¢ÒÀ¢&æ÷FW2#¢%&öGV7BFWF–ÂGG&–'WFW2vW&RW‡G&7FVBg&öÒF†R7WÆ–VBÆ–&&6VÆÆW"Æ—7F–ærâVæ6öæf—&ÖVBf–VÆG2&VÖ–â&Ææ²â ¢ÒÀ¢°¢&–B#¢&Æ–&&Ócƒ#3S#s#2"À¢'6ÇVr#¢&6÷W7F–2ÖÇVÖ–çVÒÖ6V–Æ–ærÓcƒ#3S#s#2"À¢&6FVv÷'’#¢&ÇVÖ–çVÒÖ6V–Æ–ær×7—7FV×2"À¢'7V&6FVv÷'’#¢""À¢&fÖ–Ç’#¢$ÇVÖ–çVÒ6V–Æ–ær7—7FV×2"À¢&ÖöFVÂ#¢$5"À¢'F—FÆR#¢°¢&Vâ#¢$6÷W7F–2ÇVÖ–çVÒ6V–Æ–ær"À¢'¦‚#¢.YŽ™û>™9ÞX‹nY®šb ¢ÒÀ¢'6÷W&6UF—FÆR#¢.YŽ™û>™9ÞX‹nZJžˆ«iÛòÒX©îXZÎZêNY(ÎYXnYË®Xh^˜:Ž™‹.x¾Y®šnz	b"À¢'7V6–f–6F–öç2#¢°¢&66—G’#¢çVÆÂÀ¢&Fö÷%v–GF‚#¢""À¢&F–ÖVç6–öç2#¢""À¢&æWEvV–v‡B#¢""À¢&ÖFW&–Â#¢$vÇfæ—¦VB7FVVÂ÷"ÇVÖ–çVÒƒ#B"À¢&f–æ—6‚#¢""À¢&÷Væ–ætævÆR#¢""À¢&†öÆD÷Vâ#¢çVÆÂÀ¢&vÆ75F†–6¶æW72#¢""À¢&÷F†W%fW&–f–VDf–VÆG2#¢°¢$6öÆ÷"#¢%v†—FRÂ6–ÇfW"Âw&W’æBWF2"À¢$VFvR†V–v‡B#¢#†ÖÒ²ÖÒ²†ÖÒ"À¢$å$2#¢#ãWããcR…6÷VæEDU‚6â&RãsR’"À¢%W&f÷&F–öâ#¢%W&bãã†ÖÓ²W&b"ã6ÖÓ²W&b2ãÖÓ²Ö–B×W&bã†ÖÓ²Ö–B×W&b"ã6ÖÒ"À¢%&öGV7BæÖR#¢$ÇVÖ–çVÒÆ’–â6V–Æ–ær"À¢%7G–ÆR#¢$Æ’Ö–âò6Æ—Ö–âòÆ’öâ"À¢%F†–6¶æW72#¢#ãCRÓãÖÒ"À¢$gVæ7F–öâ#¢.™‹.x²Â™©Nx:Þh
-rÂ™‹.kÚâÂYŽ™û2Â™©N™û2Â™‹.kB"À¢$6V–Æ–ærG—R#¢.˜y[îY®šb"À¢$6V–Æ–ær6†R#¢.jÚ>ikž[Ú""À¢$Æ–6F–öâ#¢.X©îXZÎj[Â"À¢$fVGW&W2#¢.ˆ›®iÊþY®šbÂ™¸nh‰Y®šbÂz›þZÙNY®šb"À¢$FW6–vâ7G–ÆR#¢$ÖöFW&â"À¢$f—&RW&f÷&Öæ6R#¢$#"À¢$w&÷72vV–v‡B#¢#"ã¶r"À¢%6¶vRF–ÖVç6–öç2#¢#3Uƒ%ƒ#6Ò ¢Ð¢ÒÀ¢&Æ–6F–öç2#¢°¢%&WF–Â"À¢$öff–6W2"À¢$6V–Æ–æw2 ¢ÒÀ¢&fVGW&W2#¢µÒÀ¢'f&–çG2#¢µÒÀ¢&ÖVF–#¢°¢&Ö–â#¢&76WG2ö–ÖvW2÷&öGV7G2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FV×2ö6÷W7F–2ÖÇVÖ–çVÒÖ6V–Æ–ærÓcƒ#3S#s#2öÖ–âæf–b"À¢&Æ—7B#¢&76WG2ö–ÖvW2÷&öGV7G2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FV×2ö6÷W7F–2ÖÇVÖ–çVÒÖ6V–Æ–ærÓcƒ#3S#s#2öÖ–âæf–b"À¢'F‡VÖ&æ–Â#¢&76WG2ö–ÖvW2÷&öGV7G2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FV×2ö6÷W7F–2ÖÇVÖ–çVÒÖ6V–Æ–ærÓcƒ#3S#s#2öÖ–âæf–b"À¢&vÆÆW'’#¢°¢&76WG2ö–ÖvW2÷&öGV7G2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FV×2ö6÷W7F–2ÖÇVÖ–çVÒÖ6V–Æ–ærÓcƒ#3S#s#2öÖ–âæf–b ¢ÒÀ¢&F–ÖVç6–öç2#¢µÒÀ¢&–ç7FÆÆF–öâ#¢µÒÀ¢&Æ–6F–öç2#¢µÒÀ¢'f–FV÷2#¢µÒÀ¢'f–FVõ÷7FW"#¢""À¢'6÷W&6TÖ–â#¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†#cCsƒvSCCFsƒƒs#ƒCfSƒ†SFCfVòÒæ§uóCƒƒCƒæ§sö†4åtw&FSÓ"À¢'6÷W&6TvÆÆW'’#¢°¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†#cCsƒvSCCFsƒƒs#ƒCfSƒ†SFCfVæ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bôƒCFCf&&6#“6CCcSƒƒS3&3s#ffF#”ræ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bôƒ†vVC#fcVFCFVCS–&Sc3C3Fvc“v&WBæ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bôƒƒ6f3s#c†6SF3†c“sc–CCFS3cƒ3e"æ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†CcVccCC3CCF6&C†F&ffff#“ƒc"æ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†–fS“ƒCc“3##FCSƒ–3C&f3–#V3F#6Græ§uó“cƒ“cƒæ§r ¢Ð¢ÒÀ¢'6÷W&6R#¢°¢'ÆFf÷&Ò#¢$Æ–&&"À¢'6÷W&6T–B#¢#cƒ#3S#s#2"À¢'W&Â#¢&‡GG3¢ò÷wwræÆ–&&æ6öÒ÷&öGV7BÖFWF–Âô6÷W7F–2ÔÇVÖ–çVÒÔ6V–Æ–ærÕæVÂÔf—&W&ööbÕ7W7VæFVEócƒ#3S#s#2æ‡FÖÂ"À¢&FF6öæf–FVæ6R#¢''F–ÆÇ’×fW&–f–VB"À¢'fW&–f–VDB#¢###bÓrÓ#b"À¢&ÖVF–7FGW2#¢&&÷fVB×&öGV7B×7V6–f–2ÖvÆÆW'’Ö–ÖvR"À¢&ÖVF–6†#Sb#¢#CvCScCƒ““s“#sfVS“c†FVSSCVcVSƒf6Sv3VcƒVC†FCCsvf#sCfR"À¢&FWF–ÅfW&–f–VDB#¢###bÓrÓ#…C£3£3‚ãS¢"À¢'6VÆV7FVDvÆÆW'”–æFW‚#¢À¢&ÖVF–7&÷#¢&æöæR"À¢&ÖVF–VF—B#¢&æöæR ¢ÒÀ¢&GWÆ–6FT6æF–FFR#¢fÇ6RÀ¢&GWÆ–6FTöb#¢""À¢&Ö—76–ætf–VÆG2#¢°¢&66—G’"À¢&Fö÷%v–GF‚"À¢&F–ÖVç6–öç2"À¢&æWEvV–v‡B"À¢&f–æ—6‚"À¢&÷Væ–ætævÆR"À¢&†öÆD÷Vâ"À¢&vÆ75F†–6¶æW72 ¢ÒÀ¢&æ÷FW2#¢%&öGV7BFWF–ÂGG&–'WFW2vW&RW‡G&7FVBg&öÒF†R7WÆ–VBÆ–&&6VÆÆW"Æ—7F–ærâVæ6öæf—&ÖVBf–VÆG2&VÖ–â&Ææ²â ¢ÒÀ¢°¢&–B#¢&Æ–&&ÓcCc#CSSSSR"À¢'6ÇVr#¢&vÆ72ÖFö÷"ÖÆö6²Ö¶BÓ#†"ÓcCc#CSSSSR"À¢&6FVv÷'’#¢&Fö÷"ÖÆö6·2"À¢'7V&6FVv÷'’#¢""À¢&fÖ–Ç’#¢$Fö÷"Æö6·2"À¢&ÖöFVÂ#¢$´BÓ#„""À¢'F—FÆR#¢°¢&Vâ#¢$vÆ72Fö÷"Æö6²´BÓ#„""À¢'¦‚#¢.xë¾y(>™zŽ™H´BÓ#„" ¢ÒÀ¢'6÷W&6UF—FÆR#¢$vÆ72Fö÷"Æö6²7—7FVÒ7W&f6RÖ÷VçFVBvÆ72Fö÷"6VçG&ÂÆö6²†÷FVÂöff–6RvÆ72FòvÆÂ66W726öçG&öÂ"À¢'7V6–f–6F–öç2#¢°¢&66—G’#¢çVÆÂÀ¢&Fö÷%v–GF‚#¢""À¢&F–ÖVç6–öç2#¢""À¢&æWEvV–v‡B#¢""À¢&ÖFW&–Â#¢%7F–æÆW727FVVÂ#ó3B"À¢&f–æ—6‚#¢$Ö—'&÷"7W&f6RÂ6æF–ærÂF—Fæ—VÒvöÆB"À¢&÷Væ–ætævÆR#¢""À¢&†öÆD÷Vâ#¢çVÆÂÀ¢&vÆ75F†–6¶æW72#¢#(	3"ÖÒ"À¢&÷F†W%fW&–f–VDf–VÆG2#¢°¢$–ç7FÆÆF–öâ#¢%67&Wr ¢Ð¢ÒÀ¢&Æ–6F–öç2#¢°¢$öff–6R'V–ÆF–æw2"À¢$g&ÖVÆW72vÆ72Fö÷'2 ¢ÒÀ¢&fVGW&W2#¢°¢$V7’–ç7FÆÆF–öâ ¢ÒÀ¢'f&–çG2#¢°¢$Ö—'&÷"7W&f6R"À¢%6æFVB"À¢%F—Fæ—VÒvöÆB ¢ÒÀ¢&ÖVF–#¢°¢&Ö–â#¢&76WG2ö–ÖvW2÷&öGV7G2öFö÷"ÖÆö6·2övÆ72ÖFö÷"ÖÆö6²Ö¶BÓ#†"ÓcCc#CSSSSRöÖ–âÖ6ÆVâÓ##cs#ræf–b"À¢&Æ—7B#¢&76WG2ö–ÖvW2÷&öGV7G2öFö÷"ÖÆö6·2övÆ72ÖFö÷"ÖÆö6²Ö¶BÓ#†"ÓcCc#CSSSSRöÖ–âÖ6ÆVâÓ##cs#ræf–b"À¢'F‡VÖ&æ–Â#¢&76WG2ö–ÖvW2÷&öGV7G2öFö÷"ÖÆö6·2övÆ72ÖFö÷"ÖÆö6²Ö¶BÓ#†"ÓcCc#CSSSSRöÖ–âÖ6ÆVâÓ##cs#ræf–b"À¢&vÆÆW'’#¢°¢&76WG2ö–ÖvW2÷&öGV7G2öFö÷"ÖÆö6·2övÆ72ÖFö÷"ÖÆö6²Ö¶BÓ#†"ÓcCc#CSSSSRöÖ–âÖ6ÆVâÓ##cs#ræf–b ¢ÒÀ¢&F–ÖVç6–öç2#¢µÒÀ¢&–ç7FÆÆF–öâ#¢µÒÀ¢&Æ–6F–öç2#¢µÒÀ¢'f–FV÷2#¢µÒÀ¢'f–FVõ÷7FW"#¢""À¢'6÷W&6TÖ–â#¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒòSC63Bö¶bôƒVc#CCf#ƒ†SC#&&#VcfC&6SFS“C“s‡æ§uó“cƒ“cƒæ§r"À¢'6÷W&6TvÆÆW'’#¢°¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒòSC63Bö¶bôƒVc#CCf#ƒ†SC#&&#VcfC&6SFS“C“s‡æ§uó“cƒ“cƒæ§r ¢Ð¢ÒÀ¢'6÷W&6R#¢°¢'ÆFf÷&Ò#¢$Æ–&&"À¢'6÷W&6T–B#¢#cCc#CSSSSR"À¢'W&Â#¢&‡GG3¢ò÷wwræÆ–&&æ6öÒ÷&öGV7BÖFWF–ÂôvÆ72ÔFö÷"ÔÆö6²Õ7—7FVÒÕ7W&f6RÔÖ÷VçFVEócCc#CSSSSRæ‡FÖÂ"À¢&FF6öæf–FVæ6R#¢'fW&–f–VB"À¢'fW&–f–VDB#¢###bÓrÓ#r"À¢&ÖVF–7FGW2#¢&6ÆVæVBÖWF†÷&—¦VB×6÷W&6RÖ–ÖvR"À¢&ÖVF–6†#Sb#¢#–S&VV#V3#V#c–##C&VCƒsSfCF“vc&#3†&CF3C“SVC“#s3Sƒ–Fc“3B"À¢&FWF–ÅfW&–f–VDB#¢###bÓrÓ#uC££ã¢ ¢ÒÀ¢&GWÆ–6FT6æF–FFR#¢fÇ6RÀ¢&GWÆ–6FTöb#¢""À¢&Ö—76–ætf–VÆG2#¢°¢&66—G’"À¢&Fö÷%v–GF‚"À¢&F–ÖVç6–öç2"À¢&æWEvV–v‡B"À¢&÷Væ–ætævÆR"À¢&†öÆD÷Vâ ¢ÒÀ¢&æ÷FW2#¢%fW&–f–VBv–ç7BF†R7WÆ–VBÆ–&&6VÆÆW"Æ—7F–ærâVæ6öæf—&ÖVBf–VÆG2&VÖ–â&Ææ²â ¢Ð¥Ð
+rÂ™‹.kÚâÂYŽ™û2Â™©N™û2Â™‹.kB"À¢$6V–Æ–ærG—R#¢.˜y[îY®šb"À¢$6V–Æ–ær6†R#¢.jÚ>ikž[Ú""À¢$Æ–6F–öâ#¢.X©îXZÎj[Â"À¢$fVGW&W2#¢.ˆ›®iÊþY®šbÂ™¸nh‰Y®šbÂz›þZÙNY®šb"À¢$FW6–vâ7G–ÆR#¢$ÖöFW&â"À¢$f—&RW&f÷&Öæ6R#¢$#"À¢$w&÷72vV–v‡B#¢#"ã¶r"À¢%6¶vRF–ÖVç6–öç2#¢#3Uƒ%ƒ#6Ò ¢Ð¢ÒÀ¢&Æ–6F–öç2#¢°¢%&WF–Â"À¢$öff–6W2"À¢$6V–Æ–æw2 ¢ÒÀ¢&fVGW&W2#¢µÒÀ¢'f&–çG2#¢µÒÀ¢&ÖVF–#¢°¢&Ö–â#¢&76WG2ö–ÖvW2÷&öGV7G2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FV×2ö6÷W7F–2ÖÇVÖ–çVÒÖ6V–Æ–ærÓcƒ#3S#s#2öÖ–âæf–b"À¢&Æ—7B#¢&76WG2ö–ÖvW2÷&öGV7G2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FV×2ö6÷W7F–2ÖÇVÖ–çVÒÖ6V–Æ–ærÓcƒ#3S#s#2öÖ–âæf–b"À¢'F‡VÖ&æ–Â#¢&76WG2ö–ÖvW2÷&öGV7G2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FV×2ö6÷W7F–2ÖÇVÖ–çVÒÖ6V–Æ–ærÓcƒ#3S#s#2öÖ–âæf–b"À¢&vÆÆW'’#¢°¢&76WG2ö–ÖvW2÷&öGV7G2öÇVÖ–çVÒÖ6V–Æ–ær×7—7FV×2ö6÷W7F–2ÖÇVÖ–çVÒÖ6V–Æ–ærÓcƒ#3S#s#2öÖ–âæf–b ¢ÒÀ¢&F–ÖVç6–öç2#¢µÒÀ¢&–ç7FÆÆF–öâ#¢µÒÀ¢&Æ–6F–öç2#¢µÒÀ¢'f–FV÷2#¢µÒÀ¢'f–FVõ÷7FW"#¢""À¢'6÷W&6TÖ–â#¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†#cCsƒvSCCFsƒƒs#ƒCfSƒ†SFCfVòÒæ§uóCƒƒCƒæ§sö†4åtw&FSÓ"À¢'6÷W&6TvÆÆW'’#¢°¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†#cCsƒvSCCFsƒƒs#ƒCfSƒ†SFCfVæ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bôƒCFCf&&6#“6CCcSƒƒS3&3s#ffF#”ræ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bôƒ†vVC#fcVFCFVCS–&Sc3C3Fvc“v&WBæ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bôƒƒ6f3s#c†6SF3†c“sc–CCFS3cƒ3e"æ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†CcVccCC3CCF6&C†F&ffff#“ƒc"æ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†–fS“ƒCc“3##FCSƒ–3C&f3–#V3F#6Græ§uó“cƒ“cƒæ§r ¢Ð¢ÒÀ¢'6÷W&6R#¢°¢'ÆFf÷&Ò#¢$Æ–&&"À¢'6÷W&6T–B#¢#cƒ#3S#s#2"À¢'W&Â#¢&‡GG3¢ò÷wwræÆ–&&æ6öÒ÷&öGV7BÖFWF–Âô6÷W7F–2ÔÇVÖ–çVÒÔ6V–Æ–ærÕæVÂÔf—&W&ööbÕ7W7VæFVEócƒ#3S#s#2æ‡FÖÂ"À¢&FF6öæf–FVæ6R#¢''F–ÆÇ’×fW&–f–VB"À¢'fW&–f–VDB#¢###bÓrÓ#b"À¢&ÖVF–7FGW2#¢&&÷fVB×&öGV7B×7V6–f–2ÖvÆÆW'’Ö–ÖvR"À¢&ÖVF–6†#Sb#¢#CvCScCƒ““s“#sfVS“c†FVSSCVcVSƒf6Sv3VcƒVC†FCCsvf#sCfR"À¢&FWF–ÅfW&–f–VDB#¢###bÓrÓ#…C£3£3‚ãS¢"À¢'6VÆV7FVDvÆÆW'”–æFW‚#¢À¢&ÖVF–7&÷#¢&æöæR"À¢&ÖVF–VF—B#¢&æöæR ¢ÒÀ¢&GWÆ–6FT6æF–FFR#¢fÇ6RÀ¢&GWÆ–6FTöb#¢""À¢&Ö—76–ætf–VÆG2#¢°¢&66—G’"À¢&Fö÷%v–GF‚"À¢&F–ÖVç6–öç2"À¢&æWEvV–v‡B"À¢&f–æ—6‚"À¢&÷Væ–ætævÆR"À¢&†öÆD÷Vâ"À¢&vÆ75F†–6¶æW72 ¢ÒÀ¢&æ÷FW2#¢%&öGV7BFWF–ÂGG&–'WFW2vW&RW‡G&7FVBg&öÒF†R7WÆ–VBÆ–&&6VÆÆW"Æ—7F–ærâVæ6öæf—&ÖVBf–VÆG2&VÖ–â&Ææ²â ¢ÒÀ¢°¢&–B#¢&Æ–&&ÓcCc#CSSSSR"À¢'6ÇVr#¢&vÆ72ÖFö÷"ÖÆö6²Ö¶BÓ#†"ÓcCc#CSSSSR"À¢&6FVv÷'’#¢&Fö÷"ÖÆö6·2"À¢'7V&6FVv÷'’#¢""À¢&fÖ–Ç’#¢$Fö÷"Æö6·2"À¢&ÖöFVÂ#¢$´BÓ#„""À¢'F—FÆR#¢°¢&Vâ#¢$vÆ72Fö÷"Æö6²´BÓ#„""À¢'¦‚#¢.xë¾y(>™zŽ™H´BÓ#„" ¢ÒÀ¢'6÷W&6UF—FÆR#¢$vÆ72Fö÷"Æö6²7—7FVÒ7W&f6RÖ÷VçFVBvÆ72Fö÷"6VçG&ÂÆö6²†÷FVÂöff–6RvÆ72FòvÆÂ66W726öçG&öÂ"À¢'7V6–f–6F–öç2#¢°¢&66—G’#¢çVÆÂÀ¢&Fö÷%v–GF‚#¢""À¢&F–ÖVç6–öç2#¢""À¢&æWEvV–v‡B#¢""À¢&ÖFW&–Â#¢%7F–æÆW727FVVÂ#ó3B"À¢&f–æ—6‚#¢$Ö—'&÷"7W&f6RÂ6æF–ærÂF—Fæ—VÒvöÆB"À¢&÷Væ–ætævÆR#¢""À¢&†öÆD÷Vâ#¢çVÆÂÀ¢&vÆ75F†–6¶æW72#¢#(	3"ÖÒ"À¢&÷F†W%fW&–f–VDf–VÆG2#¢°¢$–ç7FÆÆF–öâ#¢%67&Wr ¢Ð¢ÒÀ¢&Æ–6F–öç2#¢°¢$öff–6R'V–ÆF–æw2"À¢$g&ÖVÆW72vÆ72Fö÷'2 ¢ÒÀ¢&fVGW&W2#¢°¢$V7’–ç7FÆÆF–öâ ¢ÒÀ¢'f&–çG2#¢°¢$Ö—'&÷"7W&f6R"À¢%6æFVB"À¢%F—Fæ—VÒvöÆB ¢ÒÀ¢&ÖVF–#¢°¢&Ö–â#¢&76WG2ö–ÖvW2÷&öGV7G2öFö÷"ÖÆö6·2övÆ72ÖFö÷"ÖÆö6²Ö¶BÓ#†"ÓcCc#CSSSSRöÖ–âÖ6ÆVâÓ##cs#ræf–b"À¢&Æ—7B#¢&76WG2ö–ÖvW2÷&öGV7G2öFö÷"ÖÆö6·2övÆ72ÖFö÷"ÖÆö6²Ö¶BÓ#†"ÓcCc#CSSSSRöÖ–âÖ6ÆVâÓ##cs#ræf–b"À¢'F‡VÖ&æ–Â#¢&76WG2ö–ÖvW2÷&öGV7G2öFö÷"ÖÆö6·2övÆ72ÖFö÷"ÖÆö6²Ö¶BÓ#†"ÓcCc#CSSSSRöÖ–âÖ6ÆVâÓ##cs#ræf–b"À¢&vÆÆW'’#¢°¢&76WG2ö–ÖvW2÷&öGV7G2öFö÷"ÖÆö6·2övÆ72ÖFö÷"ÖÆö6²Ö¶BÓ#†"ÓcCc#CSSSSRöÖ–âÖ6ÆVâÓ##cs#ræf–b ¢ÒÀ¢&F–ÖVç6–öç2#¢µÒÀ¢&–ç7FÆÆF–öâ#¢µÒÀ¢&Æ–6F–öç2#¢µÒÀ¢'f–FV÷2#¢µÒÀ¢'f–FVõ÷7FW"#¢""À¢'6÷W&6TÖ–â#¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒòSC63Bö¶bôƒVc#CCf#ƒ†SC#&&#VcfC&6SFS“C“s‡æ§uó“cƒ“cƒæ§r"À¢'6÷W&6TvÆÆW'’#¢°¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒòSC63Bö¶bôƒVc#CCf#ƒ†SC#&&#VcfC&6SFS“C“s‡æ§uó“cƒ“cƒæ§r ¢Ð¢ÒÀ¢'6÷W&6R#¢°¢'ÆFf÷&Ò#¢$Æ–&&"À¢'6÷W&6T–B#¢#cCc#CSSSSR"À¢'W&Â#¢&‡GG3¢ò÷wwræÆ–&&æ6öÒ÷&öGV7BÖFWF–ÂôvÆ72ÔFö÷"ÔÆö6²Õ7—7FVÒÕ7W&f6RÔÖ÷VçFVEócCc#CSSSSRæ‡FÖÂ"À¢&FF6öæf–FVæ6R#¢'fW&–f–VB"À¢'fW&–f–VDB#¢###bÓrÓ#r"À¢&ÖVF–7FGW2#¢&6ÆVæVBÖWF†÷&—¦VB×6÷W&6RÖ–ÖvR"À¢&ÖVF–6†#Sb#¢#–S&VV#V3#V#c–##C&VCƒsSfCF“vc&#3†&CF3C“SVC“#s3Sƒ–Fc“3B"À¢&FWF–ÅfW&–f–VDB#¢###bÓrÓ#uC££ã¢ ¢ÒÀ¢&GWÆ–6FT6æF–FFR#¢fÇ6RÀ¢&GWÆ–6FTöb#¢""À¢&Ö—76–ætf–VÆG2#¢°¢&66—G’"À¢&Fö÷%v–GF‚"À¢&F–ÖVç6–öç2"À¢&æWEvV–v‡B"À¢&÷Væ–ætævÆR"À¢&†öÆD÷Vâ ¢ÒÀ¢&æ÷FW2#¢%fW&–f–VBv–ç7BF†R7WÆ–VBÆ–&&6VÆÆW"Æ—7F–ærâVæ6öæf—&ÖVBf–VÆG2&VÖ–â&Ææ²â ¢Ð¥Ð 
