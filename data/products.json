@@ -1778,8 +1778,8 @@
       "mediaCrop": "none",
       "mediaEdit": "none"
     },
-    "duplicateCandidate": false,
-    "duplicateOf": "",
+    "duplicateCandidate": true,
+    "duplicateOf": "alibaba-1601053545704",
     "missingFields": [
       "capacity",
       "doorWidth",
@@ -1788,7 +1788,7 @@
       "openingAngle",
       "holdOpen"
     ],
-    "notes": "Batch 2 review confirmed the source-specific central glass-door-lock image, stainless-steel material, finish codes and 8â€“12 mm glass range. The 15 kg value is gross package weight and is not published as net product weight."
+    "notes": "This source listing uses model KD-9007A for a central glass-door lock. Another source listing uses the same model for a materially different pull-handle lock, so both remain separate and flagged for factory confirmation."
   },
   {
     "id": "alibaba-1601830920368",
@@ -1803,7 +1803,7 @@
     },
     "sourceTitle": "ä¸é”ˆé’¢ç»ç’ƒé—¨åœ°å¼¹ç°§ 90å…¬æ–¤æ¶²å‹åœ°å¼¹ç°§ å·¥ä¸šéšè—å¼åœ°å¼¹ç°§ å•†ä¸šé—¨åœ°å¼¹ç°§",
     "specifications": {
-      "capacity": null,
+      "capacity": 90,
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
@@ -1867,14 +1867,13 @@
     "duplicateCandidate": false,
     "duplicateOf": "",
     "missingFields": [
-      "capacity",
       "doorWidth",
       "dimensions",
       "netWeight",
       "openingAngle",
       "holdOpen"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "The source title explicitly states a 90 kg hydraulic floor spring. The source-specific 896 Ã— 896 image and existing material, finish options and 8â€“12 mm glass range were retained; package gross weight is not net weight."
   },
   {
     "id": "alibaba-1601834349647",
@@ -1884,8 +1883,8 @@
     "family": "Shower Hardware",
     "model": "JDS-103S",
     "title": {
-      "en": "Stainless steel Shower Door Hinge",
-      "zh": "æ·‹æµ´é—¨é“°é“¾"
+      "en": "Stainless steel Soft-close Shower Door Hinge Â· 90Â°",
+      "zh": "ä¸é”ˆé’¢ç¼“é—­æ·‹æµ´é—¨é“°é“¾ Â· 90Â°"
     },
     "sourceTitle": "ä¸é”ˆé’¢ç»ç’ƒé—¨æ¶²å‹ç¼“é—­æ·‹æµ´é“°é“¾ï¼Œæ·‹æµ´ç»ç’ƒé—¨æµ´å®¤é“°é“¾ï¼Œç»ç’ƒå¤¹å­",
     "specifications": {
@@ -1963,7 +1962,7 @@
       "netWeight",
       "holdOpen"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "The source Product Name, Function, Usage and Features identify a 90Â° wall-to-glass soft-close shower hinge. The 5 mm value is hinge body thickness, and package gross weight is not net weight."
   },
   {
     "id": "alibaba-1600993825658",
@@ -1983,7 +1982,7 @@
       "dimensions": "",
       "netWeight": "",
       "material": "PVC",
-      "finish": "",
+      "finish": "Blue, transparent, black",
       "openingAngle": "",
       "holdOpen": null,
       "glassThickness": "6 / 8 / 10 / 12 mm",
@@ -2047,11 +2046,10 @@
       "doorWidth",
       "dimensions",
       "netWeight",
-      "finish",
       "openingAngle",
       "holdOpen"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "The source Color field explicitly lists blue, transparent and black options for this PVC H-type waterproof strip. The existing 6 / 8 / 10 / 12 mm glass compatibility values were retained; package gross weight is not net weight."
   },
   {
     "id": "alibaba-1601053545704",
@@ -2127,7 +2125,7 @@
       "mediaCrop": "none",
       "mediaEdit": "none"
     },
-    "duplicateCandidate": false,
+    "duplicateCandidate": true,
     "duplicateOf": "",
     "missingFields": [
       "capacity",
@@ -2137,7 +2135,7 @@
       "openingAngle",
       "holdOpen"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "This source listing uses model KD-9007A for a frameless glass-door lock with a pull handle. Another source listing uses the same model for a materially different central lock, so both remain separate and flagged for factory confirmation."
   },
   {
     "id": "alibaba-1601819101341",
@@ -2200,11 +2198,11 @@
       "dataConfidence": "partially-verified",
       "verifiedAt": "2026-07-26",
       "mediaStatus": "approved-product-specific-gallery-image",
-      "mediaSha256": "472e8a7d754999f4dac9596b0860bc51e50f8b5be70f459ba7e9d07526359e80",
+      "mediaSha256": "293507b2f6863a9366935127478fdc345a2a55fb11fef74368bcd28bb6b5edca",
       "detailVerifiedAt": "2026-07-28T10:35:04.540Z",
-      "selectedGalleryIndex": 1,
+      "selectedGalleryIndex": 0,
       "mediaCrop": "none",
-      "mediaEdit": "none"
+      "mediaEdit": "resized and padded to 896 Ã— 896"
     },
     "duplicateCandidate": false,
     "duplicateOf": "",
@@ -2218,7 +2216,7 @@
       "holdOpen",
       "glassThickness"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "The generic product image was replaced with the source gallery graphic labeled D-3001. The source listing does not state a confirmed load, door width, dimensions, net weight, finish, opening angle, hold-open option or glass thickness, so those fields remain blank."
   },
   {
     "id": "alibaba-60763886206",
@@ -2234,7 +2232,7 @@
     "sourceTitle": "95KGåœ°æ¿å¼¹ç°§é“°é“¾125 Â° æ‰“å¼€è§’åº¦ç»ç’ƒé—¨åœ°é¢å¼¹ç°§",
     "specifications": {
       "capacity": 95,
-      "doorWidth": "",
+      "doorWidth": "â‰¤ 900 mm",
       "dimensions": "",
       "netWeight": "",
       "material": "",
@@ -2250,7 +2248,9 @@
         "Features": "æ˜“äºå®‰è£…, å¯è°ƒé€Ÿåº¦",
         "Design style": "Modern",
         "Gross weight": "16.0 kg",
-        "Package dimensions": "30.5X30X21 cm"
+        "Package dimensions": "30.5X30X21 cm",
+        "Closing force": "38 Nm",
+        "Opening / hold-open variants": "90Â° / 125Â°; hold-open or non-hold-open"
       }
     },
     "applications": [
@@ -2294,10 +2294,9 @@
       "mediaCrop": "none",
       "mediaEdit": "none"
     },
-    "duplicateCandidate": false,
+    "duplicateCandidate": true,
     "duplicateOf": "",
     "missingFields": [
-      "doorWidth",
       "dimensions",
       "netWeight",
       "material",
@@ -2305,7 +2304,7 @@
       "holdOpen",
       "glassThickness"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "The source gallery specification graphic states 95 kg, 900 mm maximum gate width, 38 Nm closing force and 90Â° / 125Â° hold-open or non-hold-open variants. The same model appears on another listing, so both records remain flagged for factory confirmation."
   },
   {
     "id": "alibaba-1601453705558",
@@ -2321,7 +2320,7 @@
     "sourceTitle": "95å…¬æ–¤æ‰¿é‡é—¨é“°é“¾ç»ç’ƒé—¨åœ°æ¿å¼¹ç°§æœºç»ç’ƒé—¨åœ°æ¿å¼¹ç°§",
     "specifications": {
       "capacity": 95,
-      "doorWidth": "",
+      "doorWidth": "â‰¤ 900 mm",
       "dimensions": "",
       "netWeight": "",
       "material": "",
@@ -2335,7 +2334,10 @@
         "Features": "å¯è°ƒé€Ÿåº¦, æ˜“äºå®‰è£…",
         "Design style": "Modern",
         "Gross weight": "25.0 kg",
-        "Package dimensions": "35X30X22 cm"
+        "Package dimensions": "35X30X22 cm",
+        "Closing force": "38 Nm",
+        "Opening / hold-open variants": "90Â° / 125Â°; hold-open or non-hold-open",
+        "Maximum gate size": "90 cm (width) Ã— 200 cm (height)"
       }
     },
     "applications": [
@@ -2378,10 +2380,9 @@
       "mediaCrop": "none",
       "mediaEdit": "none"
     },
-    "duplicateCandidate": false,
-    "duplicateOf": "",
+    "duplicateCandidate": true,
+    "duplicateOf": "alibaba-60763886206",
     "missingFields": [
-      "doorWidth",
       "dimensions",
       "netWeight",
       "material",
@@ -2389,7 +2390,7 @@
       "holdOpen",
       "glassThickness"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "The source gallery specification graphic states 95 kg, a 90 Ã— 200 cm maximum gate size, 38 Nm closing force and 90Â° / 125Â° hold-open or non-hold-open variants. The same model appears on another listing, so both records remain flagged for factory confirmation."
   },
   {
     "id": "alibaba-1601435107304",
@@ -2404,8 +2405,8 @@
     },
     "sourceTitle": "ç»ç’ƒé—¨å¯è°ƒåº•éƒ¨æ¢è½´åœ°æ¿æœºåœ°å¼¹ç°§é—­é—¨å™¨éšè—å¼æœ¨é—¨æ¶²å‹è‡ªåŠ¨å…³é—­",
     "specifications": {
-      "capacity": null,
-      "doorWidth": "",
+      "capacity": 130,
+      "doorWidth": "â‰¤ 1300 mm",
       "dimensions": "",
       "netWeight": "",
       "material": "",
@@ -2419,7 +2420,9 @@
         "Features": "æ˜“äºå®‰è£…",
         "Design style": "Modern",
         "Gross weight": "25.0 kg",
-        "Package dimensions": "35X30X22 cm"
+        "Package dimensions": "35X30X22 cm",
+        "Closing force": "38 Nm",
+        "Opening / hold-open variants": "90Â° / 125Â°; hold-open or non-hold-open"
       }
     },
     "applications": [
@@ -2467,8 +2470,6 @@
     "duplicateCandidate": false,
     "duplicateOf": "",
     "missingFields": [
-      "capacity",
-      "doorWidth",
       "dimensions",
       "netWeight",
       "material",
@@ -2476,7 +2477,7 @@
       "holdOpen",
       "glassThickness"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "The source gallery specification graphic states 130 kg maximum gate weight, 1300 mm maximum gate width, 38 Nm closing force and 90Â° / 125Â° hold-open or non-hold-open variants. The existing cleaned product image was retained."
   },
   {
     "id": "alibaba-1601677506942",
@@ -2492,7 +2493,7 @@
     "sourceTitle": "é«˜å“è´¨ç°ä»£é‡å‹ä¸é”ˆé’¢åœ°å¼¹ç°§ç»ç’ƒé—¨é“°é“¾ 130å…¬æ–¤ç»ç’ƒåœ°å¼¹ç°§é—¨é“°é“¾",
     "specifications": {
       "capacity": 130,
-      "doorWidth": "",
+      "doorWidth": "â‰¤ 1300 mm",
       "dimensions": "",
       "netWeight": "",
       "material": "",
@@ -2506,7 +2507,9 @@
         "Features": "å¯è°ƒé€Ÿåº¦, æ˜“äºå®‰è£…",
         "Design style": "Modern",
         "Gross weight": "25.0 kg",
-        "Package dimensions": "36X34X24 cm"
+        "Package dimensions": "36X34X24 cm",
+        "Closing force": "38 Nm",
+        "Opening / hold-open variants": "90Â° / 125Â°; hold-open or non-hold-open"
       }
     },
     "applications": [
@@ -2552,7 +2555,6 @@
     "duplicateCandidate": false,
     "duplicateOf": "",
     "missingFields": [
-      "doorWidth",
       "dimensions",
       "netWeight",
       "material",
@@ -2560,7 +2562,7 @@
       "holdOpen",
       "glassThickness"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "The source title confirms 130 kg. The source gallery specification graphic also states 1300 mm maximum gate width, 38 Nm closing force and 90Â° / 125Â° hold-open or non-hold-open variants. Package gross weight is not net weight."
   },
   {
     "id": "alibaba-1601639170993",
@@ -2646,7 +2648,7 @@
       "openingAngle",
       "holdOpen"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "Batch 3 review confirmed the source-specific glass-to-wall central-lock image and the existing stainless-steel material, finish options and 10â€“15 mm glass range. Package gross weight is not net product weight."
   },
   {
     "id": "alibaba-1601677587332",
@@ -9697,43 +9699,7 @@
       "glassThickness": "",
       "otherVerifiedFields": {
         "Available thickness": "1.5mm-6.0mm",
-        "Color": "pure color or wood grain color",
-        "Design": "Various design/ OEM is available",
-        "Panel thickness": "0.5mm-30mm",
-        "Product Name": "Aluminum Screen",
-        "Style": "Modern Facade",
-        "Type": "å¹•å¢™",
-        "Application": "é…’åº—, å»ºç­‘å¤–éƒ¨, åŒ»é™¢, å­¦æ ¡, åŠå…¬æ¥¼, Mall",
-        "Features": "æ˜“ç»„è£…, é˜²æ°´, é˜»ç‡ƒ",
-        "Design style": "å·¥ä¸š",
-        "Gross weight": "10.0 kg",
-        "Package dimensions": "50X30X2 cm"
-      }
-    },
-    "applications": [
-      "Building facades"
-    ],
-    "features": [],
-    "variants": [],
-    "media": {
-      "main": "assets/images/products/aluminum-panels/decorative-aluminum-panel-1601807361204/main.avif",
-      "list": "assets/images/products/aluminum-panels/decorative-aluminum-panel-1601807361204/main.avif",
-      "thumbnail": "assets/images/products/aluminum-panels/decorative-aluminum-panel-1601807361204/main.avif",
-      "gallery": [
-        "assets/images/products/aluminum-panels/decorative-aluminum-panel-1601807361204/main.avif"
-      ],
-      "dimensions": [],
-      "installation": [],
-      "applications": [],
-      "videos": [],
-      "videoPoster": "",
-      "sourceMain": "https://s.alicdn.com/@sc04/kf/Hbd25dcf19e094c06af537db7a3808bd5t/-.jpg?hasNWGrade=1",
-      "sourceGallery": [
-        "https://s.alicdn.com/@sc04/kf/Hbd25dcf19e094c06af537db7a3808bd5t.jpg_960x960q80.jpg",
-        "https://s.alicdn.com/@sc04/kf/H745170c7a1c24269abae94d43d673ddfg.jpg_960x960q80.jpg",
-        "https://s.alicdn.com/@sc04/kf/Hb492459705944ff486fb5de120c2977fk.jpg_960x960q80.jpg",
-        "https://s.alicdn.com/@sc04/kf/Hc8f8b85bf21b4acf9efde834d89f2c30m.jpg_960x960q80.jpg",
-        "https://s.alicdn.com/@sc04/kf/Hc9bdcebcd56247b0b4447ec5124db193p.jpg_960ïŸ:ç¦òµë(š+myÔ63Bö¶bôƒ#VS#&6#3##SCFS#ƒƒsf3†CC#F6S‚æ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bôƒccV&SƒcS#ƒCs3ƒ“cCs33“#C#cVBó#ƒSS“ôƒccV&SƒcS#ƒCs3ƒ“cCs33“#C#cVBæ§uó“cƒ“cƒæ§r ¢Ğ¢ÒÀ¢'6÷W&6R#¢°¢'ÆFf÷&Ò#¢$Æ–&&"À¢'6÷W&6T–B#¢#cCS“ƒ“sƒ"À¢'W&Â#¢&‡GG3¢ò÷wwræÆ–&&æ6öÒ÷&öGV7BÖFWF–Âôf—&RÕ&FVBÔFö÷"Ô6Æ÷6W"Ô‡–G&VÆ–2ÓcócCS“ƒ“sƒæ‡FÖÂ"À¢&FF6öæf–FVæ6R#¢''F–ÆÇ’×fW&–f–VB"À¢'fW&–f–VDB#¢###bÓrÓ#b"À¢&ÖVF–7FGW2#¢&&÷fVBÖöÆBÖ'&æBÖÖ&²×&VÖ÷fVB"À¢&ÖVF–6†#Sb#¢#ƒcCS##ƒ#3S–V#†3FCcCfff&#fcSV3S3#“fCc3#VVFffCƒ#†#Cs&B"À¢&FWF–ÅfW&–f–VDB#¢###bÓrÓ#…C££bãss%¢"À¢'6VÆV7FVDvÆÆW'”–æFW‚#¢2À¢&ÖVF–7&÷#¢&æöæR"À¢&ÖVF–VF—B#¢&öÆB'&æBÖ&²&V–çFW'öÆFVB ¢ÒÀ¢&GWÆ–6FT6æF–FFR#¢fÇ6RÀ¢&GWÆ–6FTöb#¢""À¢&Ö—76–ætf–VÆG2#¢°¢&Fö÷%v–GF‚"À¢&F–ÖVç6–öç2"À¢&æWEvV–v‡B"À¢&f–æ—6‚"À¢&†öÆD÷Vâ"À¢&vÆ75F†–6¶æW72 ¢ÒÀ¢&æ÷FW2#¢%&öGV7BFWF–ÂGG&–'WFW2vW&RW‡G&7FVBg&öÒF†R7WÆ–VBÆ–&&6VÆÆW"Æ—7F–ærâVæ6öæf—&ÖVBf–VÆG2&VÖ–â&Ææ²â ¢ÒÀ¢°¢&–B#¢&Æ–&&ÓcCS““csSR"À¢'6ÇVr#¢&‡–G&VÆ–2ÖFö÷"Ö6Æ÷6W"ÓcCS““csSR"À¢&6FVv÷'’#¢&Fö÷"Ö6Æ÷6W'2"À¢'7V&6FVv÷'’#¢""À¢&fÖ–Ç’#¢$Fö÷"6Æ÷6W'2"À¢&ÖöFVÂ#¢$´BÓƒ"À¢'F—FÆR#¢°¢&Vâ#¢$‡–G&VÆ–2Fö÷"6Æ÷6W""À¢'¦‚#¢.kk.Xè¾™zŞ™zYš‚ ¢ÒÀ¢'6÷W&6UF—FÆR#¢.XË¾™š.™zŞ™zYš˜Y.[©~™‹.x¾™©‰xş[Èş™zŞ™zYšˆz®Xªƒc[ªn[ÈY
+        "Color": "pure color orï­=ó†òµë(š+myÒô63Bö¶bôƒ#VS#&6#3##SCFS#ƒƒsf3†CC#F6S‚æ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bôƒccV&SƒcS#ƒCs3ƒ“cCs33“#C#cVBó#ƒSS“ôƒccV&SƒcS#ƒCs3ƒ“cCs33“#C#cVBæ§uó“cƒ“cƒæ§r ¢Ğ¢ÒÀ¢'6÷W&6R#¢°¢'ÆFf÷&Ò#¢$Æ–&&"À¢'6÷W&6T–B#¢#cCS“ƒ“sƒ"À¢'W&Â#¢&‡GG3¢ò÷wwræÆ–&&æ6öÒ÷&öGV7BÖFWF–Âôf—&RÕ&FVBÔFö÷"Ô6Æ÷6W"Ô‡–G&VÆ–2ÓcócCS“ƒ“sƒæ‡FÖÂ"À¢&FF6öæf–FVæ6R#¢''F–ÆÇ’×fW&–f–VB"À¢'fW&–f–VDB#¢###bÓrÓ#b"À¢&ÖVF–7FGW2#¢&&÷fVBÖöÆBÖ'&æBÖÖ&²×&VÖ÷fVB"À¢&ÖVF–6†#Sb#¢#ƒcCS##ƒ#3S–V#†3FCcCfff&#fcSV3S3#“fCc3#VVFffCƒ#†#Cs&B"À¢&FWF–ÅfW&–f–VDB#¢###bÓrÓ#…C££bãss%¢"À¢'6VÆV7FVDvÆÆW'”–æFW‚#¢2À¢&ÖVF–7&÷#¢&æöæR"À¢&ÖVF–VF—B#¢&öÆB'&æBÖ&²&V–çFW'öÆFVB ¢ÒÀ¢&GWÆ–6FT6æF–FFR#¢fÇ6RÀ¢&GWÆ–6FTöb#¢""À¢&Ö—76–ætf–VÆG2#¢°¢&Fö÷%v–GF‚"À¢&F–ÖVç6–öç2"À¢&æWEvV–v‡B"À¢&f–æ—6‚"À¢&†öÆD÷Vâ"À¢&vÆ75F†–6¶æW72 ¢ÒÀ¢&æ÷FW2#¢%&öGV7BFWF–ÂGG&–'WFW2vW&RW‡G&7FVBg&öÒF†R7WÆ–VBÆ–&&6VÆÆW"Æ—7F–ærâVæ6öæf—&ÖVBf–VÆG2&VÖ–â&Ææ²â ¢ÒÀ¢°¢&–B#¢&Æ–&&ÓcCS““csSR"À¢'6ÇVr#¢&‡–G&VÆ–2ÖFö÷"Ö6Æ÷6W"ÓcCS““csSR"À¢&6FVv÷'’#¢&Fö÷"Ö6Æ÷6W'2"À¢'7V&6FVv÷'’#¢""À¢&fÖ–Ç’#¢$Fö÷"6Æ÷6W'2"À¢&ÖöFVÂ#¢$´BÓƒ"À¢'F—FÆR#¢°¢&Vâ#¢$‡–G&VÆ–2Fö÷"6Æ÷6W""À¢'¦‚#¢.kk.Xè¾™zŞ™zYš‚ ¢ÒÀ¢'6÷W&6UF—FÆR#¢.XË¾™š.™zŞ™zYš˜Y.[©~™‹.x¾™©‰xş[Èş™zŞ™zYšˆz®Xªƒc[ªn[ÈY
 şYXnK‰®ZèXZ‚"À¢'7V6–f–6F–öç2#¢°¢&66—G’#¢cRÀ¢&Fö÷%v–GF‚#¢#c(	3“ÖÒ"À¢&F–ÖVç6–öç2#¢""À¢&æWEvV–v‡B#¢""À¢&ÖFW&–Â#¢$ÇVÖ–çVÒÆÆ÷’"À¢&f–æ—6‚#¢""À¢&÷Væ–ætævÆR#¢#c+"À¢&†öÆD÷Vâ#¢çVÆÂÀ¢&vÆ75F†–6¶æW72#¢""À¢&÷F†W%fW&–f–VDf–VÆG2#¢°¢$Æ–6F–öâ#¢.xë¾y(>™z‚ÂYXnK‰®™z‚Â™‹.x¾™z‚Â˜Y.[©rÂXŠ¾Z(RÂXZÎZù2ÂX©îXZÎj[ÂÂXË¾™š"ÂZÚnj
 ÂÖÆÂÂKÙ>ˆ+.YË®h˜ÂX^‹ª¾h‹òÂkI~Š>h‹òÂ‹[[¸¢"À¢$Fö÷"v–GF‚#¢#cÓ“ÖÒ"À¢$†öÆRF—7Fæ6R#¢##c"£–ÖÒ"À¢$æÖR#¢$Fö÷"6Æ÷6W""À¢%&öGV7BæÖR#¢$¶—F6†VâFö÷"F§W7F&ÆR7VVB6Æ76–2Ö–FFÆR6—¦RFö÷"6Æ÷6W""À¢%G—R#¢$Fö÷"6Æ÷6W""À¢$fVGW&W2#¢.Xúş‹>˜	ş[ªbÂi‰>K¨îZèŠ8R"À¢$FW6–vâ7G–ÆR#¢$ÖöFW&â"À¢$w&÷72vV–v‡B#¢#bãB¶r"À¢%6¶vRF–ÖVç6–öç2#¢#Sƒ#eƒ#2ãR6Ò ¢Ğ¢ÒÀ¢&Æ–6F–öç2#¢°¢$†÷FVÇ2"À¢$†÷7—FÇ2 ¢ÒÀ¢&fVGW&W2#¢µÒÀ¢'f&–çG2#¢µÒÀ¢&ÖVF–#¢°¢&Ö–â#¢&76WG2ö–ÖvW2÷&öGV7G2öFö÷"Ö6Æ÷6W'2ö‡–G&VÆ–2ÖFö÷"Ö6Æ÷6W"ÓcCS““csSRöÖ–âæf–b"À¢&Æ—7B#¢&76WG2ö–ÖvW2÷&öGV7G2öFö÷"Ö6Æ÷6W'2ö‡–G&VÆ–2ÖFö÷"Ö6Æ÷6W"ÓcCS““csSRöÖ–âæf–b"À¢'F‡VÖ&æ–Â#¢&76WG2ö–ÖvW2÷&öGV7G2öFö÷"Ö6Æ÷6W'2ö‡–G&VÆ–2ÖFö÷"Ö6Æ÷6W"ÓcCS““csSRöÖ–âæf–b"À¢&vÆÆW'’#¢°¢&76WG2ö–ÖvW2÷&öGV7G2öFö÷"Ö6Æ÷6W'2ö‡–G&VÆ–2ÖFö÷"Ö6Æ÷6W"ÓcCS““csSRöÖ–âæf–b ¢ÒÀ¢&F–ÖVç6–öç2#¢µÒÀ¢&–ç7FÆÆF–öâ#¢µÒÀ¢&Æ–6F–öç2#¢µÒÀ¢'f–FV÷2#¢µÒÀ¢'f–FVõ÷7FW"#¢""À¢'6÷W&6TÖ–â#¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†#c6Sv6S““VSCSC“fc–3vSvCC6cƒ32òÓcÒæ§uóCƒƒCƒæ§sö†4åtw&FSÓ"À¢'6÷W&6TvÆÆW'’#¢°¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†#c6Sv6S““VSCSC“fc–3vSvCC6cƒ32æ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†F#3cS3f33VCƒ3ƒ–s–f#cVC#Fcƒ“…2æ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bôƒVCSCV3v##V#ƒFSVcfV6CvCfTÂæ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†C3““†3–&6F#C3FCƒ–3S3C“c&f3“ræ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†cv#ƒfSc†SF6cSƒƒSF“fc66%‚æ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†#Vc“66†&#C#6#–#ƒVf3VVScSc6&æ§uó“cƒ“cƒæ§r ¢Ğ¢ÒÀ¢'6÷W&6R#¢°¢'ÆFf÷&Ò#¢$Æ–&&"À¢'6÷W&6T–B#¢#cCS““csSR"À¢'W&Â#¢&‡GG3¢ò÷wwræÆ–&&æ6öÒ÷&öGV7BÖFWF–Âô†÷7—FÂÔFö÷"Ô6Æ÷6W"Ô†÷FVÂÔf—&RÕ&FVEócCS““csSRæ‡FÖÂ"À¢&FF6öæf–FVæ6R#¢''F–ÆÇ’×fW&–f–VB"À¢'fW&–f–VDB#¢###bÓrÓ#b"À¢&ÖVF–7FGW2#¢&&÷fVBÖöÆBÖ'&æBÖÖ&²×&VÖ÷fVB"À¢&ÖVF–6†#Sb#¢#SFC#s&cF#S†63sSSC†Sc“#&33vvVS–CFc–&#Fff6&SsƒV#VS&S3#""À¢&FWF–ÅfW&–f–VDB#¢###bÓrÓ#…C££‚ã3•¢"À¢'6VÆV7FVDvÆÆW'”–æFW‚#¢À¢&ÖVF–7&÷#¢&æöæR"À¢&ÖVF–VF—B#¢&öÆB'&æBÖ&²&V–çFW'öÆFVB ¢ÒÀ¢&GWÆ–6FT6æF–FFR#¢G'VRÀ¢&GWÆ–6FTöb#¢""À¢&Ö—76–ætf–VÆG2#¢°¢&F–ÖVç6–öç2"À¢&æWEvV–v‡B"À¢&f–æ—6‚"À¢&†öÆD÷Vâ"À¢&vÆ75F†–6¶æW72 ¢ÒÀ¢&æ÷FW2#¢%F†R6÷W&6RÆ—7F–ærW‡Æ–6—FÇ’7FFW2c(	3“ÖÒFö÷"v–GF‚âGvò6÷W&6RÆ—7F–æw2W6RÖöFVÂ´BÓƒ'WB6†÷rÖFW&–ÆÇ’F–ffW&VçB&öGV7B–ÖvW2Â6ò&÷F‚&VÖ–âfÆvvVBf÷"f7F÷'’FF6†VWB6öæf—&ÖF–öââ ¢ÒÀ¢°¢&–B#¢&Æ–&&ÓcCc“C#c’"À¢'6ÇVr#¢&‡–G&VÆ–2ÖFö÷"Ö6Æ÷6W"ÓcCc“C#c’"À¢&6FVv÷'’#¢&Fö÷"Ö6Æ÷6W'2"À¢'7V&6FVv÷'’#¢""À¢&fÖ–Ç’#¢$Fö÷"6Æ÷6W'2"À¢&ÖöFVÂ#¢$´BÓƒ"À¢'F—FÆR#¢°¢&Vâ#¢$‡–G&VÆ–2Fö÷"6Æ÷6W""À¢'¦‚#¢.kk.Xè¾™zŞ™zYš‚ ¢ÒÀ¢'6÷W&6UF—FÆR#¢.XË¾™š.™zŞ™zYš˜Y.[©~™‹.x¾™©‰xş[Èş™zŞ™zYšˆz®Xªƒc[ªn[ÈY
 şYXnK‰®ZèXZ‚"À¢'7V6–f–6F–öç2#¢°¢&66—G’#¢cRÀ¢&Fö÷%v–GF‚#¢#c(	3“ÖÒ"À¢&F–ÖVç6–öç2#¢""À¢&æWEvV–v‡B#¢""À¢&ÖFW&–Â#¢$ÇVÖ–çVÒÆÆ÷’"À¢&f–æ—6‚#¢""À¢&÷Væ–ætævÆR#¢#c+"À¢&†öÆD÷Vâ#¢çVÆÂÀ¢&vÆ75F†–6¶æW72#¢""À¢&÷F†W%fW&–f–VDf–VÆG2#¢°¢$Æ–6F–öâ#¢.xë¾y(>™z‚ÂYXnK‰®™z‚Â™‹.x¾™z‚Â˜Y.[©rÂXŠ¾Z(RÂXZÎZù2ÂX©îXZÎj[ÂÂXË¾™š"ÂZÚnj
