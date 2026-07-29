@@ -16,8 +16,8 @@ Structured field coverage:
 | Field | Records |
 |---|---:|
 | Maximum door weight | 91 |
-| Door width | 22 |
-| Dimensions | 47 |
+| Door width | 24 |
+| Dimensions | 48 |
 | Net weight | 0 |
 | Material | 276 |
 | Finish | 200 |
