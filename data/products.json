@@ -82,7 +82,7 @@
       "holdOpen",
       "glassThickness"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "Batch 1 review confirmed the model-specific hinge image, stainless-steel material and 90Â° opening angle. The listed 4 mm thickness describes the hinge body, not glass thickness, so the glass-thickness field remains blank."
   },
   {
     "id": "alibaba-1601824312588",
@@ -97,13 +97,13 @@
     },
     "sourceTitle": "è¶…é‡å‹å¼¹ç°§æ‰§è¡Œå™¨ 360 åº¦é—¨å¼€å¯è§’åº¦ é—¨é‡ 600 å…¬æ–¤",
     "specifications": {
-      "capacity": null,
+      "capacity": 600,
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
       "material": "45# Steel",
       "finish": "",
-      "openingAngle": "",
+      "openingAngle": "360Â°",
       "holdOpen": null,
       "glassThickness": "",
       "otherVerifiedFields": {
@@ -146,25 +146,23 @@
       "dataConfidence": "partially-verified",
       "verifiedAt": "2026-07-26",
       "mediaStatus": "approved-product-specific-gallery-image",
-      "mediaSha256": "9454d9460d0ea3cbaf7bee1be80603aedeffb390eb6b58d4d5c22815a3df75db",
+      "mediaSha256": "fa3e00c55f77e5801494122c16253b51b73136cecab2e05873d10340028e50a3",
       "detailVerifiedAt": "2026-07-28T10:34:31.157Z",
-      "selectedGalleryIndex": 3,
+      "selectedGalleryIndex": 0,
       "mediaCrop": "none",
-      "mediaEdit": "none"
+      "mediaEdit": "resized and padded to 896 Ã— 896"
     },
     "duplicateCandidate": false,
     "duplicateOf": "",
     "missingFields": [
-      "capacity",
       "doorWidth",
       "dimensions",
       "netWeight",
       "finish",
-      "openingAngle",
       "holdOpen",
       "glassThickness"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "The source title and model-labeled gallery image identify a 600 kg version with a 360Â° maximum opening angle. The gallery graphic writes the model as KD-3001.600 while the listing model field uses KD.3001-600; the listing model field is retained."
   },
   {
     "id": "alibaba-1601868884547",
@@ -247,7 +245,7 @@
       "holdOpen",
       "glassThickness"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "Batch 1 review confirmed the source-specific combo-set image and steel material. The source listing does not provide a confirmed load, door width, dimensions, net weight, finish, opening angle, hold-open function or glass thickness; those fields remain blank."
   },
   {
     "id": "alibaba-1601885011406",
@@ -268,7 +266,7 @@
       "netWeight": "",
       "material": "45 steel",
       "finish": "",
-      "openingAngle": "",
+      "openingAngle": "125Â°",
       "holdOpen": null,
       "glassThickness": "",
       "otherVerifiedFields": {
@@ -318,7 +316,7 @@
       "mediaCrop": "none",
       "mediaEdit": "old brand mark area interpolated"
     },
-    "duplicateCandidate": false,
+    "duplicateCandidate": true,
     "duplicateOf": "",
     "missingFields": [
       "capacity",
@@ -326,11 +324,10 @@
       "dimensions",
       "netWeight",
       "finish",
-      "openingAngle",
       "holdOpen",
       "glassThickness"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "The source title explicitly identifies a 125Â° no-dig pivot hinge. Five source listings use model KD-1063 with different titles, applications or specifications, so the records remain separate and are flagged for factory datasheet confirmation."
   },
   {
     "id": "alibaba-1601664684789",
@@ -351,7 +348,7 @@
       "netWeight": "",
       "material": "45# é’¢",
       "finish": "",
-      "openingAngle": "125Â°",
+      "openingAngle": "",
       "holdOpen": true,
       "glassThickness": "",
       "otherVerifiedFields": {
@@ -404,16 +401,17 @@
       "mediaCrop": "none",
       "mediaEdit": "old brand mark area interpolated"
     },
-    "duplicateCandidate": false,
-    "duplicateOf": "",
+    "duplicateCandidate": true,
+    "duplicateOf": "alibaba-1601885011406",
     "missingFields": [
       "capacity",
       "dimensions",
       "netWeight",
       "finish",
+      "openingAngle",
       "glassThickness"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "The source title says 180Â°, while the captured detailed specification says 125Â°. Because the same source page conflicts, the public opening-angle field was cleared. Five KD-1063 records remain flagged for factory datasheet confirmation."
   },
   {
     "id": "alibaba-11000031636340",
@@ -487,8 +485,8 @@
       "mediaCrop": "none",
       "mediaEdit": "old brand mark area interpolated"
     },
-    "duplicateCandidate": false,
-    "duplicateOf": "",
+    "duplicateCandidate": true,
+    "duplicateOf": "alibaba-1601885011406",
     "missingFields": [
       "capacity",
       "dimensions",
@@ -496,7 +494,7 @@
       "finish",
       "glassThickness"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "The source title and captured detailed specification both state 125Â°. Five source listings use model KD-1063 with different titles, applications or specifications, so the records remain separate and are flagged for factory datasheet confirmation."
   },
   {
     "id": "alibaba-1601666231343",
@@ -511,7 +509,7 @@
     },
     "sourceTitle": "ç°ä»£æœ¨é—¨ä¾§è½´æ¶²å‹æ‰§è¡Œå™¨ 60-150kg é—¨æ¡†æœ¨é—¨æ¶²å‹æ‰§è¡Œå™¨ é«˜å“è´¨ä¾§è½´é—¨æ¶²å‹æ‰§è¡Œå™¨",
     "specifications": {
-      "capacity": null,
+      "capacity": 150,
       "doorWidth": "â‰¤ 1100 mm",
       "dimensions": "",
       "netWeight": "",
@@ -570,16 +568,15 @@
       "mediaCrop": "none",
       "mediaEdit": "old brand mark area interpolated"
     },
-    "duplicateCandidate": false,
-    "duplicateOf": "",
+    "duplicateCandidate": true,
+    "duplicateOf": "alibaba-1601885011406",
     "missingFields": [
-      "capacity",
       "dimensions",
       "netWeight",
       "finish",
       "glassThickness"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "The source title states a 60â€“150 kg range, so the structured maximum door weight is recorded as 150 kg. Five KD-1063 records remain separate and flagged for factory datasheet confirmation."
   },
   {
     "id": "alibaba-11000031607422",
@@ -594,7 +591,7 @@
     },
     "sourceTitle": "é«˜ç«¯åè½´æ—‹è½¬é“°é“¾ï¼Œæœ€å¤§é—¨é‡150KGï¼Œä¸é”ˆé’¢æœ¨é—¨å…å¼€æ§½æ—‹è½¬é“°é“¾",
     "specifications": {
-      "capacity": null,
+      "capacity": 150,
       "doorWidth": "â‰¤ 1100 mm",
       "dimensions": "",
       "netWeight": "",
@@ -653,16 +650,15 @@
       "mediaCrop": "none",
       "mediaEdit": "old brand mark area interpolated"
     },
-    "duplicateCandidate": false,
-    "duplicateOf": "",
+    "duplicateCandidate": true,
+    "duplicateOf": "alibaba-1601885011406",
     "missingFields": [
-      "capacity",
       "dimensions",
       "netWeight",
       "finish",
       "glassThickness"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "The source title explicitly states a maximum door weight of 150 kg. Five KD-1063 records remain separate and flagged for factory datasheet confirmation."
   },
   {
     "id": "alibaba-1601824330219",
@@ -677,13 +673,13 @@
     },
     "sourceTitle": "é‡å‹è½´å‘å¼¹ç°§æ‰§è¡Œå™¨ 400KG 360 åº¦ç°ä»£å¼åœ°æ¿å¼¹ç°§",
     "specifications": {
-      "capacity": null,
+      "capacity": 400,
       "doorWidth": "",
       "dimensions": "",
       "netWeight": "",
       "material": "45# Steel",
       "finish": "",
-      "openingAngle": "",
+      "openingAngle": "360Â°",
       "holdOpen": null,
       "glassThickness": "",
       "otherVerifiedFields": {
@@ -726,25 +722,23 @@
       "dataConfidence": "partially-verified",
       "verifiedAt": "2026-07-26",
       "mediaStatus": "approved-product-specific-gallery-image",
-      "mediaSha256": "9454d9460d0ea3cbaf7bee1be80603aedeffb390eb6b58d4d5c22815a3df75db",
+      "mediaSha256": "d97b57cb23dfd6de5a50825e70b87b74acf6379b3241ce515639a065770ca8a5",
       "detailVerifiedAt": "2026-07-28T10:34:37.580Z",
-      "selectedGalleryIndex": 3,
+      "selectedGalleryIndex": 0,
       "mediaCrop": "none",
-      "mediaEdit": "none"
+      "mediaEdit": "resized and padded to 896 Ã— 896"
     },
     "duplicateCandidate": false,
     "duplicateOf": "",
     "missingFields": [
-      "capacity",
       "doorWidth",
       "dimensions",
       "netWeight",
       "finish",
-      "openingAngle",
       "holdOpen",
       "glassThickness"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "The source title and model-labeled gallery image identify a 400 kg version; the source title states a 360Â° opening angle. The gallery graphic writes the model as KD-3001.400 while the listing model field uses KD.3001-400; the listing model field is retained."
   },
   {
     "id": "alibaba-1600991360730",
@@ -832,7 +826,7 @@
       "netWeight",
       "holdOpen"
     ],
-    "notes": "Product detail attributes were extracted from the supplied Alibaba seller listing. Unconfirmed fields remain blank."
+    "notes": "Batch 1 review confirmed the model-specific product image and existing dimensions, material, finish, 90Â° opening angle and 6â€“12 mm glass thickness. Gross weight is not relabeled as net weight, and unsupported fields remain blank."
   },
   {
     "id": "alibaba-1601006950137",
@@ -9773,43 +9767,7 @@
     "id": "alibaba-1601807264641",
     "slug": "perforated-aluminum-panel-1601807264641",
     "category": "aluminum-panels",
-    "subcategory": "",
-    "family": "Aluminum Architectural Panels",
-    "model": "ASP011",
-    "title": {
-      "en": "Perforated Aluminum Panel",
-      "zh": "ç©¿å­”é“æ¿"
-    },
-    "sourceTitle": "å®šåˆ¶å·¥ä¸šæ•°æ§æ¿€å…‰åˆ‡å‰²ç©¿å­”é“å±é£é¢æ¿ï¼Œé˜²ç«é˜²æ°´è£…é¥°é‡‘å±å¹•å¢™ï¼Œé€‚ç”¨äºåŒ»é™¢",
-    "specifications": {
-      "capacity": null,
-      "doorWidth": "",
-      "dimensions": "",
-      "netWeight": "",
-      "material": "Aluminum",
-      "finish": "ç²‰æœ«å–·æ¶‚",
-      "openingAngle": "",
-      "holdOpen": null,
-      "glassThickness": "",
-      "otherVerifiedFields": {
-        "Product name": "é“åˆ¶å±å¹•",
-        "å¯é€‰åšåº¦": "1.5 mm-6.0 mm",
-        "Type": "å¹•å¢™",
-        "Application": "é…’åº—, å»ºç­‘å¤–éƒ¨, åŒ»é™¢, å­¦æ ¡, åŠå…¬æ¥¼, Mall",
-        "Features": "æ˜“ç»„è£…, é˜²æ°´, é˜»ç‡ƒ",
-        "è®¾è®¡": "æä¾›å„ç§è®¾è®¡/ OEM",
-        "Design style": "å·¥ä¸š",
-        "é¢æ¿åšåº¦": "0.5 mm-30 mm",
-        "Color": "çº¯è‰²æˆ–æœ¨çº¹è‰²",
-        "é£æ ¼": "ç°ä»£é—¨é¢",
-        "Gross weight": "10.0 kg",
-        "Package dimensions": "50X30X2 cm"
-      }
-    },
-    "applications": [
-      "Hospitals",
-      "Building facades"
-  ïxï¦òµë(š+my×63Bö¶bôƒ#VS#&6#3##SCFS#ƒƒsf3†CC#F6S‚æ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bôƒccV&SƒcS#ƒCs3ƒ“cCs33“#C#cVBó#ƒSS“ôƒccV&SƒcS#ƒCs3ƒ“cCs33“#C#cVBæ§uó“cƒ“cƒæ§r ¢Ğ¢ÒÀ¢'6÷W&6R#¢°¢'ÆFf÷&Ò#¢$Æ–&&"À¢'6÷W&6T–B#¢#cCS“ƒ“sƒ"À¢'W&Â#¢&‡GG3¢ò÷wwræÆ–&&æ6öÒ÷&öGV7BÖFWF–Âôf—&RÕ&FVBÔFö÷"Ô6Æ÷6W"Ô‡–G&VÆ–2ÓcócCS“ƒ“sƒæ‡FÖÂ"À¢&FF6öæf–FVæ6R#¢''F–ÆÇ’×fW&–f–VB"À¢'fW&–f–VDB#¢###bÓrÓ#b"À¢&ÖVF–7FGW2#¢&&÷fVBÖöÆBÖ'&æBÖÖ&²×&VÖ÷fVB"À¢&ÖVF–6†#Sb#¢#ƒcCS##ƒ#3S–V#†3FCcCfff&#fcSV3S3#“fCc3#VVFffCƒ#†#Cs&B"À¢&FWF–ÅfW&–f–VDB#¢###bÓrÓ#…C££bãss%¢"À¢'6VÆV7FVDvÆÆW'”–æFW‚#¢2À¢&ÖVF–7&÷#¢&æöæR"À¢&ÖVF–VF—B#¢&öÆB'&æBÖ&²&V–çFW'öÆFVB ¢ÒÀ¢&GWÆ–6FT6æF–FFR#¢fÇ6RÀ¢&GWÆ–6FTöb#¢""À¢&Ö—76–ætf–VÆG2#¢°¢&Fö÷%v–GF‚"À¢&F–ÖVç6–öç2"À¢&æWEvV–v‡B"À¢&f–æ—6‚"À¢&†öÆD÷Vâ"À¢&vÆ75F†–6¶æW72 ¢ÒÀ¢&æ÷FW2#¢%&öGV7BFWF–ÂGG&–'WFW2vW&RW‡G&7FVBg&öÒF†R7WÆ–VBÆ–&&6VÆÆW"Æ—7F–ærâVæ6öæf—&ÖVBf–VÆG2&VÖ–â&Ææ²â ¢ÒÀ¢°¢&–B#¢&Æ–&&ÓcCS““csSR"À¢'6ÇVr#¢&‡–G&VÆ–2ÖFö÷"Ö6Æ÷6W"ÓcCS““csSR"À¢&6FVv÷'’#¢&Fö÷"Ö6Æ÷6W'2"À¢'7V&6FVv÷'’#¢""À¢&fÖ–Ç’#¢$Fö÷"6Æ÷6W'2"À¢&ÖöFVÂ#¢$´BÓƒ"À¢'F—FÆR#¢°¢&Vâ#¢$‡–G&VÆ–2Fö÷"6Æ÷6W""À¢'¦‚#¢.kk.Xè¾™zŞ™zYš‚ ¢ÒÀ¢'6÷W&6UF—FÆR#¢.XË¾™š.™zŞ™zYš˜Y.[©~™‹.x¾™©‰xş[Èş™zŞ™zYšˆz®Xªƒc[ªn[ÈY
+    "subcategory": "",ïôÛÆòµë(š+my×63Bö¶bôƒ#VS#&6#3##SCFS#ƒƒsf3†CC#F6S‚æ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bôƒccV&SƒcS#ƒCs3ƒ“cCs33“#C#cVBó#ƒSS“ôƒccV&SƒcS#ƒCs3ƒ“cCs33“#C#cVBæ§uó“cƒ“cƒæ§r ¢Ğ¢ÒÀ¢'6÷W&6R#¢°¢'ÆFf÷&Ò#¢$Æ–&&"À¢'6÷W&6T–B#¢#cCS“ƒ“sƒ"À¢'W&Â#¢&‡GG3¢ò÷wwræÆ–&&æ6öÒ÷&öGV7BÖFWF–Âôf—&RÕ&FVBÔFö÷"Ô6Æ÷6W"Ô‡–G&VÆ–2ÓcócCS“ƒ“sƒæ‡FÖÂ"À¢&FF6öæf–FVæ6R#¢''F–ÆÇ’×fW&–f–VB"À¢'fW&–f–VDB#¢###bÓrÓ#b"À¢&ÖVF–7FGW2#¢&&÷fVBÖöÆBÖ'&æBÖÖ&²×&VÖ÷fVB"À¢&ÖVF–6†#Sb#¢#ƒcCS##ƒ#3S–V#†3FCcCfff&#fcSV3S3#“fCc3#VVFffCƒ#†#Cs&B"À¢&FWF–ÅfW&–f–VDB#¢###bÓrÓ#…C££bãss%¢"À¢'6VÆV7FVDvÆÆW'”–æFW‚#¢2À¢&ÖVF–7&÷#¢&æöæR"À¢&ÖVF–VF—B#¢&öÆB'&æBÖ&²&V–çFW'öÆFVB ¢ÒÀ¢&GWÆ–6FT6æF–FFR#¢fÇ6RÀ¢&GWÆ–6FTöb#¢""À¢&Ö—76–ætf–VÆG2#¢°¢&Fö÷%v–GF‚"À¢&F–ÖVç6–öç2"À¢&æWEvV–v‡B"À¢&f–æ—6‚"À¢&†öÆD÷Vâ"À¢&vÆ75F†–6¶æW72 ¢ÒÀ¢&æ÷FW2#¢%&öGV7BFWF–ÂGG&–'WFW2vW&RW‡G&7FVBg&öÒF†R7WÆ–VBÆ–&&6VÆÆW"Æ—7F–ærâVæ6öæf—&ÖVBf–VÆG2&VÖ–â&Ææ²â ¢ÒÀ¢°¢&–B#¢&Æ–&&ÓcCS““csSR"À¢'6ÇVr#¢&‡–G&VÆ–2ÖFö÷"Ö6Æ÷6W"ÓcCS““csSR"À¢&6FVv÷'’#¢&Fö÷"Ö6Æ÷6W'2"À¢'7V&6FVv÷'’#¢""À¢&fÖ–Ç’#¢$Fö÷"6Æ÷6W'2"À¢&ÖöFVÂ#¢$´BÓƒ"À¢'F—FÆR#¢°¢&Vâ#¢$‡–G&VÆ–2Fö÷"6Æ÷6W""À¢'¦‚#¢.kk.Xè¾™zŞ™zYš‚ ¢ÒÀ¢'6÷W&6UF—FÆR#¢.XË¾™š.™zŞ™zYš˜Y.[©~™‹.x¾™©‰xş[Èş™zŞ™zYšˆz®Xªƒc[ªn[ÈY
 şYXnK‰®ZèXZ‚"À¢'7V6–f–6F–öç2#¢°¢&66—G’#¢cRÀ¢&Fö÷%v–GF‚#¢#c(	3“ÖÒ"À¢&F–ÖVç6–öç2#¢""À¢&æWEvV–v‡B#¢""À¢&ÖFW&–Â#¢$ÇVÖ–çVÒÆÆ÷’"À¢&f–æ—6‚#¢""À¢&÷Væ–ætævÆR#¢#c+"À¢&†öÆD÷Vâ#¢çVÆÂÀ¢&vÆ75F†–6¶æW72#¢""À¢&÷F†W%fW&–f–VDf–VÆG2#¢°¢$Æ–6F–öâ#¢.xë¾y(>™z‚ÂYXnK‰®™z‚Â™‹.x¾™z‚Â˜Y.[©rÂXŠ¾Z(RÂXZÎZù2ÂX©îXZÎj[ÂÂXË¾™š"ÂZÚnj
 ÂÖÆÂÂKÙ>ˆ+.YË®h˜ÂX^‹ª¾h‹òÂkI~Š>h‹òÂ‹[[¸¢"À¢$Fö÷"v–GF‚#¢#cÓ“ÖÒ"À¢$†öÆRF—7Fæ6R#¢##c"£–ÖÒ"À¢$æÖR#¢$Fö÷"6Æ÷6W""À¢%&öGV7BæÖR#¢$¶—F6†VâFö÷"F§W7F&ÆR7VVB6Æ76–2Ö–FFÆR6—¦RFö÷"6Æ÷6W""À¢%G—R#¢$Fö÷"6Æ÷6W""À¢$fVGW&W2#¢.Xúş‹>˜	ş[ªbÂi‰>K¨îZèŠ8R"À¢$FW6–vâ7G–ÆR#¢$ÖöFW&â"À¢$w&÷72vV–v‡B#¢#bãB¶r"À¢%6¶vRF–ÖVç6–öç2#¢#Sƒ#eƒ#2ãR6Ò ¢Ğ¢ÒÀ¢&Æ–6F–öç2#¢°¢$†÷FVÇ2"À¢$†÷7—FÇ2 ¢ÒÀ¢&fVGW&W2#¢µÒÀ¢'f&–çG2#¢µÒÀ¢&ÖVF–#¢°¢&Ö–â#¢&76WG2ö–ÖvW2÷&öGV7G2öFö÷"Ö6Æ÷6W'2ö‡–G&VÆ–2ÖFö÷"Ö6Æ÷6W"ÓcCS““csSRöÖ–âæf–b"À¢&Æ—7B#¢&76WG2ö–ÖvW2÷&öGV7G2öFö÷"Ö6Æ÷6W'2ö‡–G&VÆ–2ÖFö÷"Ö6Æ÷6W"ÓcCS““csSRöÖ–âæf–b"À¢'F‡VÖ&æ–Â#¢&76WG2ö–ÖvW2÷&öGV7G2öFö÷"Ö6Æ÷6W'2ö‡–G&VÆ–2ÖFö÷"Ö6Æ÷6W"ÓcCS““csSRöÖ–âæf–b"À¢&vÆÆW'’#¢°¢&76WG2ö–ÖvW2÷&öGV7G2öFö÷"Ö6Æ÷6W'2ö‡–G&VÆ–2ÖFö÷"Ö6Æ÷6W"ÓcCS““csSRöÖ–âæf–b ¢ÒÀ¢&F–ÖVç6–öç2#¢µÒÀ¢&–ç7FÆÆF–öâ#¢µÒÀ¢&Æ–6F–öç2#¢µÒÀ¢'f–FV÷2#¢µÒÀ¢'f–FVõ÷7FW"#¢""À¢'6÷W&6TÖ–â#¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†#c6Sv6S““VSCSC“fc–3vSvCC6cƒ32òÓcÒæ§uóCƒƒCƒæ§sö†4åtw&FSÓ"À¢'6÷W&6TvÆÆW'’#¢°¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†#c6Sv6S““VSCSC“fc–3vSvCC6cƒ32æ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†F#3cS3f33VCƒ3ƒ–s–f#cVC#Fcƒ“…2æ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bôƒVCSCV3v##V#ƒFSVcfV6CvCfTÂæ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†C3““†3–&6F#C3FCƒ–3S3C“c&f3“ræ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†cv#ƒfSc†SF6cSƒƒSF“fc66%‚æ§uó“cƒ“cƒæ§r"À¢&‡GG3¢ò÷2æÆ–6Fâæ6öÒô63Bö¶bô†#Vc“66†&#C#6#–#ƒVf3VVScSc6&æ§uó“cƒ“cƒæ§r ¢Ğ¢ÒÀ¢'6÷W&6R#¢°¢'ÆFf÷&Ò#¢$Æ–&&"À¢'6÷W&6T–B#¢#cCS““csSR"À¢'W&Â#¢&‡GG3¢ò÷wwræÆ–&&æ6öÒ÷&öGV7BÖFWF–Âô†÷7—FÂÔFö÷"Ô6Æ÷6W"Ô†÷FVÂÔf—&RÕ&FVEócCS““csSRæ‡FÖÂ"À¢&FF6öæf–FVæ6R#¢''F–ÆÇ’×fW&–f–VB"À¢'fW&–f–VDB#¢###bÓrÓ#b"À¢&ÖVF–7FGW2#¢&&÷fVBÖöÆBÖ'&æBÖÖ&²×&VÖ÷fVB"À¢&ÖVF–6†#Sb#¢#SFC#s&cF#S†63sSSC†Sc“#&33vvVS–CFc–&#Fff6&SsƒV#VS&S3#""À¢&FWF–ÅfW&–f–VDB#¢###bÓrÓ#…C££‚ã3•¢"À¢'6VÆV7FVDvÆÆW'”–æFW‚#¢À¢&ÖVF–7&÷#¢&æöæR"À¢&ÖVF–VF—B#¢&öÆB'&æBÖ&²&V–çFW'öÆFVB ¢ÒÀ¢&GWÆ–6FT6æF–FFR#¢G'VRÀ¢&GWÆ–6FTöb#¢""À¢&Ö—76–ætf–VÆG2#¢°¢&F–ÖVç6–öç2"À¢&æWEvV–v‡B"À¢&f–æ—6‚"À¢&†öÆD÷Vâ"À¢&vÆ75F†–6¶æW72 ¢ÒÀ¢&æ÷FW2#¢%F†R6÷W&6RÆ—7F–ærW‡Æ–6—FÇ’7FFW2c(	3“ÖÒFö÷"v–GF‚âGvò6÷W&6RÆ—7F–æw2W6RÖöFVÂ´BÓƒ'WB6†÷rÖFW&–ÆÇ’F–ffW&VçB&öGV7B–ÖvW2Â6ò&÷F‚&VÖ–âfÆvvVBf÷"f7F÷'’FF6†VWB6öæf—&ÖF–öââ ¢ÒÀ¢°¢&–B#¢&Æ–&&ÓcCc“C#c’"À¢'6ÇVr#¢&‡–G&VÆ–2ÖFö÷"Ö6Æ÷6W"ÓcCc“C#c’"À¢&6FVv÷'’#¢&Fö÷"Ö6Æ÷6W'2"À¢'7V&6FVv÷'’#¢""À¢&fÖ–Ç’#¢$Fö÷"6Æ÷6W'2"À¢&ÖöFVÂ#¢$´BÓƒ"À¢'F—FÆR#¢°¢&Vâ#¢$‡–G&VÆ–2Fö÷"6Æ÷6W""À¢'¦‚#¢.kk.Xè¾™zŞ™zYš‚ ¢ÒÀ¢'6÷W&6UF—FÆR#¢.XË¾™š.™zŞ™zYš˜Y.[©~™‹.x¾™©‰xş[Èş™zŞ™zYšˆz®Xªƒc[ªn[ÈY
 şYXnK‰®ZèXZ‚"À¢'7V6–f–6F–öç2#¢°¢&66—G’#¢cRÀ¢&Fö÷%v–GF‚#¢#c(	3“ÖÒ"À¢&F–ÖVç6–öç2#¢""À¢&æWEvV–v‡B#¢""À¢&ÖFW&–Â#¢$ÇVÖ–çVÒÆÆ÷’"À¢&f–æ—6‚#¢""À¢&÷Væ–ætævÆR#¢#c+"À¢&†öÆD÷Vâ#¢çVÆÂÀ¢&vÆ75F†–6¶æW72#¢""À¢&÷F†W%fW&–f–VDf–VÆG2#¢°¢$Æ–6F–öâ#¢.xë¾y(>™z‚ÂYXnK‰®™z‚Â™‹.x¾™z‚Â˜Y.[©rÂXŠ¾Z(RÂXZÎZù2ÂX©îXZÎj[ÂÂXË¾™š"ÂZÚnj

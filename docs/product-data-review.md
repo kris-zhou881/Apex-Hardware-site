@@ -6,7 +6,7 @@
 - Product records using the Alibaba product ID as the reference: 1
 - Records with at least one structured specification: 347
 - Records with additional verified listing attributes: 385
-- Duplicate candidates retained for review: 6
+- Duplicate candidates retained for review: 11
 - Duplicate records merged automatically: 0
 
 Every record was checked against its supplied Alibaba product detail page. Explicit model and technical attribute values were imported; missing fields remain blank or null and display “Contact us to confirm”.
@@ -15,13 +15,13 @@ Structured field coverage:
 
 | Field | Records |
 |---|---:|
-| Maximum door weight | 84 |
+| Maximum door weight | 88 |
 | Door width | 9 |
 | Dimensions | 46 |
 | Net weight | 0 |
 | Material | 276 |
 | Finish | 198 |
-| Opening angle | 124 |
+| Opening angle | 126 |
 | Hold-open function | 6 |
 | Glass thickness | 112 |
 
