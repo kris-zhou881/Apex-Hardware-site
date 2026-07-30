@@ -18,7 +18,7 @@ export function header(rootPrefix, current = "") {
   const floorCurrent = current === "floor-springs" ? ' aria-current="page"' : "";
   return `<header class="site-header">
   <nav class="nav-shell" aria-label="Primary navigation">
-    <a class="brand" href="${rootPrefix}" aria-label="A Apex Hardware"><span class="brand-mark" aria-hidden="true">A</span><span class="brand-name">Apex Hardware</span></a>
+    <a class="brand brand-logo" href="${rootPrefix}" aria-label="Apex Hardware"><img class="brand-logo-image" src="${rootPrefix}assets/apex-hardware-logo.png" width="560" height="430" alt="Apex Hardware"></a>
     <div class="desktop-nav">
       <a href="${rootPrefix}products/"${productsCurrent} data-t="navProducts">Products</a>
       <a href="${rootPrefix}products/floor-springs/"${floorCurrent} data-t="navFloorSprings">Floor Springs</a>
@@ -50,7 +50,7 @@ export function header(rootPrefix, current = "") {
 export function footer(rootPrefix) {
   return `<footer class="site-footer">
   <div class="container footer-inner">
-    <a class="brand" href="${rootPrefix}" aria-label="A Apex Hardware"><span class="brand-mark" aria-hidden="true">A</span><span class="brand-name">Apex Hardware</span></a>
+    <a class="brand brand-logo" href="${rootPrefix}" aria-label="Apex Hardware"><img class="brand-logo-image" src="${rootPrefix}assets/apex-hardware-logo.png" width="560" height="430" alt="Apex Hardware"></a>
     <p>Architectural hardware for projects worldwide.</p>
     <p>© 2026 Apex Hardware</p>
   </div>

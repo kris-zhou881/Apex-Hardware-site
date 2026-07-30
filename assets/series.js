@@ -1,13 +1,37 @@
 (() => {
   "use strict";
 
-  const products = Array.isArray(window.APEX_PRODUCTS)
+  const baseProducts = Array.isArray(window.APEX_PRODUCTS)
     ? [...window.APEX_PRODUCTS].sort((a, b) => a.capacity - b.capacity)
     : [];
+  const catalogModels = Array.isArray(window.APEX_FLOOR_SPRING_MODELS)
+    ? window.APEX_FLOOR_SPRING_MODELS
+    : [];
+  const products = baseProducts.map((product) => {
+    const baseVariant = {
+      ...product,
+      key: `apex-${product.slug}`,
+      image: `../../assets/images/${product.listImage}`,
+      href: `../${product.slug}.html`,
+    };
+    const variants = [
+      baseVariant,
+      ...catalogModels.filter(
+        (variant) =>
+          variant.capacity === product.capacity &&
+          variant.model.toUpperCase() !== product.model.toUpperCase(),
+      ),
+    ];
+    return { ...product, variants };
+  });
+  const allVariants = products.flatMap((product) => product.variants);
   const grid = document.getElementById("series-grid");
   const filterContainer = document.querySelector(".capacity-filters");
   const comparisonWrap = document.getElementById("comparison-wrap");
   const comparisonEmpty = document.getElementById("comparison-empty");
+  const activeModelByCapacity = new Map(
+    products.map((product) => [String(product.capacity), product.variants[0].key]),
+  );
   const selected = new Set();
   const validCapacities = new Set(products.map((product) => String(product.capacity)));
   const queryCapacity = new URLSearchParams(window.location.search).get("capacity");
@@ -17,6 +41,10 @@
 
   function copy() {
     return window.getApexCopy ? window.getApexCopy() : {};
+  }
+
+  function confirmed(value, text) {
+    return value || text.confirm || "Contact us to confirm";
   }
 
   function createSpec(label, value) {
@@ -29,6 +57,43 @@
     return wrapper;
   }
 
+  function currentVariant(product) {
+    const activeKey = activeModelByCapacity.get(String(product.capacity));
+    return product.variants.find((variant) => variant.key === activeKey) || product.variants[0];
+  }
+
+  function createModelSwitcher(product, activeVariant, text) {
+    const switcher = document.createElement("div");
+    switcher.className = "model-switcher";
+
+    const label = document.createElement("span");
+    label.className = "model-switcher-label";
+    label.textContent = text.model || "Model";
+
+    const options = document.createElement("div");
+    options.className = "model-switcher-options";
+    options.setAttribute("role", "group");
+    options.setAttribute("aria-label", text.model || "Model");
+
+    product.variants.forEach((variant) => {
+      const button = document.createElement("button");
+      button.className = "model-switch-button";
+      button.type = "button";
+      button.textContent = variant.model;
+      button.dataset.modelKey = variant.key;
+      button.setAttribute("aria-pressed", String(variant.key === activeVariant.key));
+      button.addEventListener("click", () => {
+        activeModelByCapacity.set(String(product.capacity), variant.key);
+        renderCards();
+        renderComparison();
+      });
+      options.append(button);
+    });
+
+    switcher.append(label, options);
+    return switcher;
+  }
+
   function renderCards() {
     const text = copy();
     const visibleProducts =
@@ -38,31 +103,40 @@
 
     grid.replaceChildren();
     visibleProducts.forEach((product) => {
+      const variant = currentVariant(product);
       const card = document.createElement("article");
       card.className = "product-card";
 
       const media = document.createElement("div");
       media.className = "product-card-media";
       const image = document.createElement("img");
-      image.src = `../../assets/images/${product.listImage}`;
-      image.width = 1200;
-      image.height = 900;
+      image.src = variant.image;
+      image.width = 896;
+      image.height = 896;
       image.loading = "lazy";
       image.decoding = "async";
-      image.alt = `${text.productImageAlt || "Apex Hardware hydraulic floor spring"} — ${product.weightLabel}`;
+      image.alt = `${text.productImageAlt || "Apex Hardware hydraulic floor spring"} — ${variant.model}`;
       media.append(image);
 
       const heading = document.createElement("h2");
       heading.textContent = product.weightLabel;
       const description = document.createElement("p");
-      description.textContent = product.position;
+      description.textContent = variant.position || product.position;
+
+      const modelSwitcher = createModelSwitcher(product, variant, text);
 
       const specs = document.createElement("dl");
       specs.className = "card-specs";
       specs.append(
-        createSpec(text.maxWeight || "Maximum door weight", product.weight),
-        createSpec(text.doorWidth || "Recommended door width", product.width),
-        createSpec(text.application || "Recommended application", product.use),
+        createSpec(text.maxWeight || "Maximum door weight", variant.weight),
+        createSpec(
+          text.doorWidth || "Recommended door width",
+          confirmed(variant.width, text),
+        ),
+        createSpec(
+          text.application || "Recommended application",
+          confirmed(variant.use, text),
+        ),
       );
 
       const actions = document.createElement("div");
@@ -70,7 +144,7 @@
 
       const detailLink = document.createElement("a");
       detailLink.className = "button";
-      detailLink.href = `../${product.slug}.html`;
+      detailLink.href = variant.href;
       const detailText = document.createElement("span");
       detailText.textContent = text.viewDetails || "View details";
       const detailArrow = document.createElement("span");
@@ -81,30 +155,30 @@
       const compare = document.createElement("button");
       compare.className = "button button-secondary compare-button";
       compare.type = "button";
-      compare.dataset.slug = product.slug;
-      compare.setAttribute("aria-pressed", String(selected.has(product.slug)));
-      compare.textContent = selected.has(product.slug)
+      compare.dataset.modelKey = variant.key;
+      compare.setAttribute("aria-pressed", String(selected.has(variant.key)));
+      compare.textContent = selected.has(variant.key)
         ? text.removeCompare || "Remove"
         : text.addCompare || "Compare";
       compare.addEventListener("click", () => {
-        if (selected.has(product.slug)) {
-          selected.delete(product.slug);
+        if (selected.has(variant.key)) {
+          selected.delete(variant.key);
         } else {
-          selected.add(product.slug);
+          selected.add(variant.key);
         }
         renderCards();
         renderComparison();
       });
 
       actions.append(detailLink, compare);
-      card.append(media, heading, description, specs, actions);
+      card.append(media, modelSwitcher, heading, description, specs, actions);
       grid.append(card);
     });
   }
 
   function renderComparison() {
     const text = copy();
-    const compared = products.filter((product) => selected.has(product.slug));
+    const compared = allVariants.filter((variant) => selected.has(variant.key));
 
     if (!comparisonWrap || !comparisonEmpty) return;
     comparisonEmpty.hidden = compared.length >= 2;
@@ -135,10 +209,10 @@
     emptyHeading.scope = "col";
     emptyHeading.textContent = text.model || "Model";
     headRow.append(emptyHeading);
-    compared.forEach((product) => {
+    compared.forEach((variant) => {
       const heading = document.createElement("th");
       heading.scope = "col";
-      heading.textContent = product.weightLabel;
+      heading.textContent = variant.model;
       headRow.append(heading);
     });
     thead.append(headRow);
@@ -151,9 +225,9 @@
       heading.scope = "row";
       heading.textContent = label;
       row.append(heading);
-      compared.forEach((product) => {
+      compared.forEach((variant) => {
         const cell = document.createElement("td");
-        cell.textContent = product[key];
+        cell.textContent = confirmed(variant[key], text);
         row.append(cell);
       });
       tbody.append(row);

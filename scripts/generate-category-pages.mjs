@@ -60,10 +60,10 @@ const productsIndex = `<!DOCTYPE html>
   <meta property="og:title" content="Architectural Hardware Products | Apex Hardware">
   <meta property="og:description" content="A clear product system for architectural doors, glass and aluminum applications.">
   <meta property="og:url" content="${SITE_URL}/products/">
-  <link rel="stylesheet" href="../assets/styles.css?v=20260727c">
+  <link rel="stylesheet" href="../assets/styles.css?v=20260731a">
   <script type="application/ld+json">${jsonScript(itemList)}</script>
-  <script src="../assets/app.js?v=20260727c" defer></script>
-  <script src="../assets/catalog.js?v=20260727c" defer></script>
+  <script src="../assets/app.js?v=20260731a" defer></script>
+  <script src="../assets/catalog.js?v=20260731a" defer></script>
 </head>
 <body data-catalog-mode="index">
   <div class="scroll-progress" aria-hidden="true"></div>
@@ -156,11 +156,11 @@ for (const category of categories) {
   <meta property="og:description" content="${escapeHtml(category.description)}">
   <meta property="og:url" content="${categoryPageUrl}">
   <meta property="og:image" content="${SITE_URL}/${categoryImage}">
-  <link rel="stylesheet" href="../../assets/styles.css?v=20260727c">
+  <link rel="stylesheet" href="../../assets/styles.css?v=20260731a">
   <script type="application/ld+json">${jsonScript(collection)}</script>
   <script type="application/ld+json">${jsonScript(crumb)}</script>
-  <script src="../../assets/app.js?v=20260727c" defer></script>
-  <script src="../../assets/catalog.js?v=20260727c" defer></script>
+  <script src="../../assets/app.js?v=20260731a" defer></script>
+  <script src="../../assets/catalog.js?v=20260731a" defer></script>
 </head>
 <body data-catalog-mode="category" data-category="${category.slug}">
   <div class="scroll-progress" aria-hidden="true"></div>

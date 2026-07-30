@@ -290,6 +290,19 @@ h3 {
   font-size: 17px;
 }
 
+.brand-logo {
+  width: 72px;
+  height: 56px;
+  flex: 0 0 72px;
+  overflow: hidden;
+}
+
+.brand-logo-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .desktop-nav {
   display: flex;
   align-items: center;
@@ -1175,6 +1188,52 @@ h3 {
   object-fit: contain;
 }
 
+.model-switcher {
+  display: grid;
+  margin: -4px 0 22px;
+  gap: 9px;
+}
+
+.model-switcher-label {
+  color: var(--text-secondary);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.model-switcher-options {
+  display: flex;
+  width: 100%;
+  padding-bottom: 3px;
+  overflow-x: auto;
+  gap: 8px;
+  scrollbar-width: none;
+}
+
+.model-switcher-options::-webkit-scrollbar {
+  display: none;
+}
+
+.model-switch-button {
+  min-height: 38px;
+  padding: 7px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--text-primary);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+.model-switch-button[aria-pressed="true"] {
+  border-color: #1d1d1f;
+  background: #1d1d1f;
+  color: #fff;
+}
+
 .product-card h2 {
   margin-bottom: 10px;
   font-size: clamp(40px, 4.5vw, 58px);
@@ -1768,6 +1827,12 @@ h3 {
 
   .brand {
     font-size: 15px;
+  }
+
+  .brand-logo {
+    width: 64px;
+    height: 50px;
+    flex-basis: 64px;
   }
 
   .brand-mark {
