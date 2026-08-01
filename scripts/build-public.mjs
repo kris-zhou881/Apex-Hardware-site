@@ -9,9 +9,9 @@ await mkdir(output, { recursive: true });
 for (const directory of ["assets", "products", "ar"]) {
   await cp(join(root, directory), join(output, directory), { recursive: true });
 }
-for (const file of ["index.html", "robots.txt", "sitemap.xml", ".nojekyll"]) {
+for (const file of ["index.html", "robots.txt", "sitemap.xml", ".nojekyll", "google20e989f855ceec71.html"]) {
   await cp(join(root, file), join(output, file));
 }
 
 await writeFile(join(output, "build-info.json"), `${JSON.stringify({ generatedAt: new Date().toISOString(), publicOnly: true }, null, 2)}\n`);
-console.log(JSON.stringify({ output: "dist", directories: 3, rootFiles: 5 }, null, 2));
+console.log(JSON.stringify({ output: "dist", directories: 3, rootFiles: 6 }, null, 2));
