@@ -1,0 +1,333 @@
+{
+  "generatedFrom": "data/products.json",
+  "methodology": "One strongest listing per model, ranked by completeness of existing verified specification fields and local product imagery.",
+  "quotas": {
+    "floor-springs": 24,
+    "door-closers": 8,
+    "panic-exit-devices": 2,
+    "glass-door-hardware": 4,
+    "pull-handles": 2
+  },
+  "products": [
+    {
+      "id": "alibaba-1601830920368",
+      "slug": "hydraulic-floor-spring-up-to-90-kg-1601830920368",
+      "category": "floor-springs",
+      "model": "KD-220",
+      "rankInCategory": 1,
+      "evidenceScore": 34
+    },
+    {
+      "id": "alibaba-1601458907419",
+      "slug": "hydraulic-door-closer-1601458907419",
+      "category": "floor-springs",
+      "model": "KD-63/2",
+      "rankInCategory": 2,
+      "evidenceScore": 34
+    },
+    {
+      "id": "alibaba-1600271828976",
+      "slug": "hydraulic-floor-spring-up-to-120-kg-bst-65-1600271828976",
+      "category": "floor-springs",
+      "model": "KD-65",
+      "rankInCategory": 3,
+      "evidenceScore": 34
+    },
+    {
+      "id": "alibaba-1601666231343",
+      "slug": "hydraulic-floor-spring-up-to-150-kg-1601666231343",
+      "category": "floor-springs",
+      "model": "KD-1063",
+      "rankInCategory": 4,
+      "evidenceScore": 33
+    },
+    {
+      "id": "alibaba-1601680539308",
+      "slug": "hydraulic-floor-spring-1601680539308",
+      "category": "floor-springs",
+      "model": "KD-310A",
+      "rankInCategory": 5,
+      "evidenceScore": 33
+    },
+    {
+      "id": "alibaba-1601577274690",
+      "slug": "hydraulic-floor-spring-up-to-300-kg-1601577274690",
+      "category": "floor-springs",
+      "model": "KD-882",
+      "rankInCategory": 6,
+      "evidenceScore": 33
+    },
+    {
+      "id": "alibaba-60763886206",
+      "slug": "hydraulic-floor-spring-up-to-95-kg-60763886206",
+      "category": "floor-springs",
+      "model": "KD-63",
+      "rankInCategory": 7,
+      "evidenceScore": 29
+    },
+    {
+      "id": "alibaba-1601677506942",
+      "slug": "hydraulic-floor-spring-up-to-130-kg-1601677506942",
+      "category": "floor-springs",
+      "model": "KD-73",
+      "rankInCategory": 8,
+      "evidenceScore": 29
+    },
+    {
+      "id": "alibaba-1601459464728",
+      "slug": "hydraulic-floor-spring-up-to-150-kg-1601459464728",
+      "category": "floor-springs",
+      "model": "KD-75",
+      "rankInCategory": 9,
+      "evidenceScore": 29
+    },
+    {
+      "id": "alibaba-1601435107304",
+      "slug": "hydraulic-floor-spring-1601435107304",
+      "category": "floor-springs",
+      "model": "KD-84",
+      "rankInCategory": 10,
+      "evidenceScore": 29
+    },
+    {
+      "id": "alibaba-1601616381661",
+      "slug": "hydraulic-floor-spring-up-to-300-kg-1601616381661",
+      "category": "floor-springs",
+      "model": "KD-80",
+      "rankInCategory": 11,
+      "evidenceScore": 28
+    },
+    {
+      "id": "alibaba-1601824330219",
+      "slug": "hydraulic-floor-spring-up-to-400-kg-1601824330219",
+      "category": "floor-springs",
+      "model": "KD.3001-400",
+      "rankInCategory": 12,
+      "evidenceScore": 26
+    },
+    {
+      "id": "alibaba-1601824312588",
+      "slug": "hydraulic-floor-spring-up-to-600-kg-1601824312588",
+      "category": "floor-springs",
+      "model": "KD.3001-600",
+      "rankInCategory": 13,
+      "evidenceScore": 26
+    },
+    {
+      "id": "alibaba-1601460397171",
+      "slug": "hydraulic-floor-spring-up-to-90-kg-1601460397171",
+      "category": "floor-springs",
+      "model": "KD-62",
+      "rankInCategory": 14,
+      "evidenceScore": 24
+    },
+    {
+      "id": "alibaba-1601452530061",
+      "slug": "hydraulic-floor-spring-1601452530061",
+      "category": "floor-springs",
+      "model": "KD-2400",
+      "rankInCategory": 15,
+      "evidenceScore": 22
+    },
+    {
+      "id": "alibaba-1601680624111",
+      "slug": "hydraulic-floor-spring-1601680624111",
+      "category": "floor-springs",
+      "model": "KD-310B",
+      "rankInCategory": 16,
+      "evidenceScore": 22
+    },
+    {
+      "id": "alibaba-1601679337276",
+      "slug": "hydraulic-floor-spring-1601679337276",
+      "category": "floor-springs",
+      "model": "KD-883",
+      "rankInCategory": 17,
+      "evidenceScore": 22
+    },
+    {
+      "id": "alibaba-1601428753119",
+      "slug": "hydraulic-floor-spring-1601428753119",
+      "category": "floor-springs",
+      "model": "KD-25",
+      "rankInCategory": 18,
+      "evidenceScore": 21
+    },
+    {
+      "id": "alibaba-1601676707367",
+      "slug": "hydraulic-floor-spring-1601676707367",
+      "category": "floor-springs",
+      "model": "KD-1001",
+      "rankInCategory": 19,
+      "evidenceScore": 20
+    },
+    {
+      "id": "alibaba-1601453534536",
+      "slug": "hydraulic-floor-spring-1601453534536",
+      "category": "floor-springs",
+      "model": "KD-2500",
+      "rankInCategory": 20,
+      "evidenceScore": 19
+    },
+    {
+      "id": "alibaba-1601461946963",
+      "slug": "hydraulic-floor-spring-up-to-90-kg-1601461946963",
+      "category": "floor-springs",
+      "model": "KD-28",
+      "rankInCategory": 21,
+      "evidenceScore": 19
+    },
+    {
+      "id": "alibaba-1601460000148",
+      "slug": "hydraulic-floor-spring-up-to-130-kg-1601460000148",
+      "category": "floor-springs",
+      "model": "KD-222",
+      "rankInCategory": 22,
+      "evidenceScore": 17
+    },
+    {
+      "id": "alibaba-1601819101341",
+      "slug": "hydraulic-floor-spring-1601819101341",
+      "category": "floor-springs",
+      "model": "D-3001",
+      "rankInCategory": 23,
+      "evidenceScore": 16
+    },
+    {
+      "id": "alibaba-1601868884547",
+      "slug": "hydraulic-floor-spring-1601868884547",
+      "category": "floor-springs",
+      "model": "KD-CS-01",
+      "rankInCategory": 24,
+      "evidenceScore": 16
+    },
+    {
+      "id": "alibaba-1601710607597",
+      "slug": "hydraulic-door-closer-up-to-45-kg-1601710607597",
+      "category": "door-closers",
+      "model": "KD-051",
+      "rankInCategory": 1,
+      "evidenceScore": 39
+    },
+    {
+      "id": "alibaba-1601715857357",
+      "slug": "hydraulic-door-closer-1601715857357",
+      "category": "door-closers",
+      "model": "KD-071",
+      "rankInCategory": 2,
+      "evidenceScore": 39
+    },
+    {
+      "id": "alibaba-1601710695032",
+      "slug": "hydraulic-door-closer-1601710695032",
+      "category": "door-closers",
+      "model": "KD-061",
+      "rankInCategory": 3,
+      "evidenceScore": 34
+    },
+    {
+      "id": "alibaba-1601715762414",
+      "slug": "hydraulic-door-closer-up-to-60-kg-1601715762414",
+      "category": "door-closers",
+      "model": "KD-063",
+      "rankInCategory": 4,
+      "evidenceScore": 34
+    },
+    {
+      "id": "alibaba-1601459906755",
+      "slug": "hydraulic-door-closer-1601459906755",
+      "category": "door-closers",
+      "model": "KD-080",
+      "rankInCategory": 5,
+      "evidenceScore": 34
+    },
+    {
+      "id": "alibaba-1601503864604",
+      "slug": "hydraulic-door-closer-1601503864604",
+      "category": "door-closers",
+      "model": "KD-081",
+      "rankInCategory": 6,
+      "evidenceScore": 34
+    },
+    {
+      "id": "alibaba-1601449246565",
+      "slug": "hydraulic-door-closer-up-to-65-kg-1601449246565",
+      "category": "door-closers",
+      "model": "KD-1601",
+      "rankInCategory": 7,
+      "evidenceScore": 29
+    },
+    {
+      "id": "alibaba-1601447465342",
+      "slug": "hydraulic-door-closer-1601447465342",
+      "category": "door-closers",
+      "model": "KD-63/2",
+      "rankInCategory": 8,
+      "evidenceScore": 24
+    },
+    {
+      "id": "alibaba-10000030232515",
+      "slug": "panic-bar-exit-device-10000030232515",
+      "category": "panic-exit-devices",
+      "model": "KD-DI80",
+      "rankInCategory": 1,
+      "evidenceScore": 24
+    },
+    {
+      "id": "alibaba-1601508115055",
+      "slug": "panic-bar-exit-device-1601508115055",
+      "category": "panic-exit-devices",
+      "model": "KD-603",
+      "rankInCategory": 2,
+      "evidenceScore": 14
+    },
+    {
+      "id": "alibaba-1601579476128",
+      "slug": "glass-door-fitting-1601579476128",
+      "category": "glass-door-hardware",
+      "model": "KD-090",
+      "rankInCategory": 1,
+      "evidenceScore": 34
+    },
+    {
+      "id": "alibaba-1600966555256",
+      "slug": "glass-door-fitting-1600966555256",
+      "category": "glass-door-hardware",
+      "model": "KD-640",
+      "rankInCategory": 2,
+      "evidenceScore": 34
+    },
+    {
+      "id": "alibaba-1600965637827",
+      "slug": "glass-door-fitting-jds-02-1600965637827",
+      "category": "glass-door-hardware",
+      "model": "JDS-02",
+      "rankInCategory": 3,
+      "evidenceScore": 29
+    },
+    {
+      "id": "alibaba-1601687778018",
+      "slug": "glass-door-fitting-1601687778018",
+      "category": "glass-door-hardware",
+      "model": "KD-050",
+      "rankInCategory": 4,
+      "evidenceScore": 24
+    },
+    {
+      "id": "alibaba-1601466804194",
+      "slug": "pull-handle-1601466804194",
+      "category": "pull-handles",
+      "model": "KD-7021",
+      "rankInCategory": 1,
+      "evidenceScore": 29
+    },
+    {
+      "id": "alibaba-62105283156",
+      "slug": "pull-handle-62105283156",
+      "category": "pull-handles",
+      "model": "KD-204",
+      "rankInCategory": 2,
+      "evidenceScore": 24
+    }
+  ]
+}
