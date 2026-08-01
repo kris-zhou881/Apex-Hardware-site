@@ -10,6 +10,9 @@
     >
     <meta name="theme-color" content="#ffffff">
     <link rel="canonical" href="https://kris-zhou881.github.io/Apex-Hardware-site/">
+    <link rel="alternate" hreflang="en" href="https://kris-zhou881.github.io/Apex-Hardware-site/">
+    <link rel="alternate" hreflang="ar" href="https://kris-zhou881.github.io/Apex-Hardware-site/ar/">
+    <link rel="alternate" hreflang="x-default" href="https://kris-zhou881.github.io/Apex-Hardware-site/">
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Apex Hardware | Precision Floor Springs">
@@ -49,6 +52,9 @@
     </script>
     <script src="assets/app.js?v=20260731a" defer></script>
     <script src="assets/catalog.js?v=20260731a" defer></script>
+    <script src="assets/site-config.js?v=20260801a"></script>
+    <script src="assets/tracking.js?v=20260801a" defer></script>
+    <script src="assets/inquiry.js?v=20260801a" defer></script>
   </head>
   <body>
     <div class="scroll-progress" aria-hidden="true"></div>
@@ -61,6 +67,7 @@
 
         <div class="desktop-nav">
           <a href="products/" data-t="navProducts">Products</a>
+          <a href="products/featured/">Featured 40</a>
           <a href="products/floor-springs/" data-t="navFloorSprings">Floor Springs</a>
           <a href="#engineering" data-t="engineering">Engineering</a>
           <a href="#quality" data-t="quality">Quality</a>
@@ -94,6 +101,7 @@
 
         <div class="mobile-menu" id="mobile-menu" hidden>
           <a href="products/" data-t="navProducts">Products</a>
+          <a href="products/featured/">Featured 40</a>
           <a href="products/floor-springs/" data-t="navFloorSprings">Floor Springs</a>
           <a href="#engineering" data-t="engineering">Engineering</a>
           <a href="#quality" data-t="quality">Quality</a>
@@ -106,20 +114,36 @@
     </header>
 
     <main>
-      <section class="home-hero" aria-labelledby="hero-title">
+      <section class="home-hero home-hero-split" aria-labelledby="hero-title">
         <div class="hero-copy reveal visible">
           <p class="eyebrow" data-t="heroEyebrow">APEX HARDWARE · PRECISION DOOR CONTROL</p>
           <h1 id="hero-title">
-            <span data-t="heroLineOne">Invisible control.</span>
-            <span data-t="heroLineTwo">Remarkable movement.</span>
+            <span>Door hardware.</span>
+            <span>Specified for your project.</span>
           </h1>
-          <p class="hero-intro" data-t="heroSub">
-            Hydraulic door control designed to make every opening feel smooth, quiet and dependable.
-          </p>
-          <a class="button" href="products/floor-springs/">
-            <span data-t="heroCta">Explore Floor Springs</span>
-            <span aria-hidden="true">→</span>
-          </a>
+          <p class="hero-intro">Start with door weight, width and application. Review 40 distinct priority models, then send one clear project inquiry.</p>
+          <div class="button-row">
+            <a class="button" href="products/featured/"><span>Explore Featured 40</span><span aria-hidden="true">→</span></a>
+            <a class="button button-secondary" href="#contact"><span>Send project requirements</span></a>
+          </div>
+          <div class="hero-proof"><span>Selection by door weight</span><span>Model-specific specifications</span><span>Direct WhatsApp quotation</span></div>
+        </div>
+        <figure class="hero-product reveal visible"><img src="assets/images/floor-springs/floor-spring-series-hero.webp" width="1600" height="1000" alt="Apex Hardware hydraulic floor spring" fetchpriority="high" decoding="async"></figure>
+      </section>
+
+      <section class="section trust-section" aria-labelledby="trust-title">
+        <div class="container">
+          <header class="section-heading reveal">
+            <p class="eyebrow">VERIFIABLE CATALOG &amp; LOCAL SUPPORT</p>
+            <h2 id="trust-title">Specification support from Zhaoqing, Guangdong.</h2>
+            <p>We use the facts already documented in the reviewed catalog. No unverified certification, production-capacity or customer-logo claims.</p>
+          </header>
+          <div class="trust-grid">
+            <article class="reveal"><strong>385</strong><span>reviewed catalog records</span></article>
+            <article class="reveal"><strong>12</strong><span>architectural hardware categories</span></article>
+            <article class="reveal"><strong>40</strong><span>distinct priority models</span></article>
+            <article class="reveal"><strong>Guangdong</strong><span>listed in Gaoyao District, Zhaoqing</span></article>
+          </div>
         </div>
       </section>
 
@@ -329,30 +353,27 @@
 
       <section class="section contact-section" id="contact" aria-labelledby="contact-title">
         <div class="container">
-          <div class="contact-card reveal">
-            <p class="eyebrow" data-t="contactEyebrow">PROJECT INQUIRIES</p>
-            <h2 id="contact-title" data-t="contactTitle">Let’s specify the right floor spring.</h2>
-            <p data-t="contactSub">
-              Share your door weight, width and application. We will help you identify a suitable model.
-            </p>
-            <div class="button-row">
-              <a
-                class="button"
-                href="mailto:985064609l@gmail.com?subject=Floor%20spring%20inquiry"
-              >
-                <span data-t="emailUs">Email us</span>
-                <span aria-hidden="true">↗</span>
-              </a>
-              <a
-                class="button button-secondary"
-                href="https://wa.me/8618027164672"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span data-t="whatsapp">WhatsApp</span>
-                <span aria-hidden="true">↗</span>
-              </a>
+          <div class="contact-card contact-card-form reveal">
+            <div class="contact-copy">
+              <p class="eyebrow" data-t="contactEyebrow">PROJECT INQUIRIES</p>
+              <h2 id="contact-title">Get a project-ready quotation.</h2>
+              <p>Share the model, quantity, door weight, width and delivery region. The form prepares a structured WhatsApp message so fewer details are missed.</p>
+              <a class="text-link" href="mailto:985064609l@gmail.com?subject=Apex%20Hardware%20project%20inquiry">Prefer email? Write to us <span aria-hidden="true">↗</span></a>
             </div>
+            <form class="inquiry-form">
+              <div class="form-grid">
+                <label><span>Name *</span><input name="name" autocomplete="name" required></label>
+                <label><span>Company</span><input name="company" autocomplete="organization"></label>
+                <label><span>Country / region *</span><input name="country" autocomplete="country-name" required></label>
+                <label><span>Estimated quantity</span><input name="quantity" inputmode="numeric" placeholder="e.g. 100 sets"></label>
+              </div>
+              <label><span>Product / model</span><input name="product" placeholder="e.g. KD-220 floor spring"></label>
+              <label><span>Door weight / width</span><input name="door" placeholder="e.g. 120 kg / 1100 mm"></label>
+              <label><span>Project requirements *</span><textarea name="requirements" rows="4" required placeholder="Application, finish, destination and any standards to confirm"></textarea></label>
+              <button class="button" type="submit">Send inquiry via WhatsApp <span aria-hidden="true">→</span></button>
+              <p class="form-note">Your details are only transferred when WhatsApp opens.</p>
+              <p class="form-status" aria-live="polite"></p>
+            </form>
           </div>
         </div>
       </section>
@@ -420,5 +441,6 @@
         <p>© 2026 Apex Hardware</p>
       </div>
     </footer>
+    <a class="floating-whatsapp" href="https://wa.me/8618027164672?text=Hello%20Apex%20Hardware%2C%20I%20would%20like%20a%20project%20quotation." target="_blank" rel="noopener noreferrer" aria-label="Contact Apex Hardware on WhatsApp"><span aria-hidden="true">WA</span><b>WhatsApp</b></a>
   </body>
 </html>

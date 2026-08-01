@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /data/
+Disallow: /docs/
+Disallow: /scripts/
+Disallow: /.github/
+
+Sitemap: https://kris-zhou881.github.io/Apex-Hardware-site/sitemap.xml

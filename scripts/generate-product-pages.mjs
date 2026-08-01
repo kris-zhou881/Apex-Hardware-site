@@ -1,11 +1,13 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { SITE_URL, localizedProductTitle } from "./catalog-utils.mjs";
-import { breadcrumbs, escapeHtml, footer, header, inquiry, jsonScript, productJsonLd } from "./page-templates.mjs";
+import { breadcrumbs, escapeHtml, footer, header, inquiry, jsonScript, languageAlternates, pageScripts, productJsonLd } from "./page-templates.mjs";
 
 const root = process.cwd();
 const products = JSON.parse(await readFile(join(root, "data", "products.json"), "utf8"));
 const categories = JSON.parse(await readFile(join(root, "data", "categories.json"), "utf8"));
+const featured = JSON.parse(await readFile(join(root, "data", "featured-products.json"), "utf8"));
+const featuredIds = new Set(featured.products.map((item) => item.id));
 const categoryMap = new Map(categories.map((category) => [category.slug, category]));
 const confirmText = "Contact us to confirm";
 const localizedLanguages = ["en", "zh", "es", "ar", "fr", "de", "pt", "ru"];
@@ -17,6 +19,7 @@ function specRow(label, value, key) {
 for (const product of products) {
   const category = categoryMap.get(product.category);
   const specs = product.specifications;
+  const isFeatured = featuredIds.has(product.id);
   const additionalSpecRows = Object.entries(specs.otherVerifiedFields || {})
     .filter(([label, value]) => label && value)
     .map(([label, value]) => `<div><dt>${escapeHtml(label)}</dt><dd dir="auto">${escapeHtml(value)}</dd></div>`)
@@ -66,6 +69,7 @@ for (const product of products) {
   <meta name="description" content="${escapeHtml(description)}">
   <meta name="theme-color" content="#ffffff">
   <link rel="canonical" href="${SITE_URL}/products/${category.slug}/${product.slug}.html">
+  ${languageAlternates(`${SITE_URL}/products/${category.slug}/${product.slug}.html`, isFeatured ? `${SITE_URL}/ar/products/${category.slug}/${product.slug}.html` : "")}
   <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
   <meta property="og:type" content="product">
   <meta property="og:title" content="${escapeHtml(product.title.en)} | Apex Hardware">
@@ -78,6 +82,7 @@ for (const product of products) {
   <script type="application/ld+json">${jsonScript(crumb)}</script>
   <script src="../../assets/app.js?v=20260731a" defer></script>
   <script src="../../assets/catalog.js?v=20260731a" defer></script>
+  ${pageScripts("../../")}
 </head>
 <body data-catalog-mode="detail">
   <div class="scroll-progress" aria-hidden="true"></div>
@@ -89,6 +94,7 @@ for (const product of products) {
         <div class="detail-hero-grid">
           <div class="detail-copy reveal visible">
             <p class="eyebrow">${escapeHtml(category.en.toUpperCase())}</p>
+            ${isFeatured ? '<p class="featured-badge">APEX FEATURED 40</p>' : ""}
             <h1 ${localizedTitleAttributes}>${escapeHtml(product.title.en)}</h1>
             <p class="detail-position">${escapeHtml(category.description)}</p>
             ${modelLine}
@@ -122,6 +128,7 @@ for (const product of products) {
         <p class="data-confidence-note" data-catalog-text="dataNote">Only explicitly confirmed listing data is shown. Contact us to verify missing fields before specification.</p>
       </div>
     </section>
+    ${isFeatured ? `<section class="detail-section shortlist-section" aria-labelledby="shortlist-title"><div class="container"><p class="eyebrow">SHORTLISTED MODEL</p><h2 id="shortlist-title">Why this model made the Featured 40</h2><div class="shortlist-grid">${featureBits.map((feature) => `<article><span>${escapeHtml(feature.label)}</span><strong dir="ltr">${escapeHtml(feature.value)}</strong></article>`).join("")}<article><span>Selection basis</span><strong>Clear model identity and stronger verified listing detail</strong></article></div><p class="data-confidence-note">Selection is based only on information already present in the reviewed catalog. Final project suitability must be confirmed before ordering.</p></div></section>` : ""}
     ${related.length ? `<section class="detail-section related-section" aria-labelledby="related-title"><div class="container"><h2 id="related-title" data-catalog-text="related">Related products</h2><div class="related-grid">${relatedCards}</div></div></section>` : ""}
     ${inquiry("../../", `${product.title.en}${product.model ? ` — ${product.model}` : ""}`)}
   </main>
@@ -130,7 +137,7 @@ for (const product of products) {
 </html>`;
   const directory = join(root, "products", category.slug);
   await mkdir(directory, { recursive: true });
-  await writeFile(join(directory, `${product.slug}.html`), html);
+  await writeFile(join(directory, `${product.slug}.html`), html.replace(/[ \t]+$/gm, ""));
 }
 
 console.log(JSON.stringify({ productPages: products.length }, null, 2));

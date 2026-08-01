@@ -1,11 +1,13 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { SITE_URL, localizedCategoryTitle, localizedProductTitle } from "./catalog-utils.mjs";
-import { breadcrumbs, escapeHtml, footer, header, inquiry, jsonScript } from "./page-templates.mjs";
+import { breadcrumbs, escapeHtml, footer, header, inquiry, jsonScript, languageAlternates, pageScripts } from "./page-templates.mjs";
 
 const root = process.cwd();
 const products = JSON.parse(await readFile(join(root, "data", "products.json"), "utf8"));
 const categories = JSON.parse(await readFile(join(root, "data", "categories.json"), "utf8"));
+const featured = JSON.parse(await readFile(join(root, "data", "featured-products.json"), "utf8"));
+const featuredIds = new Set(featured.products.map((item) => item.id));
 
 function imagePath(product, prefix) {
   return product.media.main ? `${prefix}${product.media.main}` : `${prefix}assets/favicon.svg`;
@@ -55,6 +57,7 @@ const productsIndex = `<!DOCTYPE html>
   <meta name="description" content="Explore Apex Hardware floor springs, door closers, glass hardware, locks, handles, aluminum panels and architectural door systems.">
   <meta name="theme-color" content="#ffffff">
   <link rel="canonical" href="${SITE_URL}/products/">
+  ${languageAlternates(`${SITE_URL}/products/`, `${SITE_URL}/ar/products/`)}
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Architectural Hardware Products | Apex Hardware">
@@ -64,6 +67,7 @@ const productsIndex = `<!DOCTYPE html>
   <script type="application/ld+json">${jsonScript(itemList)}</script>
   <script src="../assets/app.js?v=20260731a" defer></script>
   <script src="../assets/catalog.js?v=20260731a" defer></script>
+  ${pageScripts("../")}
 </head>
 <body data-catalog-mode="index">
   <div class="scroll-progress" aria-hidden="true"></div>
@@ -85,10 +89,12 @@ const productsIndex = `<!DOCTYPE html>
 </body>
 </html>`;
 await mkdir(join(root, "products"), { recursive: true });
-await writeFile(join(root, "products", "index.html"), productsIndex);
+await writeFile(join(root, "products", "index.html"), productsIndex.replace(/[ \t]+$/gm, ""));
 
 for (const category of categories) {
-  const categoryProducts = products.filter((product) => product.category === category.slug);
+  const categoryProducts = products
+    .filter((product) => product.category === category.slug)
+    .sort((a, b) => Number(featuredIds.has(b.id)) - Number(featuredIds.has(a.id)));
   const categoryImage = categoryProducts.find((product) => product.media.main.endsWith(".avif"))?.media.main
     || categoryProducts[0]?.media.main
     || "assets/favicon.svg";
@@ -101,11 +107,12 @@ for (const category of categories) {
       specs.openingAngle,
       specs.glassThickness,
     ].filter(Boolean);
-    return `<article class="catalog-product-card reveal" data-search="${escapeHtml(`${product.title.en} ${product.title.zh} ${product.model} ${product.source.sourceId}`.toLowerCase())}" data-material="${escapeHtml(specs.material || "Unspecified")}" data-slug="${escapeHtml(product.slug)}" data-model="${escapeHtml(product.model || product.source.sourceId)}" data-title="${escapeHtml(product.title.en)}" data-capacity="${specs.capacity || ""}" data-angle="${escapeHtml(specs.openingAngle)}" data-thickness="${escapeHtml(specs.glassThickness)}">
+    return `<article class="catalog-product-card reveal${featuredIds.has(product.id) ? " is-featured" : ""}" data-search="${escapeHtml(`${product.title.en} ${product.title.zh} ${product.model} ${product.source.sourceId}`.toLowerCase())}" data-material="${escapeHtml(specs.material || "Unspecified")}" data-slug="${escapeHtml(product.slug)}" data-model="${escapeHtml(product.model || product.source.sourceId)}" data-title="${escapeHtml(product.title.en)}" data-capacity="${specs.capacity || ""}" data-angle="${escapeHtml(specs.openingAngle)}" data-thickness="${escapeHtml(specs.glassThickness)}">
   <a class="catalog-product-media" href="${product.slug}.html">
     <img src="../../${product.media.main}" width="900" height="900" loading="lazy" decoding="async" alt="${escapeHtml(product.title.en)}">
   </a>
   <div class="catalog-product-copy">
+    ${featuredIds.has(product.id) ? '<p class="featured-badge">FEATURED 40</p>' : ""}
     <p class="catalog-product-family">${escapeHtml(category.en)}</p>
     <h2><a href="${product.slug}.html" ${titleAttributes((language) => localizedProductTitle(product, language))}>${escapeHtml(product.title.en)}</a></h2>
     ${product.model ? `<p class="model-chip" dir="ltr">Model ${escapeHtml(product.model)}</p>` : ""}
@@ -150,6 +157,7 @@ for (const category of categories) {
   <meta name="description" content="${escapeHtml(category.description)} Browse ${categoryProducts.length} product listings and request confirmed specifications.">
   <meta name="theme-color" content="#ffffff">
   <link rel="canonical" href="${categoryPageUrl}">
+  ${languageAlternates(categoryPageUrl)}
   <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
   <meta property="og:type" content="website">
   <meta property="og:title" content="${escapeHtml(category.en)} | Apex Hardware">
@@ -161,6 +169,7 @@ for (const category of categories) {
   <script type="application/ld+json">${jsonScript(crumb)}</script>
   <script src="../../assets/app.js?v=20260731a" defer></script>
   <script src="../../assets/catalog.js?v=20260731a" defer></script>
+  ${pageScripts("../../")}
 </head>
 <body data-catalog-mode="category" data-category="${category.slug}">
   <div class="scroll-progress" aria-hidden="true"></div>
@@ -201,8 +210,8 @@ for (const category of categories) {
 </html>`;
   const directory = join(root, "products", category.slug);
   await mkdir(directory, { recursive: true });
-  if (category.slug !== "floor-springs") await writeFile(join(directory, "index.html"), html);
-  else await writeFile(join(directory, "catalog.html"), html);
+  if (category.slug !== "floor-springs") await writeFile(join(directory, "index.html"), html.replace(/[ \t]+$/gm, ""));
+  else await writeFile(join(directory, "catalog.html"), html.replace(/[ \t]+$/gm, ""));
 }
 
 console.log(JSON.stringify({ productIndex: 1, categoryPages: categories.length }, null, 2));
