@@ -1006,6 +1006,67 @@ h3 {
   font-size: 13px;
 }
 
+.supplier-milestone {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(78px, 10vw, 150px) 0;
+  background:
+    radial-gradient(circle at 82% 18%, rgba(0, 113, 227, 0.36), transparent 34%),
+    radial-gradient(circle at 10% 88%, rgba(48, 209, 88, 0.15), transparent 32%),
+    #070b13;
+  color: #fff;
+  isolation: isolate;
+}
+
+.supplier-milestone::before {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.045) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.045) 1px, transparent 1px);
+  background-size: 72px 72px;
+  content: "";
+  mask-image: linear-gradient(to bottom, transparent, #000 24%, #000 76%, transparent);
+}
+
+.supplier-milestone-inner {
+  display: grid;
+  gap: clamp(36px, 6vw, 86px);
+}
+
+.supplier-milestone-eyebrow {
+  margin: 0;
+  color: #7ab8ff;
+}
+
+.supplier-milestone-content {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(250px, 0.75fr);
+  align-items: end;
+  gap: clamp(28px, 6vw, 92px);
+}
+
+.supplier-milestone-number {
+  display: block;
+  color: #fff;
+  font-size: clamp(82px, 16vw, 220px);
+  font-variant-numeric: tabular-nums;
+  font-weight: 740;
+  letter-spacing: -0.075em;
+  line-height: 0.76;
+  white-space: nowrap;
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+.supplier-milestone-label {
+  max-width: 520px;
+  margin: 0;
+  color: #f5f5f7;
+  font-size: clamp(30px, 4vw, 58px);
+  letter-spacing: -0.035em;
+  line-height: 1.02;
+}
+
 .site-footer {
   padding: 34px 0 calc(34px + env(safe-area-inset-bottom));
   border-top: 1px solid var(--line);
@@ -2956,6 +3017,19 @@ h3 {
 
 .featured-hero p { max-width: 860px; }
 
+.featured-category-list {
+  display: grid;
+  gap: clamp(72px, 9vw, 128px);
+}
+
+.featured-category-group {
+  scroll-margin-top: calc(var(--nav-height) + 28px);
+}
+
+.featured-category-group .section-heading {
+  margin-bottom: 34px;
+}
+
 .shortlist-section { background: #f5f5f7; }
 
 .shortlist-grid {
@@ -2997,4 +3071,22 @@ h3 {
   .floating-social-link { padding: 6px; }
   .consent-banner { left: 18px; flex-direction: column; align-items: stretch; }
   .consent-banner > div .button { flex: 1; }
+
+  .supplier-milestone {
+    padding: 76px 0 84px;
+  }
+
+  .supplier-milestone-inner {
+    gap: 44px;
+  }
+
+  .supplier-milestone-content {
+    grid-template-columns: minmax(0, 1fr);
+    align-items: start;
+    gap: 30px;
+  }
+
+  .supplier-milestone-number {
+    font-size: clamp(76px, 25vw, 126px);
+  }
 }
