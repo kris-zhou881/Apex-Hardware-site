@@ -22,6 +22,7 @@ function score(product) {
 }
 
 const selected = [];
+const selectedModels = new Set();
 for (const [category, quota] of quotas) {
   const bestByModel = new Map();
   products.filter((product) => product.category === category).forEach((product) => {
@@ -30,9 +31,11 @@ for (const [category, quota] of quotas) {
     if (!current || score(product) > score(current)) bestByModel.set(modelKey, product);
   });
   const chosen = [...bestByModel.values()]
+    .filter((product) => !selectedModels.has(String(product.model || product.slug).trim().toUpperCase()))
     .sort((a, b) => score(b) - score(a) || String(a.model).localeCompare(String(b.model)))
     .slice(0, quota);
   if (chosen.length !== quota) throw new Error(`${category}: expected ${quota} unique models, found ${chosen.length}`);
+  chosen.forEach((product) => selectedModels.add(String(product.model || product.slug).trim().toUpperCase()));
   selected.push(...chosen.map((product, index) => ({
     id: product.id,
     slug: product.slug,
@@ -47,7 +50,7 @@ if (selected.length !== 40) throw new Error(`Expected 40 featured products, foun
 
 const output = {
   generatedFrom: "data/products.json",
-  methodology: "One strongest listing per model, ranked by completeness of existing verified specification fields and local product imagery.",
+  methodology: "One strongest listing per model across the full Featured 40, ranked by completeness of existing verified specification fields and local product imagery.",
   quotas: Object.fromEntries(quotas),
   products: selected,
 };
