@@ -1,6 +1,6 @@
 {
   "generatedFrom": "data/products.json",
-  "methodology": "One strongest listing per model, ranked by completeness of existing verified specification fields and local product imagery.",
+  "methodology": "One strongest listing per model across the full Featured 40, ranked by completeness of existing verified specification fields and local product imagery.",
   "quotas": {
     "floor-springs": 24,
     "door-closers": 8,
@@ -258,12 +258,12 @@
       "evidenceScore": 29
     },
     {
-      "id": "alibaba-1601447465342",
-      "slug": "hydraulic-door-closer-1601447465342",
+      "id": "alibaba-1601809048880",
+      "slug": "hydraulic-door-closer-up-to-80-kg-1601809048880",
       "category": "door-closers",
-      "model": "KD-63/2",
+      "model": "T-1078",
       "rankInCategory": 8,
-      "evidenceScore": 24
+      "evidenceScore": 20
     },
     {
       "id": "alibaba-10000030232515",

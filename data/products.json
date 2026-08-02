@@ -11955,9 +11955,9 @@
       "dataConfidence": "partially-verified",
       "verifiedAt": "2026-07-26",
       "mediaStatus": "approved-old-brand-mark-removed",
-      "mediaSha256": "a5ec8961068a9428d3be060117ac9470366e964b0d8b55d1c58a22c57dcf1ce7",
+      "mediaSha256": "e714569b59a90051f37c3c67b5cb8ec04db71e786ce21f2f36cb406c1808a3b1",
       "detailVerifiedAt": "2026-07-28T10:37:17.183Z",
-      "selectedGalleryIndex": 0,
+      "selectedGalleryIndex": 1,
       "mediaCrop": "none",
       "mediaEdit": "old brand mark area interpolated"
     },
@@ -30070,11 +30070,11 @@
       "dataConfidence": "partially-verified",
       "verifiedAt": "2026-07-26",
       "mediaStatus": "approved-old-brand-mark-removed",
-      "mediaSha256": "6b67710e20cb4e721176ca75c61cfbb068fcf141c9b7343efafe27cff8f91130",
+      "mediaSha256": "1f6fd70afdd722d99c9d849642d8c126ca960ead51e87fe403934c963bab8005",
       "detailVerifiedAt": "2026-07-28T11:02:16.084Z",
-      "selectedGalleryIndex": 1,
+      "selectedGalleryIndex": 2,
       "mediaCrop": "none",
-      "mediaEdit": "old brand mark area interpolated"
+      "mediaEdit": "old brand mark area replaced with white background"
     },
     "duplicateCandidate": false,
     "duplicateOf": "",
